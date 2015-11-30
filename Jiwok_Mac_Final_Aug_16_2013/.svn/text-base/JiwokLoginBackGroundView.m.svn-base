@@ -1,0 +1,37 @@
+//
+//  JiwokLoginBackGroundView.m
+//  Jiwok
+//
+//  Created by Reubro on 06/07/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "JiwokLoginBackGroundView.h"
+
+
+@implementation JiwokLoginBackGroundView
+
+- (id)initWithFrame:(NSRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        // Initialization code here.
+    }
+    return self;
+}
+
+- (void)drawRect:(NSRect)rect {
+	if (!isDrawn)
+	{
+		NSImage* image = [NSImage imageNamed:@"Login_Bg.png"];
+		if (image)
+		{
+			NSColor* patColour = [NSColor colorWithPatternImage:image];
+			[patColour set];
+			[NSBezierPath fillRect: rect];
+			isDrawn = YES;
+			[image release];
+		}
+	}
+}
+
+@end

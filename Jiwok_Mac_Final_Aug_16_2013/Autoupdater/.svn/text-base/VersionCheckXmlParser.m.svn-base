@@ -1,0 +1,234 @@
+//
+//  VersionCheckXmlParser.m
+//  Jiwok_Coredata_Trial
+//
+//  Created by APPLE on 18/08/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "VersionCheckXmlParser.h"
+
+
+@implementation VersionCheckXmlParser
+
+
+/*
+ * Object initialization
+ */
+-(id) initObject
+{
+    if(self = [super init])
+    {
+		
+	}
+    return self;
+}
+
+/*
+ * Initialize data parsing
+ */
+-(NSMutableArray *)startDataParsing:(NSData *)data 
+{
+	counter = 0;
+	////NSLog(@"  START PARSING FUNCTION ");
+	
+	
+	
+	[self parseXMLData:data];
+	
+	return [entities autorelease];
+}
+
+/*
+ * Checks if data is valid for parsing
+ */
+- (void)parserDidStartDocument:(NSXMLParser *)parser
+{	
+	
+}
+
+/*
+ * Start data parsing
+ */
+- (void)parseXMLData:(NSData *)dataXml
+{		
+	//entities = [[NSMutableArray alloc] init];	
+	
+	//NSLog(@"entities entities is %@",entities);
+	
+	// set parsing properties
+ 	dataParser = [[NSXMLParser alloc] initWithData:dataXml];
+	[dataParser setDelegate:self]; 
+	[dataParser setShouldProcessNamespaces:NO]; 
+	[dataParser setShouldReportNamespacePrefixes:NO]; 
+	[dataParser setShouldResolveExternalEntities:NO]; 
+ 	// start parsing
+	
+	
+	//@try{
+		[dataParser parse]; 
+	//}
+//	@catch(NSException *ex)
+//	{
+//		NSLog(@"@catch WorkoutDetailsParser  %@ ",[ex description]);
+//	}
+//	
+	
+	//NSError *parseError = [dataParser parserError];
+	
+	
+	
+}
+
+
+/*
+ * Initializes the entity properties from the Servlet's response
+ */
+- (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict{			
+	
+	
+	currentElement = [NSString stringWithFormat:@"%@", elementName];
+	
+	if([elementName isEqualToString:@"root"])		
+	{
+		entities = [[NSMutableArray alloc] init];		
+		
+		entity= [[NSMutableDictionary alloc] init];
+		
+		updateid = [[NSMutableString alloc] init];
+		version = [[NSMutableString alloc] init];
+		description=[[NSMutableString alloc]init];
+		status = [[NSMutableString alloc] init];
+		filepath = [[NSMutableString alloc] init];
+		
+		releasedate = [[NSMutableString alloc] init];
+
+		
+	}
+	
+	
+}
+
+/*
+ * Called when the element is read.
+ * Used to store the read element in a structured array.
+ */
+- (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName{    	
+	
+	if ([elementName isEqualToString:@"root"]) 
+	{					
+		[entity setObject:updateid forKey:@"updateid"];
+		[entity setObject:version forKey:@"version"];
+		[entity setObject:description forKey:@"description"];	
+		[entity setObject:status forKey:@"status"];
+		[entity setObject:filepath forKey:@"filepath"];	
+		[entity setObject:releasedate forKey:@"releasedate"];
+		
+		
+		[entities addObject:entity];	
+		
+		[updateid release];
+		[version release];
+		[status release];		
+		[description release];	
+		[filepath release];			
+		[releasedate release];
+		
+		[entity release];
+	}
+}	
+
+
+/*
+ * Reads the value for each entity tag property (name ,region id, application id , callcenter id)
+ */
+- (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string
+{
+	
+	//NSLog(@"currentElement currentElement is %@",currentElement);
+	
+	if ([currentElement isEqualToString:@"updateid"]) 
+	{				
+		[updateid appendString:string];
+	}
+	if ([currentElement isEqualToString:@"version"]) 
+	{
+		[version appendString:string];
+	}
+	if ([currentElement isEqualToString:@"description"]) 
+	{
+		[description appendString:string];
+	}
+	if ([currentElement isEqualToString:@"status"]) 
+	{
+		[status appendString:string];
+	}
+	if ([currentElement isEqualToString:@"filepath"]) 
+	{
+		[filepath appendString:string];
+	}
+	if ([currentElement isEqualToString:@"releasedate"]) 
+	{
+		[releasedate appendString:string];
+	}
+	
+	
+}	
+
+
+
+
+
+
+
+
+
+- (void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError 
+{
+	
+	 NSLog(@"parseErrorOccurred  error is %@",[parseError localizedDescription]);
+	 /*
+	 if((![[parseError localizedDescription] isEqualToString:@"Operation could not be completed. (NSXMLParserErrorDomain error 4.)"]))
+	 //ParseError=YES;
+	 entities = nil;
+	 
+	 */
+	//dataParser = nil;
+}
+
+/*
+ * Finish parsing
+ */
+- (void)parserDidEndDocument:(NSXMLParser *)parser {
+	NSLog(@"parserDidEndDocument");
+	if(entities.count == 0){
+		entities = nil;
+	}
+	
+	//[dataParser release];
+//	dataParser = nil;
+	
+}
+
+/*
+ * returns data 
+ */
+-(NSMutableArray *) getData{
+	return entities;
+}
+
+
+- (void)dealloc {
+    //[super dealloc];
+	
+	[dataParser release];
+	dataParser = nil;
+	
+	[super dealloc];
+}
+
+
+
+
+
+@end

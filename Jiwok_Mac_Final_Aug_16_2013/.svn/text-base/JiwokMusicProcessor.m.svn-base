@@ -1,0 +1,857 @@
+
+
+#import "JiwokMusicProcessor.h"
+#import "LoggerClass.h"
+
+@implementation JiwokMusicProcessor
+
+- (void)Concatenate:(NSMutableArray*)inputArray:(NSString*)outputFile
+{
+	
+	if(![inputArray count])
+		return;
+	
+	//NSMutableArray *filesArray =[[NSMutableArray alloc] init];
+	/*for(int i=0;i<[inputArray count];i++)
+	{
+		NSString *firstInputExtension=[[inputArray objectAtIndex:i] substringFromIndex:([[inputArray objectAtIndex:i] length]-3)];
+		[self ConvertToWave:[inputArray objectAtIndex:i]];
+		
+		NSString *firstInput= [NSString stringWithFormat:@"%@tmp.wav", [[inputArray objectAtIndex:i] substringToIndex:([[inputArray objectAtIndex:i] length]-4)]];
+		
+		[filesArray addObject:firstInput];
+	}*/
+	/*NSString *firstInputExtension=[inputFile1 substringFromIndex:([inputFile1 length]-3)];
+	NSString *secondInputExtension=[inputFile2 substringFromIndex:([inputFile2 length]-3)];	
+	
+	NSString *firstInput,*secondInput;
+	
+	[self ConvertToWave:inputFile1];	
+	firstInput= [NSString stringWithFormat:@"%@tmp.wav", [inputFile1 substringToIndex:([inputFile1 length]-4)]];
+	
+	[self ConvertToWave:inputFile2];
+	secondInput= [NSString stringWithFormat:@"%@tmp.wav", [inputFile2 substringToIndex:([inputFile2 length]-4)]];*/
+
+	NSString * toolPath;	
+	//toolPath = @"/usr/local/bin/sox";
+	
+	//NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
+	//toolPath = [[bundlePath stringByDeletingLastPathComponent] stringByAppendingPathComponent:@"sox"];
+	
+
+	toolPath=[[NSBundle mainBundle] pathForResource:@"sox" ofType:@""];
+
+	
+	
+	//NSLog(@"start combining the vocals");
+	NSMutableArray *mArray = [[NSMutableArray alloc] init];
+	[mArray addObject:@"--combine"];	
+	[mArray addObject:@"sequence"];
+	
+	for(int i=0;i<[inputArray count];i++)
+	{
+		[mArray addObject:[inputArray objectAtIndex:i]];
+	}
+	//[mArray addObject:firstInput];
+	//[mArray addObject:secondInput];
+	[mArray addObject:outputFile];	
+	
+	task = [[NSTask alloc] init]; 	
+	[task setLaunchPath: toolPath];
+	[task setArguments: mArray];	
+	
+	NSPipe *pipe;
+    pipe = [NSPipe pipe];
+    [task setStandardOutput: pipe];
+	
+    NSFileHandle *file;
+    file = [pipe fileHandleForReading];
+	
+    [task launch];
+    [task waitUntilExit];
+	
+	[task release];
+	
+	/*
+	if(!([firstInput isEqualToString:inputFile1]))
+	{
+		[self RemoveTemporaryFile:firstInput];	
+	}
+	
+	if(!([secondInput isEqualToString:inputFile2]))
+	{
+		[self RemoveTemporaryFile:secondInput];
+		
+	}	
+	
+	if(!([secondInputExtension isEqualToString:@"wav"]||[firstInputExtension isEqualToString:@"wav"]))		
+	{
+		//[self ChangeOutputFormat:outputFile:firstInputExtension];	
+		
+		//[self RemoveTemporaryFile:outputFile];
+		
+	}*/
+	
+}
+
+/*- (void)Concatenate:(NSString*)inputFile1:(NSString*)inputFile2:(NSString*)outputFile
+{
+	NSString *firstInputExtension=[inputFile1 substringFromIndex:([inputFile1 length]-3)];
+	NSString *secondInputExtension=[inputFile2 substringFromIndex:([inputFile2 length]-3)];	
+	
+	NSString *firstInput,*secondInput;
+	
+	[self ConvertToWave:inputFile1];	
+	firstInput= [NSString stringWithFormat:@"%@tmp.wav", [inputFile1 substringToIndex:([inputFile1 length]-4)]];
+	
+	[self ConvertToWave:inputFile2];
+	secondInput= [NSString stringWithFormat:@"%@tmp.wav", [inputFile2 substringToIndex:([inputFile2 length]-4)]];
+	
+	NSString * toolPath;	
+	//toolPath = @"/usr/local/bin/sox";
+	
+	NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
+	toolPath = [[bundlePath stringByDeletingLastPathComponent] stringByAppendingPathComponent:@"sox"];
+
+	
+	NSMutableArray *mArray = [[NSMutableArray alloc] init];
+	[mArray addObject:@"--combine"];	
+	[mArray addObject:@"concatenate"];	
+	[mArray addObject:firstInput];
+	[mArray addObject:secondInput];
+	[mArray addObject:outputFile];	
+	
+	task = [[NSTask alloc] init]; 	
+	[task setLaunchPath: toolPath];
+	[task setArguments: mArray];	
+	
+	NSPipe *pipe;
+    pipe = [NSPipe pipe];
+    [task setStandardOutput: pipe];
+	
+    NSFileHandle *file;
+    file = [pipe fileHandleForReading];
+	
+    [task launch];
+    [task waitUntilExit];
+	
+	[task release];
+	
+	
+	if(!([firstInput isEqualToString:inputFile1]))
+	{
+		[self RemoveTemporaryFile:firstInput];	
+	}
+	
+	if(!([secondInput isEqualToString:inputFile2]))
+	{
+		[self RemoveTemporaryFile:secondInput];
+		
+	}	
+	
+	if(!([secondInputExtension isEqualToString:@"wav"]||[firstInputExtension isEqualToString:@"wav"]))		
+	{
+		//[self ChangeOutputFormat:outputFile:firstInputExtension];	
+		
+		//[self RemoveTemporaryFile:outputFile];
+		
+	}
+	
+}*/
+
+- (void)ChangeVolume:(NSString*)inputFile:(NSString*)Decibel:(NSString*)outputFile
+{
+	
+	/*NSString *firstInputExtension=[inputFile substringFromIndex:([inputFile length]-3)];
+	
+	NSString *firstInput;
+	
+	if(!([firstInputExtension isEqualToString:@"wav"]))
+	{
+		[self ConvertToWave:inputFile];	
+		firstInput= [NSString stringWithFormat:@"%@tmp.wav", [inputFile substringToIndex:([inputFile length]-4)]];
+		
+	}
+	else {
+		firstInput=inputFile;
+	}*/
+	
+	NSString * toolPath;	
+	//toolPath = @"/usr/local/bin/sox";
+	
+	
+	//NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
+	//toolPath = [[bundlePath stringByDeletingLastPathComponent] stringByAppendingPathComponent:@"sox"];
+	
+	toolPath=[[NSBundle mainBundle] pathForResource:@"sox" ofType:@""];
+
+	
+	
+	NSMutableArray *mArray = [[NSMutableArray alloc] init];
+	[mArray addObject:@"-v"];	
+	[mArray addObject:Decibel];	
+	[mArray addObject:inputFile];
+	[mArray addObject:outputFile];	
+	
+	task = [[NSTask alloc] init]; 	
+	[task setLaunchPath: toolPath];
+	[task setArguments: mArray];	
+	
+	NSPipe *pipe;
+    pipe = [NSPipe pipe];
+    [task setStandardOutput: pipe];
+	
+    NSFileHandle *file;
+    file = [pipe fileHandleForReading];
+	
+    [task launch];
+    [task waitUntilExit];
+	[task release];
+	
+	
+/*	if(!([firstInput isEqualToString:inputFile]))
+	{
+		[self RemoveTemporaryFile:firstInput];	
+	}
+	
+	if(!([firstInputExtension isEqualToString:@"wav"]))		
+	{
+		//[self ChangeOutputFormat:outputFile:firstInputExtension];	
+		
+		//[self RemoveTemporaryFile:outputFile];
+		
+	}*/
+	
+	
+}
+
+
+
+
+- (void)MixAudio:(NSString*)inputFile1:(NSString*)inputFile2:(NSString*)outputFile 
+{	
+	NSString *firstInputExtension=[inputFile1 substringFromIndex:([inputFile1 length]-3)];
+	NSString *secondInputExtension=[inputFile2 substringFromIndex:([inputFile2 length]-3)];	
+	
+	NSString *firstInput,*secondInput;
+	
+	[self ConvertToWave:inputFile1];	
+	firstInput= [NSString stringWithFormat:@"%@tmp.wav", [inputFile1 substringToIndex:([inputFile1 length]-4)]];
+	
+	[self ConvertToWave:inputFile2];
+	secondInput= [NSString stringWithFormat:@"%@tmp.wav", [inputFile2 substringToIndex:([inputFile2 length]-4)]];
+	
+	NSString * toolPath;	
+	//toolPath = @"/usr/local/bin/sox";
+	
+	//NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
+	//toolPath = [[bundlePath stringByDeletingLastPathComponent] stringByAppendingPathComponent:@"sox"];
+	
+	toolPath=[[NSBundle mainBundle] pathForResource:@"sox" ofType:@""];
+
+	
+	
+	NSMutableArray *mArray = [[NSMutableArray alloc] init];
+	[mArray addObject:@"-m"];	
+	[mArray addObject:firstInput];
+	[mArray addObject:secondInput];
+	[mArray addObject:outputFile];	
+	
+	task = [[NSTask alloc] init]; 	
+	[task setLaunchPath: toolPath];
+	[task setArguments: mArray];	
+	
+	NSPipe *pipe;
+    pipe = [NSPipe pipe];
+    [task setStandardOutput: pipe];
+	
+    NSFileHandle *file;
+    file = [pipe fileHandleForReading];
+	
+    [task launch];
+    [task waitUntilExit];
+	
+	[task release];	
+	
+	
+	NSData *data;
+	data = [file readDataToEndOfFile];
+	
+	// NSMutableString *string;
+	NSMutableString *string = [[NSMutableString alloc] initWithData: data encoding: NSUTF8StringEncoding];		
+	
+	DUBUG_LOG(@"MixAudio MixAudio MixAudio RESULT is %@",string);
+	[string release];
+	
+	
+	if(!([firstInput isEqualToString:inputFile1]))
+	{
+		[self RemoveTemporaryFile:firstInput];	
+	}
+	
+	if(!([secondInput isEqualToString:inputFile2]))
+	{
+		[self RemoveTemporaryFile:secondInput];
+		
+	}	
+	
+	if(!([secondInputExtension isEqualToString:@"wav"]||[firstInputExtension isEqualToString:@"wav"]))		
+	{
+		//[self ChangeOutputFormat:outputFile:firstInputExtension];	
+		
+		//	[self RemoveTemporaryFile:outputFile];
+		
+	}
+	
+}
+
+- (void)convertBitRate:(NSString*)inputFile:(NSString*)Bitrate:(NSString*)outputFile
+{	
+	DUBUG_LOG(@"convertBitRate convertBitRate  ");
+
+	
+	NSString *firstInputExtension=[inputFile substringFromIndex:([inputFile length]-3)];
+	
+	NSString *firstInput;
+	
+	if(!([firstInputExtension isEqualToString:@"wav"]))
+	{
+		[self ConvertToWave:inputFile];	
+		firstInput= [NSString stringWithFormat:@"%@tmp.wav", [inputFile substringToIndex:([inputFile length]-4)]];
+		
+	}
+	else {
+		firstInput=inputFile;
+	}
+	
+	DUBUG_LOG(@"convertBitRate convertBitRate 1 ");
+
+	
+	NSString * toolPath;	
+	//toolPath = @"/usr/local/bin/sox";
+	
+	//NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
+	//toolPath = [[bundlePath stringByDeletingLastPathComponent] stringByAppendingPathComponent:@"sox"];
+	toolPath=[[NSBundle mainBundle] pathForResource:@"sox" ofType:@""];
+
+	
+	NSMutableArray *mArray = [[NSMutableArray alloc] init];
+	[mArray addObject:firstInput];
+	[mArray addObject:@"-c"];
+	[mArray addObject:@"2"];
+	[mArray addObject:@"-r"];	
+	[mArray addObject:Bitrate];	
+	[mArray addObject:outputFile];
+	
+	/*NSMutableArray *mArray = [[NSMutableArray alloc] init];
+	[mArray addObject:firstInput];
+	[mArray addObject:@"-r"];	
+	[mArray addObject:Bitrate];	
+	[mArray addObject:outputFile];	*/
+	
+	task = [[NSTask alloc] init]; 	
+	[task setLaunchPath: toolPath];
+	[task setArguments: mArray];	
+	
+	NSPipe *pipe;
+    pipe = [NSPipe pipe];
+    [task setStandardOutput: pipe];
+	
+    NSFileHandle *file;
+    file = [pipe fileHandleForReading];
+	
+    [task launch];
+    [task waitUntilExit];
+	
+	[task release];
+	
+	
+	if(!([firstInput isEqualToString:inputFile]))
+	{
+		[self RemoveTemporaryFile:firstInput];	
+	}
+	
+	if(!([firstInputExtension isEqualToString:@"wav"]))		
+	{
+		//[self ChangeOutputFormat:outputFile:firstInputExtension];	
+		
+		//[self RemoveTemporaryFile:outputFile];
+		
+	}
+	
+}
+
+
+- (void)PadSilence:(NSString*)inputFile:(NSString*)outputFile:(NSString*)startupPadding:(NSString*)EndPadding
+{	
+	NSString *firstInputExtension=[inputFile substringFromIndex:([inputFile length]-3)];
+	NSString *firstInput;
+	
+	//NSLog(@"firstInput firstInput %@",firstInputExtension);
+	
+	if(!([firstInputExtension isEqualToString:@"wav"]))
+	{
+		[self ConvertToWave:inputFile];	
+		firstInput= [NSString stringWithFormat:@"%@tmp.wav", [inputFile substringToIndex:([inputFile length]-4)]];
+		
+	}
+	else {
+		firstInput=inputFile;
+	}
+	
+	//NSLog(@"firstInput firstInput %@",firstInput);
+	
+	
+	NSString * toolPath;	
+	//toolPath = @"/usr/local/bin/sox";
+	
+	//NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
+	//toolPath = [[bundlePath stringByDeletingLastPathComponent] stringByAppendingPathComponent:@"sox"];
+	
+	toolPath=[[NSBundle mainBundle] pathForResource:@"sox" ofType:@""];
+
+	
+	NSMutableArray *mArray = [[NSMutableArray alloc] init];
+	[mArray addObject:firstInput];		
+	[mArray addObject:outputFile];
+	[mArray addObject:@"pad"];	
+	[mArray addObject:startupPadding];
+	[mArray addObject:EndPadding];
+	
+	task = [[NSTask alloc] init]; 	
+	[task setLaunchPath: toolPath];
+	[task setArguments: mArray];	
+	
+	NSPipe *pipe;
+    pipe = [NSPipe pipe];
+    [task setStandardOutput: pipe];
+	
+    NSFileHandle *file;
+    file = [pipe fileHandleForReading];
+	
+    [task launch];
+    [task waitUntilExit];
+	
+	[task release];	
+	
+	
+	if(!([firstInput isEqualToString:inputFile]))
+	{
+		[self RemoveTemporaryFile:firstInput];	
+	}
+	
+	if(!([firstInputExtension isEqualToString:@"wav"]))		
+	{
+		//[self ChangeOutputFormat:outputFile:firstInputExtension];	
+		
+		//[self RemoveTemporaryFile:outputFile];
+		
+	}
+	
+}
+
+
+- (void)TrimAudio:(NSString*)inputFile:(NSString*)outputFile:(NSString*)startPosition:(NSString*)Length
+{	
+	NSString *firstInputExtension=[inputFile substringFromIndex:([inputFile length]-3)];
+	NSString *firstInput;
+	
+	if(!([firstInputExtension isEqualToString:@"wav"]))
+	{
+		[self ConvertToWave:inputFile];	
+		firstInput= [NSString stringWithFormat:@"%@tmp.wav", [inputFile substringToIndex:([inputFile length]-4)]];
+		
+	}
+	else {
+		firstInput=inputFile;
+	}
+	
+	NSString * toolPath;	
+	//toolPath = @"/usr/local/bin/sox";
+	
+	//NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
+	//toolPath = [[bundlePath stringByDeletingLastPathComponent] stringByAppendingPathComponent:@"sox"];
+	
+	toolPath=[[NSBundle mainBundle] pathForResource:@"sox" ofType:@""];
+
+	
+	
+	NSMutableArray *mArray = [[NSMutableArray alloc] init];
+	[mArray addObject:firstInput];		
+	[mArray addObject:outputFile];
+	[mArray addObject:@"trim"];	
+	[mArray addObject:startPosition];
+	[mArray addObject:Length];
+	
+	task = [[NSTask alloc] init]; 	
+	[task setLaunchPath: toolPath];
+	[task setArguments: mArray];	
+	
+	NSPipe *pipe;
+    pipe = [NSPipe pipe];
+    [task setStandardOutput: pipe];
+	
+    NSFileHandle *file;
+    file = [pipe fileHandleForReading];
+	
+    [task launch];
+    [task waitUntilExit];
+	
+	[task release];	
+	
+	if(!([firstInput isEqualToString:inputFile]))
+	{
+		[self RemoveTemporaryFile:firstInput];	
+	}
+	
+	if(!([firstInputExtension isEqualToString:@"wav"]))		
+	{
+		//	[self ChangeOutputFormat:outputFile:firstInputExtension];	
+		
+		//[self RemoveTemporaryFile:outputFile];
+		
+	}
+	
+}
+
+
+-(BOOL)isValidSoxFile:(NSString*)inputFile{
+	
+	NSString * toolPath;	
+	
+	//NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
+	//toolPath = [[bundlePath stringByDeletingLastPathComponent] stringByAppendingPathComponent:@"sox"];
+	
+	
+	toolPath=[[NSBundle mainBundle] pathForResource:@"sox" ofType:@""];
+
+	
+	
+	NSMutableArray *mArray = [[NSMutableArray alloc] init];
+	[mArray addObject:@"--info"];		
+	[mArray addObject:inputFile];
+		
+	task = [[NSTask alloc] init]; 	
+	[task setLaunchPath: toolPath];
+	[task setArguments: mArray];	
+	
+	[mArray release];
+	
+	NSPipe *pipe;
+    pipe = [NSPipe pipe];
+    [task setStandardOutput: pipe];
+	
+    NSFileHandle *file;
+    file = [pipe fileHandleForReading];
+	
+    [task launch];
+    [task waitUntilExit];
+	
+	[task release];	
+	
+	NSData *data;
+    data = [file readDataToEndOfFile];
+	
+    NSMutableString *string;
+    string = [[NSMutableString alloc] initWithData: data encoding: NSUTF8StringEncoding];
+
+    NSArray *listItems = [string componentsSeparatedByString:@"\n"];
+
+	BOOL result;
+	
+	NSMutableDictionary *RetrievedTags=[[NSMutableDictionary alloc]init];	
+	int k=0;
+	for ( k=1;k<[listItems count];k++)
+	{
+		NSArray *TRY=[[listItems objectAtIndex:k] componentsSeparatedByString:@":"];
+		
+		if([TRY count]>1)			
+		{
+			NSString *firstString=[TRY objectAtIndex:0] ;	
+			firstString = [firstString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+			NSString *secondString=[TRY objectAtIndex:1];
+			[RetrievedTags setObject:secondString forKey:firstString];			
+		}		
+	}
+			
+	
+	if([[RetrievedTags objectForKey:@"Input File"] length]>4)
+		result=YES;
+	else 
+		result=NO;	
+
+	[RetrievedTags release];	
+	
+	return result;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- (void)ChangeMp3gain:(NSString*)gainValue:(NSString*)inputFile
+{	
+	
+	NSLog(@"inputFile inputFile %@",inputFile);
+	
+	NSString *firstInputExtension=[inputFile substringFromIndex:([inputFile length]-3)];
+	
+	NSString *outputPath=[inputFile substringToIndex:([inputFile length]-3)];
+	
+	NSString *ProcessedOutPutPath=[NSString stringWithFormat:@"%@mp3",outputPath];	
+	
+	if(!([firstInputExtension isEqualToString:@"mp3"]))
+	{					
+		[self ChangeOutputFormat:inputFile:@"mp3"];			
+		
+	}		
+	
+	NSString * toolPath;	
+//	toolPath = @"/usr/local/bin/mp3gain";
+	//NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
+	//toolPath = [[bundlePath stringByDeletingLastPathComponent] stringByAppendingPathComponent:@"mp3gain"];
+	
+	//toolPath=[[NSBundle mainBundle] pathForResource:@"mp3gain" ofType:@""];
+
+	toolPath=[[NSBundle mainBundle] pathForResource:@"aacgain" ofType:@""];
+
+	NSMutableArray *mArray = [[NSMutableArray alloc] init];
+	[mArray addObject:@"-g"];
+	[mArray addObject:gainValue];
+	[mArray addObject:ProcessedOutPutPath];		
+	
+	task = [[NSTask alloc] init]; 	
+	[task setLaunchPath: toolPath];
+	[task setArguments: mArray];	
+	
+	NSPipe *pipe;
+    pipe = [NSPipe pipe];
+    [task setStandardOutput: pipe];
+	
+    NSFileHandle *file;
+    file = [pipe fileHandleForReading];
+	
+    [task launch];
+    [task waitUntilExit];
+	
+	[task release];
+	
+}
+
+
+-(void)ConvertToWave:(NSString*)inputFile;
+{			
+	NSString *outputPath=[inputFile substringToIndex:([inputFile length]-4)];		
+	NSString *outputName=[NSString stringWithFormat:@"%@tmp.wav",outputPath];	
+	
+	NSString * toolPath;	
+	//toolPath = @"/usr/local/bin/FFmpeg";
+	
+	
+	
+	//NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
+	//toolPath = [[bundlePath stringByDeletingLastPathComponent] stringByAppendingPathComponent:@"FFmpeg"];
+	
+	toolPath=[[NSBundle mainBundle] pathForResource:@"ffmpeg" ofType:@""];
+
+	
+	NSMutableArray *mArray = [[NSMutableArray alloc] init];
+	[mArray addObject:@"-i"];
+	[mArray addObject:inputFile];
+	[mArray addObject:@"-y"];
+	[mArray addObject:@"-ar"];
+	[mArray addObject:@"44100"];
+	[mArray addObject:@"-ac"];
+	[mArray addObject:@"2"];
+	
+	[mArray addObject:outputName];		
+	
+	task = [[NSTask alloc] init]; 	
+	[task setLaunchPath: toolPath];
+	[task setArguments: mArray];	
+	
+	NSPipe *pipe;
+    pipe = [NSPipe pipe];
+    [task setStandardOutput: pipe];
+	
+    NSFileHandle *file;
+    file = [pipe fileHandleForReading];
+	
+    [task launch];
+    [task waitUntilExit];
+	
+	[task release];
+	
+}
+- (void)IncreaseVolumeUsingSox:(NSString*)inputFile:(NSString*)outputFile
+{	
+	
+	NSString * toolPath;	
+	//toolPath = @"/usr/local/bin/sox";
+	
+	//NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
+	//toolPath = [[bundlePath stringByDeletingLastPathComponent] stringByAppendingPathComponent:@"sox"];
+	
+	toolPath=[[NSBundle mainBundle] pathForResource:@"sox" ofType:@""];
+
+	
+	NSMutableArray *mArray = [[NSMutableArray alloc] init];
+	[mArray addObject:inputFile];
+	[mArray addObject:outputFile];
+	[mArray addObject:@"vol"];
+	
+	
+	//NSString *vocalType=[[[NSUserDefaults standardUserDefaults] objectForKey:@"workoutDictionary"] objectForKey:@"vocal_type"];
+//
+//	// Newly added on july 25 2011
+//	if([vocalType isEqualToString:@"4"]||[vocalType isEqualToString:@"3"])
+//		[mArray addObject:@"4.5"];	
+//	else 
+		//[mArray addObject:@"2.5"];	
+	
+	
+	[mArray addObject:@"2.5"];
+	
+	[mArray addObject:@"amplitude"];
+	[mArray addObject:@"0.02"];
+	
+	task = [[NSTask alloc] init]; 	
+	[task setLaunchPath: toolPath];
+	[task setArguments: mArray];	
+	
+	NSPipe *pipe;
+	pipe = [NSPipe pipe];
+	[task setStandardOutput: pipe];
+	
+	NSFileHandle *file;
+	file = [pipe fileHandleForReading];
+	
+	[task launch];
+	[task waitUntilExit];
+	
+	[task release];	
+	
+	
+}
+
+-(void)ChangeOutputFormat:(NSString*)inputFile:(NSString*)desiredExtension{
+
+	NSString *outputPath=[inputFile substringToIndex:([inputFile length]-4)];		
+	NSString *outputName=[NSString stringWithFormat:@"%@.%@",outputPath,desiredExtension];	
+	
+	NSString * toolPath;	
+		
+	toolPath=[[NSBundle mainBundle] pathForResource:@"ffmpeg" ofType:@""];
+	
+	NSMutableArray *mArray = [[NSMutableArray alloc] init];
+	[mArray addObject:@"-i"];
+	[mArray addObject:inputFile];
+	[mArray addObject:@"-y"];
+	//[mArray addObject:@"-ab"];
+	//[mArray addObject:@"128k"];
+	//[mArray addObject:@"-ar"];
+	//[mArray addObject:@"44100"];
+	
+	//[mArray addObject:@"-metadata"];
+	//[mArray addObject:@"TPE1=Jiwok"];	 
+	
+	[mArray addObject:outputName];		
+	
+	task = [[NSTask alloc] init]; 	
+	[task setLaunchPath: toolPath];
+	[task setArguments: mArray];	
+	
+	NSPipe *pipe;
+    pipe = [NSPipe pipe];
+    [task setStandardOutput: pipe];
+	
+    NSFileHandle *file;
+    file = [pipe fileHandleForReading];
+	
+    [task launch];
+    [task waitUntilExit];
+	
+    NSData *data;
+    data = [file readDataToEndOfFile];
+	
+    NSMutableString *string;
+    string = [[NSMutableString alloc] initWithData: data encoding: NSUTF8StringEncoding];
+	
+	[task release];
+		
+}
+
+
+-(void)ChangeOutputFormatForFinalMp3:(NSString*)inputFile:(NSString*)desiredExtension:(NSString*)title{
+	
+	NSString *outputPath=[inputFile substringToIndex:([inputFile length]-4)];		
+	NSString *outputName=[NSString stringWithFormat:@"%@.%@",outputPath,desiredExtension];	
+	
+	NSString * toolPath;	
+	
+	toolPath=[[NSBundle mainBundle] pathForResource:@"ffmpeg" ofType:@""];
+	
+	NSMutableArray *mArray = [[NSMutableArray alloc] init];
+	[mArray addObject:@"-i"];
+	[mArray addObject:inputFile];
+	[mArray addObject:@"-y"];
+	[mArray addObject:@"-ab"];
+	[mArray addObject:@"128k"];
+	[mArray addObject:@"-ar"];
+	[mArray addObject:@"44100"];
+	
+	[mArray addObject:@"-metadata"];
+	[mArray addObject:@"TPE1=Jiwok"];
+	[mArray addObject:@"-metadata"];
+	[mArray addObject:[NSString stringWithFormat:@"TALB=%@",title]];
+	[mArray addObject:outputName];		
+	
+	task = [[NSTask alloc] init]; 	
+	[task setLaunchPath: toolPath];
+	[task setArguments: mArray];	
+	
+	NSPipe *pipe;
+    pipe = [NSPipe pipe];
+    [task setStandardOutput: pipe];
+	
+    NSFileHandle *file;
+    file = [pipe fileHandleForReading];
+	
+    [task launch];
+    [task waitUntilExit];
+	
+    NSData *data;
+    data = [file readDataToEndOfFile];
+	
+    NSMutableString *string;
+    string = [[NSMutableString alloc] initWithData: data encoding: NSUTF8StringEncoding];
+	
+	[task release];
+	
+}
+
+
+
+-(void)RemoveTemporaryFile:(NSString*)inputFile{
+	
+	NSFileManager *fileManager=[NSFileManager defaultManager];					
+	[fileManager removeItemAtPath:inputFile error:NULL];
+}
+
+
+
+@end

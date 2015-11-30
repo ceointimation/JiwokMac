@@ -1,0 +1,148 @@
+//
+//  JiwokSettingPlistReader.m
+//  Jiwok
+//
+//  Created by reubro R on 10/07/10.
+//  Copyright 2010 kk. All rights reserved.
+//
+
+#import "JiwokSettingPlistReader.h"
+#define JIWOK_PLIST_FILE_NAME @"Settings.plist"
+
+static BOOL pListAvailable = NO;
+static NSDictionary *applicationSettingsDictionary;
+@implementation JiwokSettingPlistReader
++(void)initialise
+{
+	NSFileManager *fileManager = [NSFileManager defaultManager];
+	NSString *defaultPlistFilePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:JIWOK_PLIST_FILE_NAME];
+	NSLog(@"Path----> %@",defaultPlistFilePath);
+	pListAvailable = [fileManager fileExistsAtPath:defaultPlistFilePath];
+	applicationSettingsDictionary = [[NSDictionary alloc]initWithContentsOfFile:defaultPlistFilePath];
+}
++(NSString *)updateTagDetectedGenre_api
+{
+	
+	NSString *keyData = nil;
+	if (pListAvailable)
+	{
+		keyData = (NSString *) [applicationSettingsDictionary objectForKey:@"UpdateTagDetectedGenre_api"];
+	}
+	return keyData;
+}
++(NSString *)UpdateLoginStatus_api
+{
+	NSString *keyData = nil;
+	if (pListAvailable)
+	{
+		keyData = (NSString *) [applicationSettingsDictionary objectForKey:@"UpdateLoginStatus_api"];
+	}
+	return keyData;
+}
++(NSString *)GetUserDetails_api
+{
+	NSString *keyData = nil;
+	if (pListAvailable)
+	{
+		keyData = (NSString *) [applicationSettingsDictionary objectForKey:@"GetUserDetails_api"];
+	}
+	return keyData;
+}
++(NSString *)GetJiwokURL
+{
+	NSString *keyData = nil;
+	if (pListAvailable)
+	{
+		keyData = (NSString *) [applicationSettingsDictionary objectForKey:@"JiwokUrl"];
+	}
+	return keyData;
+	
+}
++(NSString *)GetDownLoadVocalPath
+{
+	NSString *keyData = nil;
+	if (pListAvailable)
+	{
+		keyData = (NSString *) [applicationSettingsDictionary objectForKey:@"Download_Vocal_Path"];
+	}
+	return keyData;
+}
++(NSString *)GetDownLoadSpSongsPath
+{
+	NSString *keyData = nil;
+	if (pListAvailable)
+	{
+		keyData = (NSString *) [applicationSettingsDictionary objectForKey:@"Download_SpecificSong_Path"];
+	}
+	return keyData;
+}
+
++(NSString *)GetVocalInfo_api
+{
+	NSString *keyData = nil;
+	if (pListAvailable)
+	{
+		keyData = (NSString *) [applicationSettingsDictionary objectForKey:@"GetVocalInfo_api"];
+	}
+	return keyData;	
+}
++(NSString *)GetAllWorkouts_api
+{
+	NSString *keyData = nil;
+	if (pListAvailable)
+	{
+		keyData = (NSString *) [applicationSettingsDictionary objectForKey:@"GetAllWorkoutInQueue_api"];
+	}
+	return keyData;	
+}
+
++(NSString *)GetWorkOutByQueueID_api
+{
+	NSString *keyData = nil;
+	if (pListAvailable)
+	{
+		keyData = (NSString *) [applicationSettingsDictionary objectForKey:@"GetWorkoutByQueueId_api"];
+	}
+	return keyData;	
+}
+
++(NSString *)GetWorkoutInQueue_api
+{
+	NSString *keyData = nil;
+	if (pListAvailable)
+	{
+		keyData = (NSString *) [applicationSettingsDictionary objectForKey:@"GetWorkoutInQueue_api"];
+	}
+	return keyData;	
+}
+
++(NSString *)UpdateMP3GenerationStatus_api
+{
+	NSString *keyData = nil;
+	if (pListAvailable)
+	{
+		keyData = (NSString *) [applicationSettingsDictionary objectForKey:@"UpdateMP3GenerationStatus_api"];
+	}
+	return keyData;	
+}
+
+
++(BOOL)checkForTemporaryUpdates
+{
+	BOOL keyData = NO;
+	if (pListAvailable)
+	{
+		keyData =  [[applicationSettingsDictionary objectForKey:@"ShouldCheckTemporaryUpdates"] boolValue];
+	}
+	return keyData;	
+}
+
+
+
+- (void) dealloc
+{
+	[applicationSettingsDictionary release];
+	[super dealloc];
+}
+
+@end

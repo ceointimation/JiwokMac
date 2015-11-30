@@ -1,0 +1,148 @@
+//
+//  JiwokUpdateLoginStatusXmlParser.m
+//  Jiwok_Coredata_Trial
+//
+//  Created by Reubro on 10/07/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "JiwokUpdateWorkoutStatusXmlParser.h"
+#import "LoggerClass.h"
+
+@implementation JiwokUpdateWorkoutStatusXmlParser
+
+-(NSMutableDictionary *)parseData:(NSData *)data
+{
+	//counter = 0;
+	////NSLog(@"  START PARSING FUNCTION ");
+	[self parseXMLData:data];
+	return [entity autorelease];
+}
+
+
+- (void)parserDidStartDocument:(NSXMLParser *)parser
+{	
+	
+}
+
+
+
+/*
+ * Start data parsing
+ */
+- (void)parseXMLData:(NSData *)dataXml
+{	
+	//entities = [[NSMutableArray alloc] init];	
+	// set parsing properties
+ 	dataParser = [[NSXMLParser alloc] initWithData:dataXml];
+	[dataParser setDelegate:self]; 
+	[dataParser setShouldProcessNamespaces:NO]; 
+	[dataParser setShouldReportNamespacePrefixes:NO]; 
+	[dataParser setShouldResolveExternalEntities:NO]; 
+ 	// strat parsing
+	@try{
+		[dataParser parse]; 
+	}
+	@catch(NSException *ex)
+	{
+		NSLog(@"@catch WorkoutDetailsParser  %@ ",[ex description]);
+	}
+	
+	//NSError *parseError = [dataParser parserError];
+//	
+//	if(parseError)
+//	{
+//	  	/*UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Some problem has occured. Please try again later.","") message:@"" delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK"];
+//		 [alertView show];
+//		 [alertView release];*/
+//	}	
+}
+
+
+
+/*
+ * Initializes the entity properties from the Servlet's response
+ */
+- (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict
+{		
+	currentElement = [NSString stringWithFormat:@"%@", elementName];
+
+		entity = [[NSMutableDictionary alloc] init];
+		
+		status =[[NSMutableString alloc] init];
+	
+}
+
+
+/*
+ * Called when the element is read.
+ * Used to store the read element in a structured array.
+ */
+- (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName{     
+		//NSLog(@"entering");
+		[entity setObject:status forKey:@"result"];
+		
+		
+		//[entities addObject:[[entity copy] autorelease]];
+		[status release];
+		
+}	
+
+
+
+/*
+ * Reads the value for each entity tag property (name ,region id, application id , callcenter id)
+ */
+- (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string
+{
+	
+	if ([currentElement isEqualToString:@"result"]) 
+	{
+		[status appendString:string];
+	}
+	}	
+
+
+
+- (void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError 
+{	
+	DUBUG_LOG(@"parsing error");
+//	entities = nil;
+	//dataParser = nil;
+}
+
+/*
+ * Finish parsing
+ */
+- (void)parserDidEndDocument:(NSXMLParser *)parser 
+{	
+	DUBUG_LOG(@"parsing ended");
+	/*if(entities.count == 0)
+	{
+		entities = nil;//
+//	}*/
+//	[dataParser release];
+	//dataParser = nil;
+}
+
+/*
+ * returns data 
+ */
+/*-(NSMutableArray *) getData{
+	return entities;
+}*/
+
+
+- (void)dealloc {
+//    [super dealloc];
+	
+	[dataParser release];
+	dataParser = nil;
+	
+	[super dealloc];
+
+}
+
+
+@end
+

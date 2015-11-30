@@ -1,0 +1,4312 @@
+// !$*UTF8*$!
+{
+	081746B011F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0884B9C611EDB9CB00723F9A /* disconnect_Normal_Fr.JPG */;
+	};
+	081746B111F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0884B9C711EDB9CB00723F9A /* disconnect_Normal_En.JPG */;
+	};
+	081746BB11F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B432411ED980500B19E2B /* myWorkoutTab_Hover_En.png */;
+	};
+	081746BC11F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B432511ED980500B19E2B /* myWorkoutTab_Normal_Fr.png */;
+	};
+	081746BD11F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B432611ED980500B19E2B /* myWorkoutTab_Normal_En.png */;
+	};
+	081746BF11F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B431C11ED978C00B19E2B /* myMusicTab_Hover_En.png */;
+	};
+	081746C011F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B431D11ED978C00B19E2B /* myMusicTab_Normal_Fr.png */;
+	};
+	081746C111F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B431E11ED978C00B19E2B /* myMusicTab_Normal_En.png */;
+	};
+	081746C211F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08EF3F0E11E7FDED000F0BE9 /* logIn_Normal_Fr.JPG */;
+	};
+	081746C311F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B431211ED973F00B19E2B /* loginTab_Normal_En.png */;
+	};
+	081746C411F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B431311ED973F00B19E2B /* loginTab_Hover_En.png */;
+	};
+	081746C511F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B431411ED973F00B19E2B /* loginTab_Normal_Fr.png */;
+	};
+	081746C611F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B431511ED973F00B19E2B /* loginTab_Hover_Fr.png */;
+	};
+	081746C711F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08EF3F0F11E7FDED000F0BE9 /* logIn_Cancel_Normal_En.JPG */;
+	};
+	081746C811F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08EF3F1011E7FDED000F0BE9 /* logIn_Normal_En.JPG */;
+	};
+	081746C911F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08EF3F1111E7FDED000F0BE9 /* logIn_Cancel_Normal_Fr.JPG */;
+	};
+	081746CB11F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 4CCF1C4411DDDBF400794D34 /* Login_Bg.png */;
+	};
+	081746CC11F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088ACEDE11ED89C900FD6CA7 /* Main_Bg.png */;
+	};
+	081746CF11F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B431311ED973F00B19E2B /* loginTab_Hover_En.png */;
+	};
+	081746D911F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B431B11ED978C00B19E2B /* myMusicTab_Hover_Fr.png */;
+	};
+	081746E311F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B432F11ED989D00B19E2B /* support_Normal_En.png */;
+	};
+	081746F011F4FC9700A88F81 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B431511ED973F00B19E2B /* loginTab_Hover_Fr.png */;
+	};
+	084AF42711EDD6EE000EED55 /* JiwokMyMusicPanelViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {822, 1316}}";
+			sepNavSelRange = "{2019, 15}";
+			sepNavVisRange = "{1569, 1383}";
+			sepNavWindowFrame = "{{156, -85}, {980, 680}}";
+		};
+	};
+	084AF42811EDD6EE000EED55 /* JiwokMyMusicPanelViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {762, 20664}}";
+			sepNavSelRange = "{14257, 15}";
+			sepNavVisRange = "{14102, 1062}";
+			sepNavWindowFrame = "{{78, 66}, {980, 680}}";
+		};
+	};
+	087F16671213CC7F005E8244 /* JiwokFfmpegID3TagReader.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 1078}}";
+			sepNavSelRange = "{96, 23}";
+			sepNavVisRange = "{0, 874}";
+			sepNavWindowFrame = "{{114, 66}, {980, 680}}";
+		};
+	};
+	087F17C11213F722005E8244 /* BPMDetect.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 2226}}";
+			sepNavSelRange = "{221, 0}";
+			sepNavVisRange = "{5527, 943}";
+		};
+	};
+	087F17C21213F722005E8244 /* BPMDetect.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 4200}}";
+			sepNavSelRange = "{10255, 0}";
+			sepNavVisRange = "{9791, 466}";
+		};
+	};
+	087F606511EDD23F002FF32C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 087F606611EDD23F002FF32C /* NSButton.h */;
+		name = "NSButton.h: 10";
+		rLen = 0;
+		rLoc = 177;
+		rType = 0;
+		vrLen = 703;
+		vrLoc = 0;
+	};
+	087F606611EDD23F002FF32C /* NSButton.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSButton.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSButton.h;
+		sourceTree = "<absolute>";
+	};
+	087F60B011EDD39E002FF32C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 087F60B111EDD39E002FF32C /* NSDictionaryController.h */;
+		name = "NSDictionaryController.h: 23";
+		rLen = 0;
+		rLoc = 1690;
+		rType = 0;
+		vrLen = 1765;
+		vrLoc = 3;
+	};
+	087F60B111EDD39E002FF32C /* NSDictionaryController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSDictionaryController.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSDictionaryController.h;
+		sourceTree = "<absolute>";
+	};
+	087F60DE11EDD4C6002FF32C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 087F60DF11EDD4C6002FF32C /* NSSecureTextField.h */;
+		name = "NSSecureTextField.h: 11";
+		rLen = 11;
+		rLoc = 230;
+		rType = 0;
+		vrLen = 487;
+		vrLoc = 0;
+	};
+	087F60DF11EDD4C6002FF32C /* NSSecureTextField.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSSecureTextField.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSSecureTextField.h;
+		sourceTree = "<absolute>";
+	};
+	087F60E011EDD4C6002FF32C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08E5801F11EBBF590047E1F2 /* NSTextField.h */;
+		name = "NSTextField.h: 12";
+		rLen = 9;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 744;
+		vrLoc = 162;
+	};
+	087F60E111EDD4C6002FF32C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08E5801D11EBBF590047E1F2 /* NSControl.h */;
+		name = "NSControl.h: 67";
+		rLen = 0;
+		rLoc = 1858;
+		rType = 0;
+		vrLen = 995;
+		vrLoc = 1943;
+	};
+	087F60E611EDD4C6002FF32C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 087F60E711EDD4C6002FF32C /* NSSecureTextField.h */;
+		name = "NSSecureTextField.h: 11";
+		rLen = 11;
+		rLoc = 230;
+		rType = 0;
+		vrLen = 487;
+		vrLoc = 0;
+	};
+	087F60E711EDD4C6002FF32C /* NSSecureTextField.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSSecureTextField.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSSecureTextField.h;
+		sourceTree = "<absolute>";
+	};
+	087F60E811EDD4C6002FF32C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08E5801F11EBBF590047E1F2 /* NSTextField.h */;
+		name = "NSTextField.h: 12";
+		rLen = 9;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 744;
+		vrLoc = 162;
+	};
+	087F60E911EDD4C6002FF32C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08E5801D11EBBF590047E1F2 /* NSControl.h */;
+		name = "NSControl.h: 67";
+		rLen = 0;
+		rLoc = 1858;
+		rType = 0;
+		vrLen = 995;
+		vrLoc = 1943;
+	};
+	0881121A1206E9BB008104AB /* French */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 644}}";
+			sepNavSelRange = "{2170, 23}";
+			sepNavVisRange = "{261, 2079}";
+		};
+	};
+	0881DD8211EB365F00F063E6 /* JiwokFTPDownloader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 409}}";
+			sepNavSelRange = "{7, 18}";
+			sepNavVisRange = "{0, 518}";
+			sepNavWindowFrame = "{{15, 63}, {980, 683}}";
+		};
+	};
+	0881DD8311EB365F00F063E6 /* JiwokFTPDownloader.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {991, 3010}}";
+			sepNavSelRange = "{2499, 69}";
+			sepNavVisRange = "{1259, 659}";
+			sepNavWindowFrame = "{{500, 66}, {980, 680}}";
+		};
+	};
+	0881DD9C11EB3C1800F063E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881DD9D11EB3C1800F063E6 /* FTPClient.m */;
+		name = "FTPClient.m: 107";
+		rLen = 0;
+		rLoc = 2625;
+		rType = 0;
+		vrLen = 323;
+		vrLoc = 2309;
+	};
+	0881DD9D11EB3C1800F063E6 /* FTPClient.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = FTPClient.m;
+		path = "/Users/reubror/Desktop/Darsan/From/JIWOK_FTP_CLIENT/FTPCLIENT&Executable /FTPClient.m";
+		sourceTree = "<absolute>";
+	};
+	0881DD9E11EB3C1800F063E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881DD9F11EB3C1800F063E6 /* FTPClient.h */;
+		name = "FTPClient.h: 13";
+		rLen = 108;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 359;
+		vrLoc = 81;
+	};
+	0881DD9F11EB3C1800F063E6 /* FTPClient.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = FTPClient.h;
+		path = "/Users/reubror/Desktop/Darsan/From/JIWOK_FTP_CLIENT/FTPCLIENT&Executable /FTPClient.h";
+		sourceTree = "<absolute>";
+	};
+	0881DDAC11EB3C1800F063E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881DDAD11EB3C1800F063E6 /* FTPClient.m */;
+		name = "FTPClient.m: 10";
+		rLen = 0;
+		rLoc = 166;
+		rType = 0;
+		vrLen = 425;
+		vrLoc = 1586;
+	};
+	0881DDAD11EB3C1800F063E6 /* FTPClient.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = FTPClient.m;
+		path = "/Users/reubror/Desktop/Darsan/From/JIWOK_FTP_CLIENT/FTPCLIENT&Executable /FTPClient.m";
+		sourceTree = "<absolute>";
+	};
+	0881DDAF11EB3C1800F063E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881DDB011EB3C1800F063E6 /* FTPClient.h */;
+		name = "FTPClient.h: 13";
+		rLen = 108;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 359;
+		vrLoc = 81;
+	};
+	0881DDB011EB3C1800F063E6 /* FTPClient.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = FTPClient.h;
+		path = "/Users/reubror/Desktop/Darsan/From/JIWOK_FTP_CLIENT/FTPCLIENT&Executable /FTPClient.h";
+		sourceTree = "<absolute>";
+	};
+	0881DDB311EB3C1800F063E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881DD8211EB365F00F063E6 /* JiwokFTPDownloader.h */;
+		name = "JiwokFTPDownloader.h: 16";
+		rLen = 12;
+		rLoc = 259;
+		rType = 0;
+		vrLen = 368;
+		vrLoc = 0;
+	};
+	0881DDB911EB3C1800F063E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881DDBA11EB3C1800F063E6 /* NSAlert.h */;
+		name = "NSAlert.h: 141";
+		rLen = 9;
+		rLoc = 7502;
+		rType = 0;
+		vrLen = 1519;
+		vrLoc = 6724;
+	};
+	0881DDBA11EB3C1800F063E6 /* NSAlert.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSAlert.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSAlert.h;
+		sourceTree = "<absolute>";
+	};
+	0881DE1C11EB3E6B00F063E6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08EF3F1011E7FDED000F0BE9 /* logIn_Normal_En.JPG */;
+	};
+	0881DE9511E84CD100BE3252 /* NSString.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSString.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSString.h;
+		sourceTree = "<absolute>";
+	};
+	0881DEDC11E854F100BE3252 /* JiwokUserdetailsXmlParser.m:85 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 088E8A1E11E83F8800A19CB2 /* JiwokUserdetailsXmlParser.m */;
+		functionName = "-parser:didEndElement:namespaceURI:qualifiedName:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 85;
+		location = Jiwok;
+		modificationTime = 304581698.43478;
+		state = 1;
+	};
+	0881DF8811E85EC300BE3252 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881DF8911E85EC300BE3252 /* NSXMLParser.h */;
+		name = "NSXMLParser.h: 109";
+		rLen = 0;
+		rLoc = 5794;
+		rType = 0;
+		vrLen = 2061;
+		vrLoc = 4723;
+	};
+	0881DF8911E85EC300BE3252 /* NSXMLParser.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSXMLParser.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSXMLParser.h;
+		sourceTree = "<absolute>";
+	};
+	0881E00F11E8657600BE3252 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088E8A1F11E83F8800A19CB2 /* JiwokUserdetailsXmlParser.h */;
+		name = "JiwokUserdetailsXmlParser.h: 21";
+		rLen = 15;
+		rLoc = 488;
+		rType = 0;
+		vrLen = 715;
+		vrLoc = 0;
+	};
+	0881E01911E867B500BE3252 /* JiwokUtil.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 409}}";
+			sepNavSelRange = "{7, 9}";
+			sepNavVisRange = "{0, 803}";
+		};
+	};
+	0881E01A11E867B500BE3252 /* JiwokUtil.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {921, 3920}}";
+			sepNavSelRange = "{7103, 0}";
+			sepNavVisRange = "{6270, 834}";
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	0881E03F11E86A3200BE3252 /* JiwokAppDelegate.m:98 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 4CCF1B3B11DDBB3100794D34 /* JiwokAppDelegate.m */;
+		functionName = "-applicationDidFinishLaunching:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 98;
+		location = Jiwok;
+		modificationTime = 304581698.435346;
+		state = 1;
+	};
+	0881E05111E86C0000BE3252 /* JiwokSettingPlistReader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 409}}";
+			sepNavSelRange = "{7, 23}";
+			sepNavVisRange = "{0, 580}";
+		};
+	};
+	0881E05211E86C0000BE3252 /* JiwokSettingPlistReader.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 1750}}";
+			sepNavSelRange = "{2903, 0}";
+			sepNavVisRange = "{2571, 333}";
+		};
+	};
+	0881E05611E86E9A00BE3252 /* Settings.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	0881E06711E8710000BE3252 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 0881E05611E86E9A00BE3252 /* Settings.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			"New item",
+		);
+		name = "/Users/reubror/Desktop/untitled folder/Jiwok/Settings.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	0881E0AB11E8785F00BE3252 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 672}}";
+			sepNavSelRange = "{2262, 23}";
+			sepNavVisRange = "{380, 1962}";
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	0882565E12152BA400E71FD9 /* JiwokMusicConverter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 409}}";
+			sepNavSelRange = "{7, 19}";
+			sepNavVisRange = "{0, 260}";
+		};
+	};
+	0882565F12152BA400E71FD9 /* JiwokMusicConverter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {924, 770}}";
+			sepNavSelRange = "{1496, 0}";
+			sepNavVisRange = "{1089, 408}";
+		};
+	};
+	0882C958120ACFE000E97380 /* JiwokAnalysisSummaryWindowController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 409}}";
+			sepNavSelRange = "{384, 0}";
+			sepNavVisRange = "{0, 677}";
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	0882C959120ACFE000E97380 /* JiwokAnalysisSummaryWindowController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {922, 4200}}";
+			sepNavSelRange = "{2113, 18}";
+			sepNavVisRange = "{1307, 647}";
+		};
+	};
+	08839EB6120177600044A084 /* cancel_Normal_En.jpg */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	08839EB8120177600044A084 /* search_Normal_Fr.JPG */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{61, 105}, {980, 690}}";
+		};
+	};
+	088459E0121019D700B5E938 /* FMCallback.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 434}}";
+			sepNavSelRange = "{7, 10}";
+			sepNavVisRange = "{0, 821}";
+		};
+	};
+	088459E1121019D700B5E938 /* FMCallback.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 868}}";
+			sepNavSelRange = "{1192, 0}";
+			sepNavVisRange = "{1028, 395}";
+		};
+	};
+	088459E2121019D700B5E938 /* FMEngine.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1122, 588}}";
+			sepNavSelRange = "{7, 8}";
+			sepNavVisRange = "{0, 719}";
+		};
+	};
+	088459E3121019D700B5E938 /* FMEngine.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1128, 2492}}";
+			sepNavSelRange = "{2733, 0}";
+			sepNavVisRange = "{2952, 1164}";
+			sepNavWindowFrame = "{{244, 66}, {980, 680}}";
+		};
+	};
+	088459E4121019D700B5E938 /* FMEngineURLConnection.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 409}}";
+			sepNavSelRange = "{7, 21}";
+			sepNavVisRange = "{0, 628}";
+		};
+	};
+	088459E5121019D700B5E938 /* FMEngineURLConnection.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 910}}";
+			sepNavSelRange = "{755, 0}";
+			sepNavVisRange = "{451, 907}";
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	088459E6121019D700B5E938 /* NSString+FMEngine.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 358}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 287}";
+		};
+	};
+	088459E7121019D700B5E938 /* NSString+FMEngine.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 602}}";
+			sepNavSelRange = "{405, 0}";
+			sepNavVisRange = "{0, 839}";
+		};
+	};
+	08845A00121019EB00B5E938 /* FingerPrintParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1212, 2786}}";
+			sepNavSelRange = "{7, 17}";
+			sepNavVisRange = "{1786, 623}";
+		};
+	};
+	08845A01121019EB00B5E938 /* FingerPrintParser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1998, 686}}";
+			sepNavSelRange = "{1300, 0}";
+			sepNavVisRange = "{419, 1136}";
+		};
+	};
+	08845A03121019F900B5E938 /* JiwokLastfmClient.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1056, 2548}}";
+			sepNavSelRange = "{7, 17}";
+			sepNavVisRange = "{0, 881}";
+			sepNavWindowFrame = "{{321, 66}, {980, 680}}";
+		};
+	};
+	08845A04121019F900B5E938 /* JiwokLastfmClient.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 409}}";
+			sepNavSelRange = "{437, 0}";
+			sepNavVisRange = "{0, 494}";
+		};
+	};
+	08849BA712028AD500CA5428 /* Delegates.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 392}}";
+			sepNavSelRange = "{429, 0}";
+			sepNavVisRange = "{69, 360}";
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	0884B9C211EDB84A00723F9A /* login_Panel_Bg.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	0884B9C611EDB9CB00723F9A /* disconnect_Normal_Fr.JPG */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	0884BA2011EDBD6200723F9A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0884B9C211EDB84A00723F9A /* login_Panel_Bg.png */;
+	};
+	0884BA2211EDBD6200723F9A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0884B9C911EDB9CB00723F9A /* connect_Normal_En.JPG */;
+	};
+	0884BA2411EDBD6200723F9A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0884B9C711EDB9CB00723F9A /* disconnect_Normal_En.JPG */;
+	};
+	0884BA2511EDBD6200723F9A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0884B9C611EDB9CB00723F9A /* disconnect_Normal_Fr.JPG */;
+	};
+	08853ED611EF271200C9CBB8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B432611ED980500B19E2B /* myWorkoutTab_Normal_En.png */;
+	};
+	08853ED711EF271200C9CBB8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B431D11ED978C00B19E2B /* myMusicTab_Normal_Fr.png */;
+	};
+	08853EDB11EF271200C9CBB8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B431C11ED978C00B19E2B /* myMusicTab_Hover_En.png */;
+	};
+	08853EE511EB5CBA0042EE00 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08853EE611EB5CBA0042EE00 /* NSThread.h */;
+		name = "NSThread.h: 78";
+		rLen = 0;
+		rLoc = 1989;
+		rType = 0;
+		vrLen = 976;
+		vrLoc = 1359;
+	};
+	08853EE611EB5CBA0042EE00 /* NSThread.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSThread.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSThread.h;
+		sourceTree = "<absolute>";
+	};
+	08853F2A11EB5F590042EE00 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08853F2B11EB5F590042EE00 /* NSProgressIndicator.h */;
+		name = "NSProgressIndicator.h: 121";
+		rLen = 14;
+		rLoc = 3389;
+		rType = 0;
+		vrLen = 584;
+		vrLoc = 2978;
+	};
+	08853F2B11EB5F590042EE00 /* NSProgressIndicator.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSProgressIndicator.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSProgressIndicator.h;
+		sourceTree = "<absolute>";
+	};
+	08853F2E11EB5F590042EE00 /* NSCell.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSCell.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSCell.h;
+		sourceTree = "<absolute>";
+	};
+	08853F3011EB5F590042EE00 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08853F3111EB5F590042EE00 /* NSProgressIndicator.h */;
+		name = "NSProgressIndicator.h: 51";
+		rLen = 0;
+		rLoc = 1545;
+		rType = 0;
+		vrLen = 350;
+		vrLoc = 2376;
+	};
+	08853F3111EB5F590042EE00 /* NSProgressIndicator.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSProgressIndicator.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSProgressIndicator.h;
+		sourceTree = "<absolute>";
+	};
+	08853F4D11EB606C0042EE00 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08853F4E11EB606C0042EE00 /* unistd.h */;
+		name = "unistd.h: 490";
+		rLen = 47;
+		rLoc = 17040;
+		rType = 0;
+		vrLen = 654;
+		vrLoc = 16708;
+	};
+	08853F4E11EB606C0042EE00 /* unistd.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = unistd.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/usr/include/unistd.h;
+		sourceTree = "<absolute>";
+	};
+	08860D2711EC4DB800F60064 /* JiwokDownloadBkndView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 409}}";
+			sepNavSelRange = "{166, 21}";
+			sepNavVisRange = "{0, 221}";
+		};
+	};
+	08860D2811EC4DB800F60064 /* JiwokDownloadBkndView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 546}}";
+			sepNavSelRange = "{622, 0}";
+			sepNavVisRange = "{44, 616}";
+		};
+	};
+	08860D4311EC4E1E00F60064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08860D2711EC4DB800F60064 /* JiwokDownloadBkndView.h */;
+		name = "JiwokDownloadBkndView.h: 12";
+		rLen = 0;
+		rLoc = 197;
+		rType = 0;
+		vrLen = 208;
+		vrLoc = 0;
+	};
+	08860D5C11EC4E9400F60064 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08860D2811EC4DB800F60064 /* JiwokDownloadBkndView.m */;
+		name = "JiwokDownloadBkndView.m: 32";
+		rLen = 0;
+		rLoc = 642;
+		rType = 0;
+		vrLen = 302;
+		vrLoc = 358;
+	};
+	08860D5E11EC4E9400F60064 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08860D5511EC4E8B00F60064 /* download_bknd.png */;
+	};
+	0886438C11EB27FB00175F07 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	0887D69B121EE4D300EC3851 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08839EB9120177600044A084 /* search-Normal_En.jpg */;
+	};
+	0887D69C121EE4D300EC3851 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08839EB8120177600044A084 /* search_Normal_Fr.JPG */;
+	};
+	0887D6A0121EE4D300EC3851 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08C5CBFA11E918FF006080D0 /* JiwokMusicalSearchWindowController.m */;
+		name = "JiwokMusicalSearchWindowController.m: 42";
+		rLen = 0;
+		rLoc = 1402;
+		rType = 0;
+		vrLen = 826;
+		vrLoc = 893;
+	};
+	0887ECC4121E467C00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881DD8311EB365F00F063E6 /* JiwokFTPDownloader.m */;
+		name = "JiwokFTPDownloader.m: 161";
+		rLen = 56;
+		rLoc = 4401;
+		rType = 0;
+		vrLen = 712;
+		vrLoc = 4269;
+	};
+	0887ECD7121E46FB00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887ECD8121E46FB00594B6E /* JiwokFTPDownloader.h */;
+		name = "JiwokFTPDownloader.h: 13";
+		rLen = 136;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 520;
+		vrLoc = 0;
+	};
+	0887ECD8121E46FB00594B6E /* JiwokFTPDownloader.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = JiwokFTPDownloader.h;
+		path = "/Users/reubror/Downloads/MAIL/Support Tab CLASSES/JiwokFTPDownloader.h";
+		sourceTree = "<absolute>";
+	};
+	0887ECDC121E46FB00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887ECDD121E46FB00594B6E /* JiwokFTPDownloader.h */;
+		name = "JiwokFTPDownloader.h: 13";
+		rLen = 136;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 520;
+		vrLoc = 0;
+	};
+	0887ECDD121E46FB00594B6E /* JiwokFTPDownloader.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = JiwokFTPDownloader.h;
+		path = "/Users/reubror/Downloads/MAIL/Support Tab CLASSES/JiwokFTPDownloader.h";
+		sourceTree = "<absolute>";
+	};
+	0887ECE2121E471E00594B6E /* SupportTab.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 3682}}";
+			sepNavSelRange = "{269, 0}";
+			sepNavVisRange = "{0, 789}";
+		};
+	};
+	0887ECE3121E471E00594B6E /* SupportTab.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 602}}";
+			sepNavSelRange = "{169, 30}";
+			sepNavVisRange = "{0, 264}";
+		};
+	};
+	0887ECE5121E472C00594B6E /* GetSupportMailDetailsXmlParser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1656, 658}}";
+			sepNavSelRange = "{202, 30}";
+			sepNavVisRange = "{0, 942}";
+		};
+	};
+	0887ECE6121E472C00594B6E /* GetSupportMailDetailsXmlParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 3108}}";
+			sepNavSelRange = "{261, 0}";
+			sepNavVisRange = "{164, 295}";
+		};
+	};
+	0887ECF0121E477B00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887ECE6121E472C00594B6E /* GetSupportMailDetailsXmlParser.m */;
+		name = "GetSupportMailDetailsXmlParser.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 353;
+		vrLoc = 0;
+	};
+	0887ECF1121E477B00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887ECE5121E472C00594B6E /* GetSupportMailDetailsXmlParser.h */;
+		name = "GetSupportMailDetailsXmlParser.h: 13";
+		rLen = 0;
+		rLoc = 247;
+		rType = 0;
+		vrLen = 889;
+		vrLoc = 0;
+	};
+	0887ECF6121E479300594B6E /* S7FTPRequest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 8274}}";
+			sepNavSelRange = "{7, 12}";
+			sepNavVisRange = "{0, 1516}";
+		};
+	};
+	0887ECF7121E479300594B6E /* S7FTPRequest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 2422}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1914}";
+		};
+	};
+	0887EDC5121E4CED00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887ECE6121E472C00594B6E /* GetSupportMailDetailsXmlParser.m */;
+		name = "GetSupportMailDetailsXmlParser.m: 17";
+		rLen = 0;
+		rLoc = 261;
+		rType = 0;
+		vrLen = 295;
+		vrLoc = 164;
+	};
+	0887EDD5121E4CED00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887ECE2121E471E00594B6E /* SupportTab.m */;
+		name = "SupportTab.m: 17";
+		rLen = 0;
+		rLoc = 299;
+		rType = 0;
+		vrLen = 649;
+		vrLoc = 0;
+	};
+	0887EDDB121E4CED00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088C6A43120C2DD60075448F /* JiwokAudioPlayController.h */;
+		name = "JiwokAudioPlayController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 372;
+		vrLoc = 0;
+	};
+	0887EDE2121E4CED00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CCF1B2A11DDBA8E00794D34 /* JiwokLoginWindowController.h */;
+		name = "JiwokLoginWindowController.h: 20";
+		rLen = 0;
+		rLoc = 550;
+		rType = 0;
+		vrLen = 657;
+		vrLoc = 36;
+	};
+	0887EE10121E510500594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08C5C9C911E8E581006080D0 /* Common.h */;
+		name = "Common.h: 100";
+		rLen = 0;
+		rLoc = 2435;
+		rType = 0;
+		vrLen = 707;
+		vrLoc = 1727;
+	};
+	0887EE11121E510500594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881E01A11E867B500BE3252 /* JiwokUtil.m */;
+		name = "JiwokUtil.m: 34";
+		rLen = 0;
+		rLoc = 989;
+		rType = 0;
+		vrLen = 984;
+		vrLoc = 185;
+	};
+	0887EE2E121E523D00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881E01A11E867B500BE3252 /* JiwokUtil.m */;
+		name = "JiwokUtil.m: 39";
+		rLen = 0;
+		rLoc = 1064;
+		rType = 0;
+		vrLen = 962;
+		vrLoc = 207;
+	};
+	0887EEF6121E5FFA00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088B43CE11EDA12100B19E2B /* NSViewController.h */;
+		name = "NSViewController.h: 32";
+		rLen = 0;
+		rLoc = 1250;
+		rType = 0;
+		vrLen = 2223;
+		vrLoc = 171;
+	};
+	0887EEF7121E5FFA00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887EEF8121E5FFA00594B6E /* NSNibLoading.h */;
+		name = "NSNibLoading.h: 23";
+		rLen = 0;
+		rLoc = 1125;
+		rType = 0;
+		vrLen = 1189;
+		vrLoc = 0;
+	};
+	0887EEF8121E5FFA00594B6E /* NSNibLoading.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSNibLoading.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSNibLoading.h;
+		sourceTree = "<absolute>";
+	};
+	0887EF9C121E68CA00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CAC86121D7E5500DC959C /* JiwokSupportPanelViewController.h */;
+		name = "JiwokSupportPanelViewController.h: 13";
+		rLen = 0;
+		rLoc = 257;
+		rType = 0;
+		vrLen = 215;
+		vrLoc = 163;
+	};
+	0887EF9D121E68CA00594B6E /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 0887EF9E121E68CA00594B6E /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Projects/JiwokMAC/trunk/src/Jiwok/MailCore.framework/Versions/A/Resources/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	0887EF9E121E68CA00594B6E /* Info.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = Info.plist;
+		path = /Projects/JiwokMAC/trunk/src/Jiwok/MailCore.framework/Versions/A/Resources/Info.plist;
+		sourceTree = "<absolute>";
+	};
+	0887EFA0121E68CA00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887EFA1121E68CA00594B6E /* imapdriver_cached_message.h */;
+		name = "imapdriver_cached_message.h: 4";
+		rLen = 0;
+		rLoc = 86;
+		rType = 0;
+		vrLen = 184;
+		vrLoc = 0;
+	};
+	0887EFA1121E68CA00594B6E /* imapdriver_cached_message.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = imapdriver_cached_message.h;
+		path = /Projects/JiwokMAC/trunk/src/Jiwok/MailCore.framework/Headers/imapdriver_cached_message.h;
+		sourceTree = "<absolute>";
+	};
+	0887EFA7121E68CA00594B6E /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 0887EFA8121E68CA00594B6E /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Projects/JiwokMAC/trunk/src/Jiwok/MailCore.framework/Versions/A/Resources/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	0887EFA8121E68CA00594B6E /* Info.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = Info.plist;
+		path = /Projects/JiwokMAC/trunk/src/Jiwok/MailCore.framework/Versions/A/Resources/Info.plist;
+		sourceTree = "<absolute>";
+	};
+	0887EFAA121E68CA00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887EFAB121E68CA00594B6E /* imapdriver_cached_message.h */;
+		name = "imapdriver_cached_message.h: 4";
+		rLen = 0;
+		rLoc = 86;
+		rType = 0;
+		vrLen = 184;
+		vrLoc = 0;
+	};
+	0887EFAB121E68CA00594B6E /* imapdriver_cached_message.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = imapdriver_cached_message.h;
+		path = /Projects/JiwokMAC/trunk/src/Jiwok/MailCore.framework/Headers/imapdriver_cached_message.h;
+		sourceTree = "<absolute>";
+	};
+	0887EFB9121E69A000594B6E /* JiwokAPIHelper.m:11 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 4CCF1D2B11DDEF6700794D34 /* JiwokAPIHelper.m */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 11;
+		location = Jiwok;
+		modificationTime = 304581698.437769;
+		state = 1;
+	};
+	0887EFE6121E6F0300594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CCF1D2B11DDEF6700794D34 /* JiwokAPIHelper.m */;
+		name = "JiwokAPIHelper.m: 139";
+		rLen = 0;
+		rLoc = 4523;
+		rType = 0;
+		vrLen = 1051;
+		vrLoc = 2256;
+	};
+	0887F012121E72D100594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881121A1206E9BB008104AB /* French */;
+		name = "Localization.strings: 44";
+		rLen = 23;
+		rLoc = 2170;
+		rType = 0;
+		vrLen = 2079;
+		vrLoc = 261;
+	};
+	0887F014121E72D100594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881E0AB11E8785F00BE3252 /* English */;
+		name = "Localization.strings: 45";
+		rLen = 23;
+		rLoc = 2262;
+		rType = 0;
+		vrLen = 1962;
+		vrLoc = 380;
+	};
+	0887F027121E764700594B6E /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 0881E05611E86E9A00BE3252 /* Settings.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 1;
+		kPath = (
+			UpdateMP3GenerationStatus_api,
+		);
+		name = /Projects/JiwokMAC/trunk/src/Jiwok/Settings.plist;
+		rLen = 29;
+		rLoc = 0;
+	};
+	0887F02E121E764700594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881E05211E86C0000BE3252 /* JiwokSettingPlistReader.m */;
+		name = "JiwokSettingPlistReader.m: 118";
+		rLen = 0;
+		rLoc = 2814;
+		rType = 0;
+		vrLen = 665;
+		vrLoc = 2239;
+	};
+	0887F05E121E7AEB00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0892484A11EF7C4F005993B6 /* JiwokMyWorkoutPanelViewController.h */;
+		name = "JiwokMyWorkoutPanelViewController.h: 40";
+		rLen = 0;
+		rLoc = 1176;
+		rType = 0;
+		vrLen = 1066;
+		vrLoc = 208;
+	};
+	0887F060121E7AEB00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CA832121CFC0E00DC959C /* JiwokWorkoutPopupWndController.m */;
+		name = "JiwokWorkoutPopupWndController.m: 27";
+		rLen = 15;
+		rLoc = 568;
+		rType = 0;
+		vrLen = 1110;
+		vrLoc = 416;
+	};
+	0887F0CD121E84C800594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887ECF7121E479300594B6E /* S7FTPRequest.h */;
+		name = "S7FTPRequest.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1914;
+		vrLoc = 0;
+	};
+	0887F0CE121E84C800594B6E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088CAC90121D80AB00DC959C /* support_Panel_Bg.jpg */;
+	};
+	0887F0D1121E84C800594B6E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088CAC90121D80AB00DC959C /* support_Panel_Bg.jpg */;
+	};
+	0887F0D2121E84C800594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887ECF7121E479300594B6E /* S7FTPRequest.h */;
+		name = "S7FTPRequest.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1914;
+		vrLoc = 0;
+	};
+	0887F102121E85C500594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CAC33121D55F800DC959C /* project.pbxproj */;
+		name = "project.pbxproj: 939";
+		rLen = 0;
+		rLoc = 81064;
+		rType = 0;
+		vrLen = 234;
+		vrLoc = 54;
+	};
+	0887F105121E85C500594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881E01911E867B500BE3252 /* JiwokUtil.h */;
+		name = "JiwokUtil.h: 20";
+		rLen = 0;
+		rLoc = 511;
+		rType = 0;
+		vrLen = 803;
+		vrLoc = 0;
+	};
+	0887F15A121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 087F17C21213F722005E8244 /* BPMDetect.cpp */;
+		name = "BPMDetect.cpp: 311";
+		rLen = 0;
+		rLoc = 10255;
+		rType = 0;
+		vrLen = 466;
+		vrLoc = 9791;
+	};
+	0887F15B121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 087F17C11213F722005E8244 /* BPMDetect.h */;
+		name = "BPMDetect.h: 6";
+		rLen = 0;
+		rLoc = 221;
+		rType = 0;
+		vrLen = 943;
+		vrLoc = 5527;
+	};
+	0887F15C121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08849BA712028AD500CA5428 /* Delegates.h */;
+		name = "Delegates.h: 28";
+		rLen = 0;
+		rLoc = 429;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 69;
+	};
+	0887F15F121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CA96A121D210900DC959C /* JiwokAllWorkoutInfoXMLParser.m */;
+		name = "JiwokAllWorkoutInfoXMLParser.m: 117";
+		rLen = 0;
+		rLoc = 3006;
+		rType = 0;
+		vrLen = 290;
+		vrLoc = 2722;
+	};
+	0887F164121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088C6A44120C2DD60075448F /* JiwokAudioPlayController.m */;
+		name = "JiwokAudioPlayController.m: 44";
+		rLen = 0;
+		rLoc = 524;
+		rType = 0;
+		vrLen = 209;
+		vrLoc = 322;
+	};
+	0887F165121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08A8BC4512002899001C1C39 /* JiwokDataBaseManager.m */;
+		name = "JiwokDataBaseManager.m: 309";
+		rLen = 0;
+		rLoc = 8977;
+		rType = 0;
+		vrLen = 475;
+		vrLoc = 8503;
+	};
+	0887F16A121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088A731212092B4800E64625 /* JiwokFMODWrapper.cpp */;
+		name = "JiwokFMODWrapper.cpp: 162";
+		rLen = 0;
+		rLoc = 3864;
+		rType = 0;
+		vrLen = 513;
+		vrLoc = 3369;
+	};
+	0887F172121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0882565F12152BA400E71FD9 /* JiwokMusicConverter.m */;
+		name = "JiwokMusicConverter.m: 54";
+		rLen = 0;
+		rLoc = 1496;
+		rType = 0;
+		vrLen = 408;
+		vrLoc = 1089;
+	};
+	0887F175121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881E05211E86C0000BE3252 /* JiwokSettingPlistReader.m */;
+		name = "JiwokSettingPlistReader.m: 127";
+		rLen = 0;
+		rLoc = 2903;
+		rType = 0;
+		vrLen = 333;
+		vrLoc = 2571;
+	};
+	0887F177121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088F0145121A687000FB3B42 /* JiwokVocalInfoXMLParser.m */;
+		name = "JiwokVocalInfoXMLParser.m: 95";
+		rLen = 0;
+		rLoc = 2533;
+		rType = 0;
+		vrLen = 288;
+		vrLoc = 2252;
+	};
+	0887F179121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08C5C9C911E8E581006080D0 /* Common.h */;
+		name = "Common.h: 99";
+		rLen = 0;
+		rLoc = 2434;
+		rType = 0;
+		vrLen = 523;
+		vrLoc = 1913;
+	};
+	0887F17E121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088E8A1F11E83F8800A19CB2 /* JiwokUserdetailsXmlParser.h */;
+		name = "JiwokUserdetailsXmlParser.h: 21";
+		rLen = 15;
+		rLoc = 488;
+		rType = 0;
+		vrLen = 663;
+		vrLoc = 0;
+	};
+	0887F180121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CAA4D121D30CF00DC959C /* WorkoutDetailsParser.m */;
+		name = "WorkoutDetailsParser.m: 553";
+		rLen = 0;
+		rLoc = 13098;
+		rType = 0;
+		vrLen = 282;
+		vrLoc = 13331;
+	};
+	0887F183121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 087F17C21213F722005E8244 /* BPMDetect.cpp */;
+		name = "BPMDetect.cpp: 311";
+		rLen = 0;
+		rLoc = 10255;
+		rType = 0;
+		vrLen = 466;
+		vrLoc = 9791;
+	};
+	0887F184121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 087F17C11213F722005E8244 /* BPMDetect.h */;
+		name = "BPMDetect.h: 6";
+		rLen = 0;
+		rLoc = 221;
+		rType = 0;
+		vrLen = 943;
+		vrLoc = 5527;
+	};
+	0887F193121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08A8BC4512002899001C1C39 /* JiwokDataBaseManager.m */;
+		name = "JiwokDataBaseManager.m: 309";
+		rLen = 0;
+		rLoc = 8977;
+		rType = 0;
+		vrLen = 475;
+		vrLoc = 8503;
+	};
+	0887F194121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C6AD05611E33F810037A194 /* JiwokDownloderWindowController.m */;
+		name = "JiwokDownloderWindowController.m: 200";
+		rLen = 0;
+		rLoc = 7271;
+		rType = 0;
+		vrLen = 795;
+		vrLoc = 6476;
+	};
+	0887F195121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 087F16671213CC7F005E8244 /* JiwokFfmpegID3TagReader.m */;
+		name = "JiwokFfmpegID3TagReader.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 581;
+		vrLoc = 0;
+	};
+	0887F197121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088A731112092B4800E64625 /* JiwokFMODWrapper.h */;
+		name = "JiwokFMODWrapper.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 334;
+		vrLoc = 0;
+	};
+	0887F198121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088A731212092B4800E64625 /* JiwokFMODWrapper.cpp */;
+		name = "JiwokFMODWrapper.cpp: 162";
+		rLen = 0;
+		rLoc = 3864;
+		rType = 0;
+		vrLen = 513;
+		vrLoc = 3369;
+	};
+	0887F1A0121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0882565F12152BA400E71FD9 /* JiwokMusicConverter.m */;
+		name = "JiwokMusicConverter.m: 54";
+		rLen = 0;
+		rLoc = 1496;
+		rType = 0;
+		vrLen = 408;
+		vrLoc = 1089;
+	};
+	0887F1AD121E942900594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Jiwok_Prefix.pch */;
+		name = "Jiwok_Prefix.pch: 9";
+		rLen = 0;
+		rLoc = 333;
+		rType = 0;
+		vrLen = 142;
+		vrLoc = 0;
+	};
+	0887F1BF121E950F00594B6E /* JiwokMusicProcessor.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 6902}}";
+			sepNavSelRange = "{11, 19}";
+			sepNavVisRange = "{0, 994}";
+		};
+	};
+	0887F1C0121E950F00594B6E /* JiwokMusicProcessor.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 476}}";
+			sepNavSelRange = "{89, 0}";
+			sepNavVisRange = "{26, 876}";
+		};
+	};
+	0887F1C8121E954000594B6E /* VocalsDownload.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {954, 409}}";
+			sepNavSelRange = "{448, 0}";
+			sepNavVisRange = "{0, 561}";
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	0887F1C9121E954000594B6E /* VocalsDownload.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 11354}}";
+			sepNavSelRange = "{163, 14}";
+			sepNavVisRange = "{0, 757}";
+		};
+	};
+	0887F1D8121E95D600594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887F1C9121E954000594B6E /* VocalsDownload.m */;
+		name = "VocalsDownload.m: 353";
+		rLen = 0;
+		rLoc = 12501;
+		rType = 0;
+		vrLen = 854;
+		vrLoc = 11827;
+	};
+	0887F1D9121E95D600594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887F1C8121E954000594B6E /* VocalsDownload.h */;
+		name = "VocalsDownload.h: 12";
+		rLen = 14;
+		rLoc = 191;
+		rType = 0;
+		vrLen = 561;
+		vrLoc = 0;
+	};
+	0887F261121E9D3A00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0892484B11EF7C4F005993B6 /* JiwokMyWorkoutPanelViewController.m */;
+		name = "JiwokMyWorkoutPanelViewController.m: 50";
+		rLen = 0;
+		rLoc = 1779;
+		rType = 0;
+		vrLen = 546;
+		vrLoc = 1441;
+	};
+	0887F276121EA6C200594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887F1C0121E950F00594B6E /* JiwokMusicProcessor.h */;
+		name = "JiwokMusicProcessor.h: 9";
+		rLen = 0;
+		rLoc = 89;
+		rType = 0;
+		vrLen = 465;
+		vrLoc = 437;
+	};
+	0887F277121EA6C200594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887F1BF121E950F00594B6E /* JiwokMusicProcessor.m */;
+		name = "JiwokMusicProcessor.m: 340";
+		rLen = 0;
+		rLoc = 8125;
+		rType = 0;
+		vrLen = 462;
+		vrLoc = 7792;
+	};
+	0887F29A121ECE2D00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887F29B121ECE2D00594B6E /* NSURLConnection.h */;
+		name = "NSURLConnection.h: 391";
+		rLen = 129;
+		rLoc = 18615;
+		rType = 0;
+		vrLen = 1524;
+		vrLoc = 17234;
+	};
+	0887F29B121ECE2D00594B6E /* NSURLConnection.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSURLConnection.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSURLConnection.h;
+		sourceTree = "<absolute>";
+	};
+	0887F2B2121ED05A00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088459E5121019D700B5E938 /* FMEngineURLConnection.m */;
+		name = "FMEngineURLConnection.m: 37";
+		rLen = 0;
+		rLoc = 1116;
+		rType = 0;
+		vrLen = 1038;
+		vrLoc = 501;
+	};
+	0887F317121ED79C00594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088459E5121019D700B5E938 /* FMEngineURLConnection.m */;
+		name = "FMEngineURLConnection.m: 30";
+		rLen = 0;
+		rLoc = 755;
+		rType = 0;
+		vrLen = 907;
+		vrLoc = 451;
+	};
+	0887F346121ED91500594B6E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088459E3121019D700B5E938 /* FMEngine.m */;
+		name = "FMEngine.m: 43";
+		rLen = 0;
+		rLoc = 1245;
+		rType = 0;
+		vrLen = 1121;
+		vrLoc = 706;
+	};
+	0888D91E11F56F8D00C1CF80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088E8A1E11E83F8800A19CB2 /* JiwokUserdetailsXmlParser.m */;
+		name = "JiwokUserdetailsXmlParser.m: 186";
+		rLen = 0;
+		rLoc = 4580;
+		rType = 0;
+		vrLen = 517;
+		vrLoc = 0;
+	};
+	088A731112092B4800E64625 /* JiwokFMODWrapper.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 409}}";
+			sepNavSelRange = "{213, 0}";
+			sepNavVisRange = "{0, 334}";
+		};
+	};
+	088A731212092B4800E64625 /* JiwokFMODWrapper.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 2296}}";
+			sepNavSelRange = "{3864, 0}";
+			sepNavVisRange = "{3369, 513}";
+		};
+	};
+	088A73401209349D00E64625 /* JiwokFMODUtil.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 409}}";
+			sepNavSelRange = "{158, 13}";
+			sepNavVisRange = "{0, 281}";
+		};
+	};
+	088A73411209349D00E64625 /* JiwokFMODUtil.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {991, 490}}";
+			sepNavSelRange = "{900, 0}";
+			sepNavVisRange = "{37, 869}";
+		};
+	};
+	088ACEE311ED8AE900FD6CA7 /* JiwokMainWindowController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {991, 546}}";
+			sepNavSelRange = "{703, 0}";
+			sepNavVisRange = "{85, 1008}";
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	088ACEE411ED8AE900FD6CA7 /* JiwokMainWindowController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {991, 3752}}";
+			sepNavSelRange = "{5895, 20}";
+			sepNavVisRange = "{0, 542}";
+			sepNavWindowFrame = "{{171, 66}, {980, 680}}";
+		};
+	};
+	088ACEF711ED8B5D00FD6CA7 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088ACEDE11ED89C900FD6CA7 /* Main_Bg.png */;
+	};
+	088ACEFA11ED8B5D00FD6CA7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C6AD05511E33F810037A194 /* JiwokDownloderWindowController.h */;
+		name = "JiwokDownloderWindowController.h: 14";
+		rLen = 0;
+		rLoc = 345;
+		rType = 0;
+		vrLen = 458;
+		vrLoc = 0;
+	};
+	088B437211ED9DF500B19E2B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B431211ED973F00B19E2B /* loginTab_Normal_En.png */;
+	};
+	088B437311ED9DF500B19E2B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B431411ED973F00B19E2B /* loginTab_Normal_Fr.png */;
+	};
+	088B437511ED9DF500B19E2B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B431E11ED978C00B19E2B /* myMusicTab_Normal_En.png */;
+	};
+	088B437711ED9DF500B19E2B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B432411ED980500B19E2B /* myWorkoutTab_Hover_En.png */;
+	};
+	088B437811ED9DF500B19E2B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B432511ED980500B19E2B /* myWorkoutTab_Normal_Fr.png */;
+	};
+	088B437911ED9DF500B19E2B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B432711ED980500B19E2B /* myWorkoutTab_Hover_Fr.png */;
+	};
+	088B437A11ED9DF500B19E2B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B433011ED989D00B19E2B /* support_Normal_Fr.png */;
+	};
+	088B43A811ED9F4800B19E2B /* JiwokLoginPanelViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {991, 574}}";
+			sepNavSelRange = "{163, 62}";
+			sepNavVisRange = "{0, 604}";
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	088B43A911ED9F4800B19E2B /* JiwokLoginPanelViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {991, 4340}}";
+			sepNavSelRange = "{1570, 6}";
+			sepNavVisRange = "{1223, 701}";
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	088B43AC11ED9F5200B19E2B /* JiwokLoginPanelViewController.h:12 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 088B43A811ED9F4800B19E2B /* JiwokLoginPanelViewController.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 12;
+		modificationTime = 304582331.918659;
+		state = 1;
+	};
+	088B43C211EDA12100B19E2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088B43C311EDA12100B19E2B /* NSBundle.h */;
+		name = "NSBundle.h: 23";
+		rLen = 26;
+		rLoc = 574;
+		rType = 0;
+		vrLen = 1081;
+		vrLoc = 2893;
+	};
+	088B43C311EDA12100B19E2B /* NSBundle.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSBundle.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSBundle.h;
+		sourceTree = "<absolute>";
+	};
+	088B43CD11EDA12100B19E2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088B43CE11EDA12100B19E2B /* NSViewController.h */;
+		name = "NSViewController.h: 30";
+		rLen = 0;
+		rLoc = 1151;
+		rType = 0;
+		vrLen = 572;
+		vrLoc = 0;
+	};
+	088B43CE11EDA12100B19E2B /* NSViewController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSViewController.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSViewController.h;
+		sourceTree = "<absolute>";
+	};
+	088B441F11EDA51600B19E2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088B442011EDA51600B19E2B /* NSView.h */;
+		name = "NSView.h: 96";
+		rLen = 0;
+		rLoc = 3081;
+		rType = 0;
+		vrLen = 994;
+		vrLoc = 5928;
+	};
+	088B442011EDA51600B19E2B /* NSView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSView.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSView.h;
+		sourceTree = "<absolute>";
+	};
+	088C356F121C1EEF009BC8EF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088459E0121019D700B5E938 /* FMCallback.h */;
+		name = "FMCallback.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 821;
+		vrLoc = 0;
+	};
+	088C3570121C1EEF009BC8EF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088459E1121019D700B5E938 /* FMCallback.m */;
+		name = "FMCallback.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 560;
+		vrLoc = 863;
+	};
+	088C3572121C1EEF009BC8EF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088459E7121019D700B5E938 /* NSString+FMEngine.m */;
+		name = "NSString+FMEngine.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 765;
+		vrLoc = 208;
+	};
+	088C3577121C1EEF009BC8EF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088A73411209349D00E64625 /* JiwokFMODUtil.mm */;
+		name = "JiwokFMODUtil.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 903;
+		vrLoc = 3;
+	};
+	088C6A43120C2DD60075448F /* JiwokAudioPlayController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 409}}";
+			sepNavSelRange = "{7, 24}";
+			sepNavVisRange = "{0, 372}";
+		};
+	};
+	088C6A44120C2DD60075448F /* JiwokAudioPlayController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 658}}";
+			sepNavSelRange = "{524, 0}";
+			sepNavVisRange = "{322, 209}";
+		};
+	};
+	088C9120121F9AD800FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Jiwok_Prefix.pch */;
+		name = "Jiwok_Prefix.pch: 9";
+		rLen = 191;
+		rLoc = 142;
+		rType = 0;
+		vrLen = 333;
+		vrLoc = 0;
+	};
+	088C9123121F9AD800FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08845A04121019F900B5E938 /* JiwokLastfmClient.h */;
+		name = "JiwokLastfmClient.h: 27";
+		rLen = 0;
+		rLoc = 437;
+		rType = 0;
+		vrLen = 494;
+		vrLoc = 0;
+	};
+	088C912B121F9AD800FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08845A03121019F900B5E938 /* JiwokLastfmClient.m */;
+		name = "JiwokLastfmClient.m: 160";
+		rLen = 0;
+		rLoc = 5155;
+		rType = 0;
+		vrLen = 1242;
+		vrLoc = 1616;
+	};
+	088C9187121FA66D00FDC1E0 /* JiwokMyMusicPanelViewController.m:1016 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 084AF42811EDD6EE000EED55 /* JiwokMyMusicPanelViewController.m */;
+		functionName = "-doLastFMAnalysis";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1016;
+		modificationTime = 304581698.438239;
+		state = 2;
+	};
+	088C9195121FABA500FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0882C959120ACFE000E97380 /* JiwokAnalysisSummaryWindowController.m */;
+		name = "JiwokAnalysisSummaryWindowController.m: 171";
+		rLen = 0;
+		rLoc = 5191;
+		rType = 0;
+		vrLen = 835;
+		vrLoc = 4821;
+	};
+	088C9197121FABA500FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 084AF42811EDD6EE000EED55 /* JiwokMyMusicPanelViewController.m */;
+		name = "JiwokMyMusicPanelViewController.m: 1151";
+		rLen = 0;
+		rLoc = 37271;
+		rType = 0;
+		vrLen = 841;
+		vrLoc = 37746;
+	};
+	088C91B1121FC20400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C6AD00811E33C710037A194 /* JiwokLoginBackGroundView.h */;
+		name = "JiwokLoginBackGroundView.h: 2";
+		rLen = 24;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	088C91B2121FC20400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C6AD00911E33C710037A194 /* JiwokLoginBackGroundView.m */;
+		name = "JiwokLoginBackGroundView.m: 28";
+		rLen = 0;
+		rLoc = 530;
+		rType = 0;
+		vrLen = 531;
+		vrLoc = 144;
+	};
+	088C91C6121FC3CA00FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CCF1B2A11DDBA8E00794D34 /* JiwokLoginWindowController.h */;
+		name = "JiwokLoginWindowController.h: 12";
+		rLen = 0;
+		rLoc = 246;
+		rType = 0;
+		vrLen = 693;
+		vrLoc = 0;
+	};
+	088C91CC121FC3CA00FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088A73401209349D00E64625 /* JiwokFMODUtil.h */;
+		name = "JiwokFMODUtil.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 281;
+		vrLoc = 0;
+	};
+	088C91D6121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088C6A43120C2DD60075448F /* JiwokAudioPlayController.h */;
+		name = "JiwokAudioPlayController.h: 2";
+		rLen = 24;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 372;
+		vrLoc = 0;
+	};
+	088C91D7121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0882565E12152BA400E71FD9 /* JiwokMusicConverter.h */;
+		name = "JiwokMusicConverter.h: 2";
+		rLen = 19;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 260;
+		vrLoc = 0;
+	};
+	088C91D8121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088A73401209349D00E64625 /* JiwokFMODUtil.h */;
+		name = "JiwokFMODUtil.h: 12";
+		rLen = 13;
+		rLoc = 158;
+		rType = 0;
+		vrLen = 281;
+		vrLoc = 0;
+	};
+	088C91D9121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0882C958120ACFE000E97380 /* JiwokAnalysisSummaryWindowController.h */;
+		name = "JiwokAnalysisSummaryWindowController.h: 16";
+		rLen = 0;
+		rLoc = 384;
+		rType = 0;
+		vrLen = 677;
+		vrLoc = 0;
+	};
+	088C91DB121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C6ACCE111E304A00037A194 /* LoggerClass.h */;
+		name = "LoggerClass.h: 12";
+		rLen = 11;
+		rLoc = 168;
+		rType = 0;
+		vrLen = 542;
+		vrLoc = 3;
+	};
+	088C91DC121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887F1C8121E954000594B6E /* VocalsDownload.h */;
+		name = "VocalsDownload.h: 17";
+		rLen = 0;
+		rLoc = 448;
+		rType = 0;
+		vrLen = 561;
+		vrLoc = 0;
+	};
+	088C91DD121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08860D2711EC4DB800F60064 /* JiwokDownloadBkndView.h */;
+		name = "JiwokDownloadBkndView.h: 12";
+		rLen = 21;
+		rLoc = 166;
+		rType = 0;
+		vrLen = 221;
+		vrLoc = 0;
+	};
+	088C91DE121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881DD8211EB365F00F063E6 /* JiwokFTPDownloader.h */;
+		name = "JiwokFTPDownloader.h: 2";
+		rLen = 18;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 518;
+		vrLoc = 0;
+	};
+	088C91E1121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887F1C9121E954000594B6E /* VocalsDownload.m */;
+		name = "VocalsDownload.m: 9";
+		rLen = 14;
+		rLoc = 163;
+		rType = 0;
+		vrLen = 757;
+		vrLoc = 0;
+	};
+	088C91E2121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887F1BF121E950F00594B6E /* JiwokMusicProcessor.m */;
+		name = "JiwokMusicProcessor.m: 3";
+		rLen = 19;
+		rLoc = 11;
+		rType = 0;
+		vrLen = 994;
+		vrLoc = 0;
+	};
+	088C91E3121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CA831121CFC0E00DC959C /* JiwokWorkoutPopupWndController.h */;
+		name = "JiwokWorkoutPopupWndController.h: 12";
+		rLen = 30;
+		rLoc = 196;
+		rType = 0;
+		vrLen = 715;
+		vrLoc = 0;
+	};
+	088C91E4121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CAC87121D7E5500DC959C /* JiwokSupportPanelViewController.m */;
+		name = "JiwokSupportPanelViewController.m: 2";
+		rLen = 31;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 1015;
+		vrLoc = 0;
+	};
+	088C91E5121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887ECE2121E471E00594B6E /* SupportTab.m */;
+		name = "SupportTab.m: 13";
+		rLen = 0;
+		rLoc = 269;
+		rType = 0;
+		vrLen = 789;
+		vrLoc = 0;
+	};
+	088C91E6121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881DE9511E84CD100BE3252 /* NSString.h */;
+		name = "NSString.h: 156";
+		rLen = 15;
+		rLoc = 7843;
+		rType = 0;
+		vrLen = 1451;
+		vrLoc = 7184;
+	};
+	088C91E7121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08A8BC411200288A001C1C39 /* JiwokMusicSystemDBMgrWrapper.m */;
+		name = "JiwokMusicSystemDBMgrWrapper.m: 492";
+		rLen = 0;
+		rLoc = 15587;
+		rType = 0;
+		vrLen = 788;
+		vrLoc = 14971;
+	};
+	088C91E8121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887ECE5121E472C00594B6E /* GetSupportMailDetailsXmlParser.h */;
+		name = "GetSupportMailDetailsXmlParser.h: 12";
+		rLen = 30;
+		rLoc = 202;
+		rType = 0;
+		vrLen = 942;
+		vrLoc = 0;
+	};
+	088C91E9121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887ECF6121E479300594B6E /* S7FTPRequest.m */;
+		name = "S7FTPRequest.m: 2";
+		rLen = 12;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 1516;
+		vrLoc = 0;
+	};
+	088C91EA121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08845A03121019F900B5E938 /* JiwokLastfmClient.m */;
+		name = "JiwokLastfmClient.m: 2";
+		rLen = 17;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 881;
+		vrLoc = 0;
+	};
+	088C91EB121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08845A00121019EB00B5E938 /* FingerPrintParser.m */;
+		name = "FingerPrintParser.m: 2";
+		rLen = 17;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 623;
+		vrLoc = 1786;
+	};
+	088C91EC121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088459E0121019D700B5E938 /* FMCallback.h */;
+		name = "FMCallback.h: 2";
+		rLen = 10;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 821;
+		vrLoc = 0;
+	};
+	088C91ED121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088459E2121019D700B5E938 /* FMEngine.h */;
+		name = "FMEngine.h: 2";
+		rLen = 8;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 719;
+		vrLoc = 0;
+	};
+	088C91EE121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088459E3121019D700B5E938 /* FMEngine.m */;
+		name = "FMEngine.m: 83";
+		rLen = 0;
+		rLoc = 2733;
+		rType = 0;
+		vrLen = 1164;
+		vrLoc = 2952;
+	};
+	088C91EF121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088459E4121019D700B5E938 /* FMEngineURLConnection.h */;
+		name = "FMEngineURLConnection.h: 2";
+		rLen = 21;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 628;
+		vrLoc = 0;
+	};
+	088C91F0121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088459E7121019D700B5E938 /* NSString+FMEngine.m */;
+		name = "NSString+FMEngine.m: 18";
+		rLen = 0;
+		rLoc = 405;
+		rType = 0;
+		vrLen = 839;
+		vrLoc = 0;
+	};
+	088C91F1121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 087F16671213CC7F005E8244 /* JiwokFfmpegID3TagReader.m */;
+		name = "JiwokFfmpegID3TagReader.m: 5";
+		rLen = 23;
+		rLoc = 96;
+		rType = 0;
+		vrLen = 874;
+		vrLoc = 0;
+	};
+	088C91F2121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088A731112092B4800E64625 /* JiwokFMODWrapper.h */;
+		name = "JiwokFMODWrapper.h: 14";
+		rLen = 0;
+		rLoc = 213;
+		rType = 0;
+		vrLen = 334;
+		vrLoc = 0;
+	};
+	088C91F4121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881E05111E86C0000BE3252 /* JiwokSettingPlistReader.h */;
+		name = "JiwokSettingPlistReader.h: 2";
+		rLen = 23;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 580;
+		vrLoc = 0;
+	};
+	088C91F5121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CCF1D2A11DDEF6700794D34 /* JiwokAPIHelper.h */;
+		name = "JiwokAPIHelper.h: 16";
+		rLen = 14;
+		rLoc = 371;
+		rType = 0;
+		vrLen = 1163;
+		vrLoc = 0;
+	};
+	088C91F7121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08C5CBBD11E9123C006080D0 /* JiwokUpdateLoginStatusXmlParser.m */;
+		name = "JiwokUpdateLoginStatusXmlParser.m: 2";
+		rLen = 31;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 519;
+		vrLoc = 0;
+	};
+	088C91F8121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088F0144121A687000FB3B42 /* JiwokVocalInfoXMLParser.h */;
+		name = "JiwokVocalInfoXMLParser.h: 12";
+		rLen = 23;
+		rLoc = 168;
+		rType = 0;
+		vrLen = 685;
+		vrLoc = 0;
+	};
+	088C91F9121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CA969121D210900DC959C /* JiwokAllWorkoutInfoXMLParser.h */;
+		name = "JiwokAllWorkoutInfoXMLParser.h: 12";
+		rLen = 28;
+		rLoc = 173;
+		rType = 0;
+		vrLen = 698;
+		vrLoc = 0;
+	};
+	088C91FA121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881E01911E867B500BE3252 /* JiwokUtil.h */;
+		name = "JiwokUtil.h: 2";
+		rLen = 9;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 803;
+		vrLoc = 0;
+	};
+	088C91FB121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08A8BC4412002899001C1C39 /* JiwokDataBaseManager.h */;
+		name = "JiwokDataBaseManager.h: 11";
+		rLen = 20;
+		rLoc = 149;
+		rType = 0;
+		vrLen = 695;
+		vrLoc = 0;
+	};
+	088C91FC121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08A8BC421200288A001C1C39 /* JiwokMusicSystemDBMgrWrapper.h */;
+		name = "JiwokMusicSystemDBMgrWrapper.h: 20";
+		rLen = 0;
+		rLoc = 487;
+		rType = 0;
+		vrLen = 1099;
+		vrLoc = 0;
+	};
+	088C91FF121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CAA4C121D30CF00DC959C /* WorkoutDetailsParser.h */;
+		name = "WorkoutDetailsParser.h: 12";
+		rLen = 20;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 1167;
+		vrLoc = 0;
+	};
+	088C9200121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CA832121CFC0E00DC959C /* JiwokWorkoutPopupWndController.m */;
+		name = "JiwokWorkoutPopupWndController.m: 47";
+		rLen = 0;
+		rLoc = 1208;
+		rType = 0;
+		vrLen = 1011;
+		vrLoc = 839;
+	};
+	088C9201121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0892484A11EF7C4F005993B6 /* JiwokMyWorkoutPanelViewController.h */;
+		name = "JiwokMyWorkoutPanelViewController.h: 15";
+		rLen = 0;
+		rLoc = 361;
+		rType = 0;
+		vrLen = 895;
+		vrLoc = 137;
+	};
+	088C9202121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887F1C0121E950F00594B6E /* JiwokMusicProcessor.h */;
+		name = "JiwokMusicProcessor.h: 9";
+		rLen = 0;
+		rLoc = 89;
+		rType = 0;
+		vrLen = 876;
+		vrLoc = 26;
+	};
+	088C9206121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0882565E12152BA400E71FD9 /* JiwokMusicConverter.h */;
+		name = "JiwokMusicConverter.h: 2";
+		rLen = 19;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 260;
+		vrLoc = 0;
+	};
+	088C920B121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C6ACCE111E304A00037A194 /* LoggerClass.h */;
+		name = "LoggerClass.h: 12";
+		rLen = 11;
+		rLoc = 168;
+		rType = 0;
+		vrLen = 542;
+		vrLoc = 3;
+	};
+	088C921F121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08A8BC411200288A001C1C39 /* JiwokMusicSystemDBMgrWrapper.m */;
+		name = "JiwokMusicSystemDBMgrWrapper.m: 492";
+		rLen = 0;
+		rLoc = 15587;
+		rType = 0;
+		vrLen = 788;
+		vrLoc = 14971;
+	};
+	088C9221121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887ECF6121E479300594B6E /* S7FTPRequest.m */;
+		name = "S7FTPRequest.m: 2";
+		rLen = 12;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 1516;
+		vrLoc = 0;
+	};
+	088C9229121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088459E4121019D700B5E938 /* FMEngineURLConnection.h */;
+		name = "FMEngineURLConnection.h: 2";
+		rLen = 21;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 628;
+		vrLoc = 0;
+	};
+	088C9237121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08A8BC4412002899001C1C39 /* JiwokDataBaseManager.h */;
+		name = "JiwokDataBaseManager.h: 11";
+		rLen = 20;
+		rLoc = 149;
+		rType = 0;
+		vrLen = 695;
+		vrLoc = 0;
+	};
+	088C9238121FDB9400FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08A8BC421200288A001C1C39 /* JiwokMusicSystemDBMgrWrapper.h */;
+		name = "JiwokMusicSystemDBMgrWrapper.h: 20";
+		rLen = 0;
+		rLoc = 487;
+		rType = 0;
+		vrLen = 1099;
+		vrLoc = 0;
+	};
+	088C9245121FE15300FDC1E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0892484B11EF7C4F005993B6 /* JiwokMyWorkoutPanelViewController.m */;
+		name = "JiwokMyWorkoutPanelViewController.m: 98";
+		rLen = 61;
+		rLoc = 3370;
+		rType = 0;
+		vrLen = 1015;
+		vrLoc = 3070;
+	};
+	088CA7B3121CF13B00DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0884B9C911EDB9CB00723F9A /* connect_Normal_En.JPG */;
+	};
+	088CA7B4121CF13B00DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0884B9C811EDB9CB00723F9A /* connect_Normal_Fr.JPG */;
+	};
+	088CA7B9121CF13B00DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CCF1B2B11DDBA8E00794D34 /* JiwokLoginWindowController.m */;
+		name = "JiwokLoginWindowController.m: 109";
+		rLen = 0;
+		rLoc = 4011;
+		rType = 0;
+		vrLen = 1373;
+		vrLoc = 2918;
+	};
+	088CA7BC121CF13B00DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088B43A811ED9F4800B19E2B /* JiwokLoginPanelViewController.h */;
+		name = "JiwokLoginPanelViewController.h: 25";
+		rLen = 17;
+		rLoc = 537;
+		rType = 0;
+		vrLen = 751;
+		vrLoc = 0;
+	};
+	088CA7C7121CF1CE00DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B433011ED989D00B19E2B /* support_Normal_Fr.png */;
+	};
+	088CA7CE121CF1CE00DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088B43A911ED9F4800B19E2B /* JiwokLoginPanelViewController.m */;
+		name = "JiwokLoginPanelViewController.m: 100";
+		rLen = 0;
+		rLoc = 2661;
+		rType = 0;
+		vrLen = 1097;
+		vrLoc = 2221;
+	};
+	088CA7D8121CF1CE00DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08849BA21202899000CA5428 /* addNewFolder_Fr.JPG */;
+	};
+	088CA7D9121CF1CE00DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08849BA31202899000CA5428 /* addNewFolder_En.JPG */;
+	};
+	088CA81C121CFB3C00DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 087F182312140752005E8244 /* Save_WorkoutLoc_Fr.JPG */;
+	};
+	088CA81E121CFB3C00DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 087F18261214075B005E8244 /* viewMyWorkout_Fr.JPG */;
+	};
+	088CA823121CFB3C00DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08839EB9120177600044A084 /* search-Normal_En.jpg */;
+	};
+	088CA824121CFB3C00DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0882C959120ACFE000E97380 /* JiwokAnalysisSummaryWindowController.m */;
+		name = "JiwokAnalysisSummaryWindowController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1012;
+		vrLoc = 0;
+	};
+	088CA831121CFC0E00DC959C /* JiwokWorkoutPopupWndController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 409}}";
+			sepNavSelRange = "{196, 30}";
+			sepNavVisRange = "{0, 715}";
+			sepNavWindowFrame = "{{330, 53}, {980, 680}}";
+		};
+	};
+	088CA832121CFC0E00DC959C /* JiwokWorkoutPopupWndController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 2086}}";
+			sepNavSelRange = "{1208, 0}";
+			sepNavVisRange = "{839, 1011}";
+			sepNavWindowFrame = "{{298, 66}, {980, 680}}";
+		};
+	};
+	088CA86B121D041500DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0882C958120ACFE000E97380 /* JiwokAnalysisSummaryWindowController.h */;
+		name = "JiwokAnalysisSummaryWindowController.h: 15";
+		rLen = 26;
+		rLoc = 315;
+		rType = 0;
+		vrLen = 677;
+		vrLoc = 0;
+	};
+	088CA8D8121D079900DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08853F2E11EB5F590042EE00 /* NSCell.h */;
+		name = "NSCell.h: 42";
+		rLen = 24;
+		rLoc = 890;
+		rType = 0;
+		vrLen = 836;
+		vrLoc = 539;
+	};
+	088CA8E7121D085800DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881121A1206E9BB008104AB /* French */;
+		name = "Localization.strings: 38";
+		rLen = 0;
+		rLoc = 2340;
+		rType = 0;
+		vrLen = 1935;
+		vrLoc = 38;
+	};
+	088CA969121D210900DC959C /* JiwokAllWorkoutInfoXMLParser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 409}}";
+			sepNavSelRange = "{173, 28}";
+			sepNavVisRange = "{0, 698}";
+		};
+	};
+	088CA96A121D210900DC959C /* JiwokAllWorkoutInfoXMLParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1134, 1666}}";
+			sepNavSelRange = "{3006, 0}";
+			sepNavVisRange = "{2722, 290}";
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	088CA980121D236000DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088F0144121A687000FB3B42 /* JiwokVocalInfoXMLParser.h */;
+		name = "JiwokVocalInfoXMLParser.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 685;
+		vrLoc = 0;
+	};
+	088CA981121D236000DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088F0145121A687000FB3B42 /* JiwokVocalInfoXMLParser.m */;
+		name = "JiwokVocalInfoXMLParser.m: 26";
+		rLen = 0;
+		rLoc = 676;
+		rType = 0;
+		vrLen = 1210;
+		vrLoc = 674;
+	};
+	088CA983121D236000DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CA969121D210900DC959C /* JiwokAllWorkoutInfoXMLParser.h */;
+		name = "JiwokAllWorkoutInfoXMLParser.h: 17";
+		rLen = 0;
+		rLoc = 698;
+		rType = 0;
+		vrLen = 224;
+		vrLoc = 0;
+	};
+	088CA9DF121D278600DC959C /* NSCharacterSet.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSCharacterSet.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSCharacterSet.h;
+		sourceTree = "<absolute>";
+	};
+	088CA9F1121D28C900DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CA96A121D210900DC959C /* JiwokAllWorkoutInfoXMLParser.m */;
+		name = "JiwokAllWorkoutInfoXMLParser.m: 65";
+		rLen = 0;
+		rLoc = 1928;
+		rType = 0;
+		vrLen = 1149;
+		vrLoc = 1115;
+	};
+	088CAA20121D2B4500DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08E57FBA11EBB5A10047E1F2 /* NSArray.h */;
+		name = "NSArray.h: 68";
+		rLen = 13;
+		rLoc = 2545;
+		rType = 0;
+		vrLen = 1263;
+		vrLoc = 1616;
+	};
+	088CAA4C121D30CF00DC959C /* WorkoutDetailsParser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 504}}";
+			sepNavSelRange = "{192, 20}";
+			sepNavVisRange = "{0, 1167}";
+		};
+	};
+	088CAA4D121D30CF00DC959C /* WorkoutDetailsParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1320, 8106}}";
+			sepNavSelRange = "{2513, 1}";
+			sepNavVisRange = "{2077, 1074}";
+			sepNavWindowFrame = "{{649, 66}, {980, 680}}";
+		};
+	};
+	088CAA6A121D31A300DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CAA4C121D30CF00DC959C /* WorkoutDetailsParser.h */;
+		name = "WorkoutDetailsParser.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1372;
+		vrLoc = 0;
+	};
+	088CAA6B121D31A300DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CAA4D121D30CF00DC959C /* WorkoutDetailsParser.m */;
+		name = "WorkoutDetailsParser.m: 13";
+		rLen = 0;
+		rLoc = 232;
+		rType = 0;
+		vrLen = 508;
+		vrLoc = 0;
+	};
+	088CAABF121D3D1B00DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CAAC0121D3D1B00DC959C /* NSWindowController.h */;
+		name = "NSWindowController.h: 105";
+		rLen = 0;
+		rLoc = 7884;
+		rType = 0;
+		vrLen = 2626;
+		vrLoc = 734;
+	};
+	088CAAC0121D3D1B00DC959C /* NSWindowController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSWindowController.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSWindowController.h;
+		sourceTree = "<absolute>";
+	};
+	088CAACD121D3D1B00DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08849BA712028AD500CA5428 /* Delegates.h */;
+		name = "Delegates.h: 26";
+		rLen = 0;
+		rLoc = 399;
+		rType = 0;
+		vrLen = 405;
+		vrLoc = 0;
+	};
+	088CAADE121D3D1B00DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CCF1B3A11DDBB3100794D34 /* JiwokAppDelegate.h */;
+		name = "JiwokAppDelegate.h: 29";
+		rLen = 14;
+		rLoc = 760;
+		rType = 0;
+		vrLen = 808;
+		vrLoc = 0;
+	};
+	088CAADF121D3D1B00DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CCF1B3B11DDBB3100794D34 /* JiwokAppDelegate.m */;
+		name = "JiwokAppDelegate.m: 17";
+		rLen = 0;
+		rLoc = 409;
+		rType = 0;
+		vrLen = 1044;
+		vrLoc = 0;
+	};
+	088CAB35121D3FB400DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CA831121CFC0E00DC959C /* JiwokWorkoutPopupWndController.h */;
+		name = "JiwokWorkoutPopupWndController.h: 21";
+		rLen = 0;
+		rLoc = 549;
+		rType = 0;
+		vrLen = 648;
+		vrLoc = 0;
+	};
+	088CAB86121D471000DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CAB87121D471000DC959C /* NSData.h */;
+		name = "NSData.h: 83";
+		rLen = 0;
+		rLoc = 3128;
+		rType = 0;
+		vrLen = 1350;
+		vrLoc = 2292;
+	};
+	088CAB87121D471000DC959C /* NSData.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSData.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSData.h;
+		sourceTree = "<absolute>";
+	};
+	088CAB88121D471000DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CAB89121D471000DC959C /* NSURL.h */;
+		name = "NSURL.h: 18";
+		rLen = 0;
+		rLoc = 484;
+		rType = 0;
+		vrLen = 2875;
+		vrLoc = 2927;
+	};
+	088CAB89121D471000DC959C /* NSURL.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSURL.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSURL.h;
+		sourceTree = "<absolute>";
+	};
+	088CABC7121D4AFC00DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CA9DF121D278600DC959C /* NSCharacterSet.h */;
+		name = "NSCharacterSet.h: 20";
+		rLen = 32;
+		rLoc = 431;
+		rType = 0;
+		vrLen = 1134;
+		vrLoc = 290;
+	};
+	088CAC14121D55F800DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CCF1B3A11DDBB3100794D34 /* JiwokAppDelegate.h */;
+		name = "JiwokAppDelegate.h: 21";
+		rLen = 0;
+		rLoc = 512;
+		rType = 0;
+		vrLen = 808;
+		vrLoc = 0;
+	};
+	088CAC25121D55F800DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881E05111E86C0000BE3252 /* JiwokSettingPlistReader.h */;
+		name = "JiwokSettingPlistReader.h: 23";
+		rLen = 0;
+		rLoc = 580;
+		rType = 0;
+		vrLen = 500;
+		vrLoc = 0;
+	};
+	088CAC2B121D55F800DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088CA85A121D02B800DC959C /* viewMyWorkoutInQueue_Fr.JPG */;
+	};
+	088CAC33121D55F800DC959C /* project.pbxproj */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.pbxproject;
+		name = project.pbxproj;
+		path = /Projects/JiwokMAC/trunk/src/Jiwok/Jiwok.xcodeproj/project.pbxproj;
+		sourceTree = "<absolute>";
+	};
+	088CAC86121D7E5500DC959C /* JiwokSupportPanelViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 294}}";
+			sepNavSelRange = "{257, 0}";
+			sepNavVisRange = "{163, 215}";
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	088CAC87121D7E5500DC959C /* JiwokSupportPanelViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 1022}}";
+			sepNavSelRange = "{7, 31}";
+			sepNavVisRange = "{0, 1015}";
+		};
+	};
+	088CACA7121D851900DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08845A01121019EB00B5E938 /* FingerPrintParser.h */;
+		name = "FingerPrintParser.h: 38";
+		rLen = 0;
+		rLoc = 1300;
+		rType = 0;
+		vrLen = 1136;
+		vrLoc = 419;
+	};
+	088CACA9121D851900DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088459E1121019D700B5E938 /* FMCallback.m */;
+		name = "FMCallback.m: 48";
+		rLen = 0;
+		rLoc = 1192;
+		rType = 0;
+		vrLen = 395;
+		vrLoc = 1028;
+	};
+	088CACAA121D851900DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088459E6121019D700B5E938 /* NSString+FMEngine.h */;
+		name = "NSString+FMEngine.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 0;
+	};
+	088CACAB121D851900DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0884B9C211EDB84A00723F9A /* login_Panel_Bg.png */;
+	};
+	088CACAC121D851900DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B431B11ED978C00B19E2B /* myMusicTab_Hover_Fr.png */;
+	};
+	088CACAD121D851900DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08860D5511EC4E8B00F60064 /* download_bknd.png */;
+	};
+	088CACAE121D851900DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088CA85A121D02B800DC959C /* viewMyWorkoutInQueue_Fr.JPG */;
+	};
+	088CACAF121D851900DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 087F182A121407CA005E8244 /* Fileopen.JPG */;
+	};
+	088CACB0121D851900DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0892488511EF820E005993B6 /* myWorkout_Panel_Bg.png */;
+	};
+	088CACB1121D851900DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08849BA21202899000CA5428 /* addNewFolder_Fr.JPG */;
+	};
+	088CACB2121D851900DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08849BA31202899000CA5428 /* addNewFolder_En.JPG */;
+	};
+	088CACB4121D851900DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08839EB6120177600044A084 /* cancel_Normal_En.jpg */;
+	};
+	088CACB5121D851900DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 087F182212140752005E8244 /* Save_WorkoutLoc_En.JPG */;
+	};
+	088CACB6121D851900DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B432711ED980500B19E2B /* myWorkoutTab_Hover_Fr.png */;
+	};
+	088CACB7121D851900DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08839EB7120177600044A084 /* cancel_Normal_Fr.JPG */;
+	};
+	088CACBE121D851900DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CAC33121D55F800DC959C /* project.pbxproj */;
+		name = "project.pbxproj: 1025";
+		rLen = 0;
+		rLoc = 81064;
+		rType = 0;
+		vrLen = 1014;
+		vrLoc = 54;
+	};
+	088CACC0121D851900DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08845A04121019F900B5E938 /* JiwokLastfmClient.h */;
+		name = "JiwokLastfmClient.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 197;
+		vrLoc = 0;
+	};
+	088CACC1121D851900DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08845A00121019EB00B5E938 /* FingerPrintParser.m */;
+		name = "FingerPrintParser.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 183;
+		vrLoc = 0;
+	};
+	088CACC2121D851900DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08845A01121019EB00B5E938 /* FingerPrintParser.h */;
+		name = "FingerPrintParser.h: 38";
+		rLen = 0;
+		rLoc = 1300;
+		rType = 0;
+		vrLen = 1136;
+		vrLoc = 419;
+	};
+	088CACC5121D851900DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088459E6121019D700B5E938 /* NSString+FMEngine.h */;
+		name = "NSString+FMEngine.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 0;
+	};
+	088CACC6121D851900DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CAC86121D7E5500DC959C /* JiwokSupportPanelViewController.h */;
+		name = "JiwokSupportPanelViewController.h: 17";
+		rLen = 0;
+		rLoc = 454;
+		rType = 0;
+		vrLen = 238;
+		vrLoc = 0;
+	};
+	088CACCB121D851900DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 087F182A121407CA005E8244 /* Fileopen.JPG */;
+	};
+	088CACD0121D851900DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08839EB6120177600044A084 /* cancel_Normal_En.jpg */;
+	};
+	088CACD1121D851900DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 087F182212140752005E8244 /* Save_WorkoutLoc_En.JPG */;
+	};
+	088CACD4121D851900DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08839EB7120177600044A084 /* cancel_Normal_Fr.JPG */;
+	};
+	088CACD6121D851900DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088CAC87121D7E5500DC959C /* JiwokSupportPanelViewController.m */;
+		name = "JiwokSupportPanelViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 239;
+		vrLoc = 0;
+	};
+	088CAD09121D8B2700DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B432F11ED989D00B19E2B /* support_Normal_En.png */;
+	};
+	088CAD0A121D8B2700DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B432E11ED989D00B19E2B /* support_Hover_En.png */;
+	};
+	088CAD0B121D8B2700DC959C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 088B432C11ED989D00B19E2B /* support_Hover_Fr.png */;
+	};
+	088CAD3A121D8FAB00DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088ACEE411ED8AE900FD6CA7 /* JiwokMainWindowController.m */;
+		name = "JiwokMainWindowController.m: 26";
+		rLen = 0;
+		rLoc = 492;
+		rType = 0;
+		vrLen = 557;
+		vrLoc = 133;
+	};
+	088CAD3D121D8FAB00DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088C6A44120C2DD60075448F /* JiwokAudioPlayController.m */;
+		name = "JiwokAudioPlayController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 0;
+	};
+	088CAD4C121D920900DC959C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088459E2121019D700B5E938 /* FMEngine.h */;
+		name = "FMEngine.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 619;
+		vrLoc = 0;
+	};
+	088E8A1E11E83F8800A19CB2 /* JiwokUserdetailsXmlParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1320, 3220}}";
+			sepNavSelRange = "{2105, 1}";
+			sepNavVisRange = "{1760, 862}";
+		};
+	};
+	088E8A1F11E83F8800A19CB2 /* JiwokUserdetailsXmlParser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 420}}";
+			sepNavSelRange = "{488, 15}";
+			sepNavVisRange = "{0, 663}";
+			sepNavWindowFrame = "{{15, 51}, {980, 690}}";
+		};
+	};
+	088F0144121A687000FB3B42 /* JiwokVocalInfoXMLParser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 409}}";
+			sepNavSelRange = "{168, 23}";
+			sepNavVisRange = "{0, 685}";
+		};
+	};
+	088F0145121A687000FB3B42 /* JiwokVocalInfoXMLParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1134, 1400}}";
+			sepNavSelRange = "{2533, 0}";
+			sepNavVisRange = "{2252, 288}";
+		};
+	};
+	088F5A0911F8205500A1CA49 /* NSFileManager.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSFileManager.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSFileManager.h;
+		sourceTree = "<absolute>";
+	};
+	0891FB4411F650B2009F986C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08C5CBBE11E9123C006080D0 /* JiwokUpdateLoginStatusXmlParser.h */;
+		name = "JiwokUpdateLoginStatusXmlParser.h: 21";
+		rLen = 1;
+		rLoc = 553;
+		rType = 0;
+		vrLen = 702;
+		vrLoc = 0;
+	};
+	0892484A11EF7C4F005993B6 /* JiwokMyWorkoutPanelViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 630}}";
+			sepNavSelRange = "{361, 0}";
+			sepNavVisRange = "{137, 895}";
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	0892484B11EF7C4F005993B6 /* JiwokMyWorkoutPanelViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {936, 3066}}";
+			sepNavSelRange = "{3370, 61}";
+			sepNavVisRange = "{3070, 1015}";
+			sepNavWindowFrame = "{{158, 66}, {980, 680}}";
+		};
+	};
+	0892488511EF820E005993B6 /* myWorkout_Panel_Bg.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	0892489E11EF8472005993B6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0892488511EF820E005993B6 /* myWorkout_Panel_Bg.png */;
+	};
+	089248E511EF9BC4005993B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089248E611EF9BC4005993B6 /* CFPreferences.h */;
+		name = "CFPreferences.h: 103";
+		rLen = 0;
+		rLoc = 4325;
+		rType = 0;
+		vrLen = 1719;
+		vrLoc = 3092;
+	};
+	089248E611EF9BC4005993B6 /* CFPreferences.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CFPreferences.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Versions/A/Headers/CFPreferences.h;
+		sourceTree = "<absolute>";
+	};
+	0892492C11EFA022005993B6 /* JiwokAPPIcon.icns */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	0892493E11EFA06A005993B6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0892492C11EFA022005993B6 /* JiwokAPPIcon.icns */;
+	};
+	0892494F11EFA16C005993B6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0892492C11EFA022005993B6 /* JiwokAPPIcon.icns */;
+	};
+	0892496011EFA1D9005993B6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/reubror/Desktop/untitled folder/Jiwok/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	0892496311EFA1D9005993B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 084AF42711EDD6EE000EED55 /* JiwokMyMusicPanelViewController.h */;
+		name = "JiwokMyMusicPanelViewController.h: 13";
+		rLen = 0;
+		rLoc = 377;
+		rType = 0;
+		vrLen = 382;
+		vrLoc = 0;
+	};
+	0892497C11EFA559005993B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0892497D11EFA559005993B6 /* NSOutlineView.h */;
+		name = "NSOutlineView.h: 72";
+		rLen = 41;
+		rLoc = 2650;
+		rType = 0;
+		vrLen = 1272;
+		vrLoc = 1952;
+	};
+	0892497D11EFA559005993B6 /* NSOutlineView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSOutlineView.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSOutlineView.h;
+		sourceTree = "<absolute>";
+	};
+	0892498111EFA559005993B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0892498211EFA559005993B6 /* NSOutlineView.h */;
+		name = "NSOutlineView.h: 72";
+		rLen = 41;
+		rLoc = 2650;
+		rType = 0;
+		vrLen = 1272;
+		vrLoc = 1952;
+	};
+	0892498211EFA559005993B6 /* NSOutlineView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSOutlineView.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSOutlineView.h;
+		sourceTree = "<absolute>";
+	};
+	08930AE011F9524C0062AAFC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08930AE111F9524C0062AAFC /* NSAttributedString.h */;
+		name = "NSAttributedString.h: 20";
+		rLen = 0;
+		rLoc = 616;
+		rType = 0;
+		vrLen = 1264;
+		vrLoc = 0;
+	};
+	08930AE111F9524C0062AAFC /* NSAttributedString.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSAttributedString.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSAttributedString.h;
+		sourceTree = "<absolute>";
+	};
+	08930B1611F955D90062AAFC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08930B1711F955D90062AAFC /* NSAttributedString.h */;
+		name = "NSAttributedString.h: 19";
+		rLen = 91;
+		rLoc = 747;
+		rType = 0;
+		vrLen = 2887;
+		vrLoc = 0;
+	};
+	08930B1711F955D90062AAFC /* NSAttributedString.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSAttributedString.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSAttributedString.h;
+		sourceTree = "<absolute>";
+	};
+	0899629A11E5EE6A0002A55B /* Jiwok */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Jiwok;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	089962A811E5EE6D0002A55B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryName = Jiwoksvn;
+		};
+	};
+	089962A911E5EE6D0002A55B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	089B3141122779CB00EB1218 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088ACEE311ED8AE900FD6CA7 /* JiwokMainWindowController.h */;
+		name = "JiwokMainWindowController.h: 25";
+		rLen = 0;
+		rLoc = 703;
+		rType = 0;
+		vrLen = 1008;
+		vrLoc = 85;
+	};
+	089B3142122779CB00EB1218 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088ACEE411ED8AE900FD6CA7 /* JiwokMainWindowController.m */;
+		name = "JiwokMainWindowController.m: 167";
+		rLen = 20;
+		rLoc = 5895;
+		rType = 0;
+		vrLen = 542;
+		vrLoc = 0;
+	};
+	089B3143122779CB00EB1218 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CCF1B3B11DDBB3100794D34 /* JiwokAppDelegate.m */;
+		name = "JiwokAppDelegate.m: 16";
+		rLen = 16;
+		rLoc = 327;
+		rType = 0;
+		vrLen = 943;
+		vrLoc = 0;
+	};
+	089B3144122779CB00EB1218 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C6AD05511E33F810037A194 /* JiwokDownloderWindowController.h */;
+		name = "JiwokDownloderWindowController.h: 4";
+		rLen = 0;
+		rLoc = 89;
+		rType = 0;
+		vrLen = 498;
+		vrLoc = 0;
+	};
+	089B3145122779CB00EB1218 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C6AD05611E33F810037A194 /* JiwokDownloderWindowController.m */;
+		name = "JiwokDownloderWindowController.m: 169";
+		rLen = 14;
+		rLoc = 6175;
+		rType = 0;
+		vrLen = 1001;
+		vrLoc = 6270;
+	};
+	089B315A12277DD900EB1218 /* JiwokMyMusicPanelViewController.m:123 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 084AF42811EDD6EE000EED55 /* JiwokMyMusicPanelViewController.m */;
+		functionName = "-iterateMyFolder::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 123;
+		location = Jiwok;
+		modificationTime = 304581698.438886;
+		state = 1;
+	};
+	089B316212277E6900EB1218 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CCF1B2B11DDBA8E00794D34 /* JiwokLoginWindowController.m */;
+		name = "JiwokLoginWindowController.m: 158";
+		rLen = 2;
+		rLoc = 5015;
+		rType = 0;
+		vrLen = 1114;
+		vrLoc = 5013;
+	};
+	089B316312277E6900EB1218 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088E8A1E11E83F8800A19CB2 /* JiwokUserdetailsXmlParser.m */;
+		name = "JiwokUserdetailsXmlParser.m: 85";
+		rLen = 1;
+		rLoc = 2105;
+		rType = 0;
+		vrLen = 862;
+		vrLoc = 1760;
+	};
+	089B316412277E6900EB1218 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088B43A811ED9F4800B19E2B /* JiwokLoginPanelViewController.h */;
+		name = "JiwokLoginPanelViewController.h: 12";
+		rLen = 62;
+		rLoc = 163;
+		rType = 0;
+		vrLen = 604;
+		vrLoc = 0;
+	};
+	089B316512277E6900EB1218 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088B43A911ED9F4800B19E2B /* JiwokLoginPanelViewController.m */;
+		name = "JiwokLoginPanelViewController.m: 52";
+		rLen = 6;
+		rLoc = 1570;
+		rType = 0;
+		vrLen = 701;
+		vrLoc = 1223;
+	};
+	089B316612277E6900EB1218 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CCF1D2B11DDEF6700794D34 /* JiwokAPIHelper.m */;
+		name = "JiwokAPIHelper.m: 11";
+		rLen = 36;
+		rLoc = 202;
+		rType = 0;
+		vrLen = 922;
+		vrLoc = 0;
+	};
+	089B316712277E6900EB1218 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881DD8311EB365F00F063E6 /* JiwokFTPDownloader.m */;
+		name = "JiwokFTPDownloader.m: 95";
+		rLen = 69;
+		rLoc = 2499;
+		rType = 0;
+		vrLen = 659;
+		vrLoc = 1259;
+	};
+	089B316812277E6900EB1218 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088A73411209349D00E64625 /* JiwokFMODUtil.mm */;
+		name = "JiwokFMODUtil.mm: 33";
+		rLen = 0;
+		rLoc = 900;
+		rType = 0;
+		vrLen = 869;
+		vrLoc = 37;
+	};
+	089B318512278EC100EB1218 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08C5CBF911E918FF006080D0 /* JiwokMusicalSearchWindowController.h */;
+		name = "JiwokMusicalSearchWindowController.h: 36";
+		rLen = 11;
+		rLoc = 845;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 404;
+	};
+	089B318612278EC100EB1218 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08C5CBFA11E918FF006080D0 /* JiwokMusicalSearchWindowController.m */;
+		name = "JiwokMusicalSearchWindowController.m: 172";
+		rLen = 15;
+		rLoc = 5391;
+		rType = 0;
+		vrLen = 1022;
+		vrLoc = 3863;
+	};
+	089B318712278EC100EB1218 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 084AF42711EDD6EE000EED55 /* JiwokMyMusicPanelViewController.h */;
+		name = "JiwokMyMusicPanelViewController.h: 74";
+		rLen = 15;
+		rLoc = 2019;
+		rType = 0;
+		vrLen = 1383;
+		vrLoc = 1569;
+	};
+	089B31AD12278EE100EB1218 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 084AF42811EDD6EE000EED55 /* JiwokMyMusicPanelViewController.m */;
+		name = "JiwokMyMusicPanelViewController.m: 441";
+		rLen = 15;
+		rLoc = 14257;
+		rType = 0;
+		vrLen = 1062;
+		vrLoc = 14102;
+	};
+	089B31C812278FC600EB1218 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 084AF42811EDD6EE000EED55 /* JiwokMyMusicPanelViewController.m */;
+		name = "JiwokMyMusicPanelViewController.m: 441";
+		rLen = 15;
+		rLoc = 14257;
+		rType = 0;
+		vrLen = 1062;
+		vrLoc = 14102;
+	};
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 468}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	089ECA7D11F5C8A70003D048 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/reubror/Desktop/untitled folder/Jiwok/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	089ECB3C11F5CECB0003D048 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C6ACCE211E304A00037A194 /* LoggerClass.m */;
+		name = "LoggerClass.m: 75";
+		rLen = 0;
+		rLoc = 1135;
+		rType = 0;
+		vrLen = 1073;
+		vrLoc = 713;
+	};
+	08A1ADC711E786B500CD7F91 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CCF1D2A11DDEF6700794D34 /* JiwokAPIHelper.h */;
+		name = "JiwokAPIHelper.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 299;
+		vrLoc = 0;
+	};
+	08A8BC411200288A001C1C39 /* JiwokMusicSystemDBMgrWrapper.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 7336}}";
+			sepNavSelRange = "{15587, 0}";
+			sepNavVisRange = "{14971, 788}";
+		};
+	};
+	08A8BC421200288A001C1C39 /* JiwokMusicSystemDBMgrWrapper.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 658}}";
+			sepNavSelRange = "{487, 0}";
+			sepNavVisRange = "{0, 1099}";
+		};
+	};
+	08A8BC4412002899001C1C39 /* JiwokDataBaseManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 504}}";
+			sepNavSelRange = "{149, 20}";
+			sepNavVisRange = "{0, 695}";
+		};
+	};
+	08A8BC4512002899001C1C39 /* JiwokDataBaseManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 4270}}";
+			sepNavSelRange = "{8977, 0}";
+			sepNavVisRange = "{8503, 475}";
+		};
+	};
+	08B2C54211F8B12100017F35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088F5A0911F8205500A1CA49 /* NSFileManager.h */;
+		name = "NSFileManager.h: 16";
+		rLen = 36;
+		rLoc = 455;
+		rType = 0;
+		vrLen = 1528;
+		vrLoc = 0;
+	};
+	08B2C5C511F8BCEC00017F35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088ACEE311ED8AE900FD6CA7 /* JiwokMainWindowController.h */;
+		name = "JiwokMainWindowController.h: 10";
+		rLen = 0;
+		rLoc = 174;
+		rType = 0;
+		vrLen = 540;
+		vrLoc = 0;
+	};
+	08B2C61911F8C36100017F35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08B2C61A11F8C36100017F35 /* NSWorkspace.h */;
+		name = "NSWorkspace.h: 102";
+		rLen = 38;
+		rLoc = 3709;
+		rType = 0;
+		vrLen = 2227;
+		vrLoc = 2921;
+	};
+	08B2C61A11F8C36100017F35 /* NSWorkspace.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSWorkspace.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSWorkspace.h;
+		sourceTree = "<absolute>";
+	};
+	08B2C67011F8C6EC00017F35 /* JiwokLoginPanelViewController.m:52 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 088B43A911ED9F4800B19E2B /* JiwokLoginPanelViewController.m */;
+		functionName = "-awakeFromNib";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 52;
+		location = Jiwok;
+		modificationTime = 304581698.437278;
+		state = 1;
+	};
+	08B2C6AB11F8CBC700017F35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08B2C6AC11F8CBC700017F35 /* CGGeometry.h */;
+		name = "CGGeometry.h: 234";
+		rLen = 0;
+		rLoc = 6861;
+		rType = 0;
+		vrLen = 883;
+		vrLoc = 6393;
+	};
+	08B2C6AC11F8CBC700017F35 /* CGGeometry.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CGGeometry.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Headers/CGGeometry.h;
+		sourceTree = "<absolute>";
+	};
+	08B2C6AD11F8CBC700017F35 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08B2C6AE11F8CBC700017F35 /* NSGeometry.h */;
+		name = "NSGeometry.h: 59";
+		rLen = 6;
+		rLoc = 1269;
+		rType = 0;
+		vrLen = 592;
+		vrLoc = 864;
+	};
+	08B2C6AE11F8CBC700017F35 /* NSGeometry.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSGeometry.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSGeometry.h;
+		sourceTree = "<absolute>";
+	};
+	08C5C9C911E8E581006080D0 /* Common.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 1386}}";
+			sepNavSelRange = "{2434, 0}";
+			sepNavVisRange = "{1913, 523}";
+			sepNavWindowFrame = "{{15, 63}, {980, 683}}";
+		};
+	};
+	08C5CA5111E8FE5E006080D0 /* JiwokSettingPlistReader.m:17 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0881E05211E86C0000BE3252 /* JiwokSettingPlistReader.m */;
+		functionName = "+initialise";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 17;
+		location = Jiwok;
+		modificationTime = 304581698.435826;
+		state = 1;
+	};
+	08C5CB0911E90970006080D0 /* NSDictionary.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSDictionary.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSDictionary.h;
+		sourceTree = "<absolute>";
+	};
+	08C5CB1E11E90A5A006080D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08C5CB0911E90970006080D0 /* NSDictionary.h */;
+		name = "NSDictionary.h: 15";
+		rLen = 0;
+		rLoc = 385;
+		rType = 0;
+		vrLen = 936;
+		vrLoc = 335;
+	};
+	08C5CBB411E91224006080D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08C5CBB511E91224006080D0 /* JiwokAPIHelper.h */;
+		name = "JiwokAPIHelper.h: 19";
+		rLen = 47;
+		rLoc = 367;
+		rType = 0;
+		vrLen = 649;
+		vrLoc = 0;
+	};
+	08C5CBB511E91224006080D0 /* JiwokAPIHelper.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = JiwokAPIHelper.h;
+		path = /Users/reubror/Desktop/Ann/From/JiwokUserdetailsXmlParser2/JiwokAPIHelper.h;
+		sourceTree = "<absolute>";
+	};
+	08C5CBB911E91224006080D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08C5CBBA11E91224006080D0 /* JiwokAPIHelper.h */;
+		name = "JiwokAPIHelper.h: 19";
+		rLen = 47;
+		rLoc = 367;
+		rType = 0;
+		vrLen = 649;
+		vrLoc = 0;
+	};
+	08C5CBBA11E91224006080D0 /* JiwokAPIHelper.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = JiwokAPIHelper.h;
+		path = /Users/reubror/Desktop/Ann/From/JiwokUserdetailsXmlParser2/JiwokAPIHelper.h;
+		sourceTree = "<absolute>";
+	};
+	08C5CBBD11E9123C006080D0 /* JiwokUpdateLoginStatusXmlParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1320, 1918}}";
+			sepNavSelRange = "{7, 31}";
+			sepNavVisRange = "{0, 519}";
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	08C5CBBE11E9123C006080D0 /* JiwokUpdateLoginStatusXmlParser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 468}}";
+			sepNavSelRange = "{553, 1}";
+			sepNavVisRange = "{0, 702}";
+		};
+	};
+	08C5CBD311E914EC006080D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08C5CBBE11E9123C006080D0 /* JiwokUpdateLoginStatusXmlParser.h */;
+		name = "JiwokUpdateLoginStatusXmlParser.h: 11";
+		rLen = 0;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 633;
+		vrLoc = 69;
+	};
+	08C5CBD411E914EC006080D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08C5CBBD11E9123C006080D0 /* JiwokUpdateLoginStatusXmlParser.m */;
+		name = "JiwokUpdateLoginStatusXmlParser.m: 129";
+		rLen = 0;
+		rLoc = 2824;
+		rType = 0;
+		vrLen = 299;
+		vrLoc = 2543;
+	};
+	08C5CBF911E918FF006080D0 /* JiwokMusicalSearchWindowController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {822, 630}}";
+			sepNavSelRange = "{845, 11}";
+			sepNavVisRange = "{404, 804}";
+		};
+	};
+	08C5CBFA11E918FF006080D0 /* JiwokMusicalSearchWindowController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {750, 5600}}";
+			sepNavSelRange = "{5391, 15}";
+			sepNavVisRange = "{3863, 1022}";
+		};
+	};
+	08C5CC3A11E91BA1006080D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08C5CBF911E918FF006080D0 /* JiwokMusicalSearchWindowController.h */;
+		name = "JiwokMusicalSearchWindowController.h: 15";
+		rLen = 0;
+		rLoc = 827;
+		rType = 0;
+		vrLen = 246;
+		vrLoc = 0;
+	};
+	08E57E6011EB953D0047E1F2 /* JiwokFTPDownloader.m:95 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0881DD8311EB365F00F063E6 /* JiwokFTPDownloader.m */;
+		functionName = "-ListDirectoriesFromFTP:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 95;
+		location = Jiwok;
+		modificationTime = 304581698.436323;
+		state = 1;
+	};
+	08E57F9F11EBB1630047E1F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08E57FA011EBB1630047E1F2 /* NSRange.h */;
+		name = "NSRange.h: 12";
+		rLen = 6;
+		rLoc = 228;
+		rType = 0;
+		vrLen = 361;
+		vrLoc = 0;
+	};
+	08E57FA011EBB1630047E1F2 /* NSRange.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSRange.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSRange.h;
+		sourceTree = "<absolute>";
+	};
+	08E57FBA11EBB5A10047E1F2 /* NSArray.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSArray.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSArray.h;
+		sourceTree = "<absolute>";
+	};
+	08E5801D11EBBF590047E1F2 /* NSControl.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSControl.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSControl.h;
+		sourceTree = "<absolute>";
+	};
+	08E5801F11EBBF590047E1F2 /* NSTextField.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSTextField.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSTextField.h;
+		sourceTree = "<absolute>";
+	};
+	08EF3F2C11E7FF65000F0BE9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 4CCF1C4411DDDBF400794D34 /* Login_Bg.png */;
+	};
+	08EF3F2E11E7FF65000F0BE9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08EF3F1111E7FDED000F0BE9 /* logIn_Cancel_Normal_Fr.JPG */;
+	};
+	08EF3F3111E7FF65000F0BE9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C6AD00811E33C710037A194 /* JiwokLoginBackGroundView.h */;
+		name = "JiwokLoginBackGroundView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	08EF3F3211E7FF65000F0BE9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C6AD00911E33C710037A194 /* JiwokLoginBackGroundView.m */;
+		name = "JiwokLoginBackGroundView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 516;
+		vrLoc = 82;
+	};
+	08EF3F4011E800A9000F0BE9 /* JiwokLoginWindowController.m:158 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 4CCF1B2B11DDBA8E00794D34 /* JiwokLoginWindowController.m */;
+		functionName = "-awakeFromNib";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 158;
+		location = Jiwok;
+		modificationTime = 304581698.433319;
+		state = 1;
+	};
+	08EF3F4811E800CD000F0BE9 /* JiwokAppDelegate.m:44 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 4CCF1B3B11DDBB3100794D34 /* JiwokAppDelegate.m */;
+		functionName = "-applicationDidFinishLaunching:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 44;
+		location = Jiwok;
+		modificationTime = 304581698.4342431;
+		state = 1;
+	};
+	08EF3F6F11E803D8000F0BE9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08EF3F0E11E7FDED000F0BE9 /* logIn_Normal_Fr.JPG */;
+	};
+	08EF3F8311E80464000F0BE9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08EF3F0F11E7FDED000F0BE9 /* logIn_Cancel_Normal_En.JPG */;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 0899629A11E5EE6A0002A55B /* Jiwok */;
+		activeTarget = 8D1107260486CEB800E47090 /* Jiwok */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Jiwok */,
+		);
+		breakpoints = (
+			08EF3F4011E800A9000F0BE9 /* JiwokLoginWindowController.m:158 */,
+			08EF3F4811E800CD000F0BE9 /* JiwokAppDelegate.m:44 */,
+			0881DEDC11E854F100BE3252 /* JiwokUserdetailsXmlParser.m:85 */,
+			0881E03F11E86A3200BE3252 /* JiwokAppDelegate.m:98 */,
+			08C5CA5111E8FE5E006080D0 /* JiwokSettingPlistReader.m:17 */,
+			08E57E6011EB953D0047E1F2 /* JiwokFTPDownloader.m:95 */,
+			088B43AC11ED9F5200B19E2B /* JiwokLoginPanelViewController.h:12 */,
+			08B2C67011F8C6EC00017F35 /* JiwokLoginPanelViewController.m:52 */,
+			0887EFB9121E69A000594B6E /* JiwokAPIHelper.m:11 */,
+			088C9187121FA66D00FDC1E0 /* JiwokMyMusicPanelViewController.m:1016 */,
+			089B315A12277DD900EB1218 /* JiwokMyMusicPanelViewController.m:123 */,
+		);
+		codeSenseManager = 089962A911E5EE6D0002A55B /* Code sense */;
+		executables = (
+			0899629A11E5EE6A0002A55B /* Jiwok */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					563,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					751,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_SCM_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					713,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					697,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 304582507;
+			PBXWorkspaceStateSaveDate = 304582507;
+		};
+		perUserProjectItems = {
+			081746B011F4FC9700A88F81 /* PBXBookmark */ = 081746B011F4FC9700A88F81 /* PBXBookmark */;
+			081746B111F4FC9700A88F81 /* PBXBookmark */ = 081746B111F4FC9700A88F81 /* PBXBookmark */;
+			081746BB11F4FC9700A88F81 /* PBXBookmark */ = 081746BB11F4FC9700A88F81 /* PBXBookmark */;
+			081746BC11F4FC9700A88F81 /* PBXBookmark */ = 081746BC11F4FC9700A88F81 /* PBXBookmark */;
+			081746BD11F4FC9700A88F81 /* PBXBookmark */ = 081746BD11F4FC9700A88F81 /* PBXBookmark */;
+			081746BF11F4FC9700A88F81 /* PBXBookmark */ = 081746BF11F4FC9700A88F81 /* PBXBookmark */;
+			081746C011F4FC9700A88F81 /* PBXBookmark */ = 081746C011F4FC9700A88F81 /* PBXBookmark */;
+			081746C111F4FC9700A88F81 /* PBXBookmark */ = 081746C111F4FC9700A88F81 /* PBXBookmark */;
+			081746C211F4FC9700A88F81 /* PBXBookmark */ = 081746C211F4FC9700A88F81 /* PBXBookmark */;
+			081746C311F4FC9700A88F81 /* PBXBookmark */ = 081746C311F4FC9700A88F81 /* PBXBookmark */;
+			081746C411F4FC9700A88F81 /* PBXBookmark */ = 081746C411F4FC9700A88F81 /* PBXBookmark */;
+			081746C511F4FC9700A88F81 /* PBXBookmark */ = 081746C511F4FC9700A88F81 /* PBXBookmark */;
+			081746C611F4FC9700A88F81 /* PBXBookmark */ = 081746C611F4FC9700A88F81 /* PBXBookmark */;
+			081746C711F4FC9700A88F81 /* PBXBookmark */ = 081746C711F4FC9700A88F81 /* PBXBookmark */;
+			081746C811F4FC9700A88F81 /* PBXBookmark */ = 081746C811F4FC9700A88F81 /* PBXBookmark */;
+			081746C911F4FC9700A88F81 /* PBXBookmark */ = 081746C911F4FC9700A88F81 /* PBXBookmark */;
+			081746CB11F4FC9700A88F81 /* PBXBookmark */ = 081746CB11F4FC9700A88F81 /* PBXBookmark */;
+			081746CC11F4FC9700A88F81 /* PBXBookmark */ = 081746CC11F4FC9700A88F81 /* PBXBookmark */;
+			081746CF11F4FC9700A88F81 /* PBXBookmark */ = 081746CF11F4FC9700A88F81 /* PBXBookmark */;
+			081746D911F4FC9700A88F81 /* PBXBookmark */ = 081746D911F4FC9700A88F81 /* PBXBookmark */;
+			081746E311F4FC9700A88F81 /* PBXBookmark */ = 081746E311F4FC9700A88F81 /* PBXBookmark */;
+			081746F011F4FC9700A88F81 /* PBXBookmark */ = 081746F011F4FC9700A88F81 /* PBXBookmark */;
+			087F606511EDD23F002FF32C /* PBXTextBookmark */ = 087F606511EDD23F002FF32C /* PBXTextBookmark */;
+			087F60B011EDD39E002FF32C /* PBXTextBookmark */ = 087F60B011EDD39E002FF32C /* PBXTextBookmark */;
+			087F60DE11EDD4C6002FF32C /* PBXTextBookmark */ = 087F60DE11EDD4C6002FF32C /* PBXTextBookmark */;
+			087F60E011EDD4C6002FF32C /* PBXTextBookmark */ = 087F60E011EDD4C6002FF32C /* PBXTextBookmark */;
+			087F60E111EDD4C6002FF32C /* PBXTextBookmark */ = 087F60E111EDD4C6002FF32C /* PBXTextBookmark */;
+			087F60E611EDD4C6002FF32C /* PBXTextBookmark */ = 087F60E611EDD4C6002FF32C /* PBXTextBookmark */;
+			087F60E811EDD4C6002FF32C /* PBXTextBookmark */ = 087F60E811EDD4C6002FF32C /* PBXTextBookmark */;
+			087F60E911EDD4C6002FF32C /* PBXTextBookmark */ = 087F60E911EDD4C6002FF32C /* PBXTextBookmark */;
+			0881DD9C11EB3C1800F063E6 /* PBXTextBookmark */ = 0881DD9C11EB3C1800F063E6 /* PBXTextBookmark */;
+			0881DD9E11EB3C1800F063E6 /* PBXTextBookmark */ = 0881DD9E11EB3C1800F063E6 /* PBXTextBookmark */;
+			0881DDAC11EB3C1800F063E6 /* PBXTextBookmark */ = 0881DDAC11EB3C1800F063E6 /* PBXTextBookmark */;
+			0881DDAF11EB3C1800F063E6 /* PBXTextBookmark */ = 0881DDAF11EB3C1800F063E6 /* PBXTextBookmark */;
+			0881DDB311EB3C1800F063E6 /* PBXTextBookmark */ = 0881DDB311EB3C1800F063E6 /* PBXTextBookmark */;
+			0881DDB911EB3C1800F063E6 /* PBXTextBookmark */ = 0881DDB911EB3C1800F063E6 /* PBXTextBookmark */;
+			0881DE1C11EB3E6B00F063E6 /* PBXBookmark */ = 0881DE1C11EB3E6B00F063E6 /* PBXBookmark */;
+			0881DF8811E85EC300BE3252 /* PBXTextBookmark */ = 0881DF8811E85EC300BE3252 /* PBXTextBookmark */;
+			0881E00F11E8657600BE3252 /* PBXTextBookmark */ = 0881E00F11E8657600BE3252 /* PBXTextBookmark */;
+			0881E06711E8710000BE3252 /* PlistBookmark */ = 0881E06711E8710000BE3252 /* PlistBookmark */;
+			0884BA2011EDBD6200723F9A /* PBXBookmark */ = 0884BA2011EDBD6200723F9A /* PBXBookmark */;
+			0884BA2211EDBD6200723F9A /* PBXBookmark */ = 0884BA2211EDBD6200723F9A /* PBXBookmark */;
+			0884BA2411EDBD6200723F9A /* PBXBookmark */ = 0884BA2411EDBD6200723F9A /* PBXBookmark */;
+			0884BA2511EDBD6200723F9A /* PBXBookmark */ = 0884BA2511EDBD6200723F9A /* PBXBookmark */;
+			08853ED611EF271200C9CBB8 /* PBXBookmark */ = 08853ED611EF271200C9CBB8 /* PBXBookmark */;
+			08853ED711EF271200C9CBB8 /* PBXBookmark */ = 08853ED711EF271200C9CBB8 /* PBXBookmark */;
+			08853EDB11EF271200C9CBB8 /* PBXBookmark */ = 08853EDB11EF271200C9CBB8 /* PBXBookmark */;
+			08853EE511EB5CBA0042EE00 /* PBXTextBookmark */ = 08853EE511EB5CBA0042EE00 /* PBXTextBookmark */;
+			08853F2A11EB5F590042EE00 /* PBXTextBookmark */ = 08853F2A11EB5F590042EE00 /* PBXTextBookmark */;
+			08853F3011EB5F590042EE00 /* PBXTextBookmark */ = 08853F3011EB5F590042EE00 /* PBXTextBookmark */;
+			08853F4D11EB606C0042EE00 /* PBXTextBookmark */ = 08853F4D11EB606C0042EE00 /* PBXTextBookmark */;
+			08860D4311EC4E1E00F60064 /* PBXTextBookmark */ = 08860D4311EC4E1E00F60064 /* PBXTextBookmark */;
+			08860D5C11EC4E9400F60064 /* PBXTextBookmark */ = 08860D5C11EC4E9400F60064 /* PBXTextBookmark */;
+			08860D5E11EC4E9400F60064 /* PBXBookmark */ = 08860D5E11EC4E9400F60064 /* PBXBookmark */;
+			0886438C11EB27FB00175F07 /* PBXTextBookmark */ = 0886438C11EB27FB00175F07 /* PBXTextBookmark */;
+			0887D69B121EE4D300EC3851 /* PBXBookmark */ = 0887D69B121EE4D300EC3851 /* PBXBookmark */;
+			0887D69C121EE4D300EC3851 /* PBXBookmark */ = 0887D69C121EE4D300EC3851 /* PBXBookmark */;
+			0887D6A0121EE4D300EC3851 /* PBXTextBookmark */ = 0887D6A0121EE4D300EC3851 /* PBXTextBookmark */;
+			0887ECC4121E467C00594B6E /* PBXTextBookmark */ = 0887ECC4121E467C00594B6E /* PBXTextBookmark */;
+			0887ECD7121E46FB00594B6E /* PBXTextBookmark */ = 0887ECD7121E46FB00594B6E /* PBXTextBookmark */;
+			0887ECDC121E46FB00594B6E /* PBXTextBookmark */ = 0887ECDC121E46FB00594B6E /* PBXTextBookmark */;
+			0887ECF0121E477B00594B6E /* PBXTextBookmark */ = 0887ECF0121E477B00594B6E /* PBXTextBookmark */;
+			0887ECF1121E477B00594B6E /* PBXTextBookmark */ = 0887ECF1121E477B00594B6E /* PBXTextBookmark */;
+			0887EDC5121E4CED00594B6E /* PBXTextBookmark */ = 0887EDC5121E4CED00594B6E /* PBXTextBookmark */;
+			0887EDD5121E4CED00594B6E /* PBXTextBookmark */ = 0887EDD5121E4CED00594B6E /* PBXTextBookmark */;
+			0887EDDB121E4CED00594B6E /* PBXTextBookmark */ = 0887EDDB121E4CED00594B6E /* PBXTextBookmark */;
+			0887EDE2121E4CED00594B6E /* PBXTextBookmark */ = 0887EDE2121E4CED00594B6E /* PBXTextBookmark */;
+			0887EE10121E510500594B6E /* PBXTextBookmark */ = 0887EE10121E510500594B6E /* PBXTextBookmark */;
+			0887EE11121E510500594B6E /* PBXTextBookmark */ = 0887EE11121E510500594B6E /* PBXTextBookmark */;
+			0887EE2E121E523D00594B6E /* PBXTextBookmark */ = 0887EE2E121E523D00594B6E /* PBXTextBookmark */;
+			0887EEF6121E5FFA00594B6E /* PBXTextBookmark */ = 0887EEF6121E5FFA00594B6E /* PBXTextBookmark */;
+			0887EEF7121E5FFA00594B6E /* PBXTextBookmark */ = 0887EEF7121E5FFA00594B6E /* PBXTextBookmark */;
+			0887EF9C121E68CA00594B6E /* PBXTextBookmark */ = 0887EF9C121E68CA00594B6E /* PBXTextBookmark */;
+			0887EF9D121E68CA00594B6E /* PlistBookmark */ = 0887EF9D121E68CA00594B6E /* PlistBookmark */;
+			0887EFA0121E68CA00594B6E /* PBXTextBookmark */ = 0887EFA0121E68CA00594B6E /* PBXTextBookmark */;
+			0887EFA7121E68CA00594B6E /* PlistBookmark */ = 0887EFA7121E68CA00594B6E /* PlistBookmark */;
+			0887EFAA121E68CA00594B6E /* PBXTextBookmark */ = 0887EFAA121E68CA00594B6E /* PBXTextBookmark */;
+			0887EFE6121E6F0300594B6E /* PBXTextBookmark */ = 0887EFE6121E6F0300594B6E /* PBXTextBookmark */;
+			0887F012121E72D100594B6E /* PBXTextBookmark */ = 0887F012121E72D100594B6E /* PBXTextBookmark */;
+			0887F014121E72D100594B6E /* PBXTextBookmark */ = 0887F014121E72D100594B6E /* PBXTextBookmark */;
+			0887F027121E764700594B6E /* PlistBookmark */ = 0887F027121E764700594B6E /* PlistBookmark */;
+			0887F02E121E764700594B6E /* PBXTextBookmark */ = 0887F02E121E764700594B6E /* PBXTextBookmark */;
+			0887F05E121E7AEB00594B6E /* PBXTextBookmark */ = 0887F05E121E7AEB00594B6E /* PBXTextBookmark */;
+			0887F060121E7AEB00594B6E /* PBXTextBookmark */ = 0887F060121E7AEB00594B6E /* PBXTextBookmark */;
+			0887F0CD121E84C800594B6E /* PBXTextBookmark */ = 0887F0CD121E84C800594B6E /* PBXTextBookmark */;
+			0887F0CE121E84C800594B6E /* PBXBookmark */ = 0887F0CE121E84C800594B6E /* PBXBookmark */;
+			0887F0D1121E84C800594B6E /* PBXBookmark */ = 0887F0D1121E84C800594B6E /* PBXBookmark */;
+			0887F0D2121E84C800594B6E /* PBXTextBookmark */ = 0887F0D2121E84C800594B6E /* PBXTextBookmark */;
+			0887F102121E85C500594B6E /* PBXTextBookmark */ = 0887F102121E85C500594B6E /* PBXTextBookmark */;
+			0887F105121E85C500594B6E /* PBXTextBookmark */ = 0887F105121E85C500594B6E /* PBXTextBookmark */;
+			0887F15A121E942900594B6E /* PBXTextBookmark */ = 0887F15A121E942900594B6E /* PBXTextBookmark */;
+			0887F15B121E942900594B6E /* PBXTextBookmark */ = 0887F15B121E942900594B6E /* PBXTextBookmark */;
+			0887F15C121E942900594B6E /* PBXTextBookmark */ = 0887F15C121E942900594B6E /* PBXTextBookmark */;
+			0887F15F121E942900594B6E /* PBXTextBookmark */ = 0887F15F121E942900594B6E /* PBXTextBookmark */;
+			0887F164121E942900594B6E /* PBXTextBookmark */ = 0887F164121E942900594B6E /* PBXTextBookmark */;
+			0887F165121E942900594B6E /* PBXTextBookmark */ = 0887F165121E942900594B6E /* PBXTextBookmark */;
+			0887F16A121E942900594B6E /* PBXTextBookmark */ = 0887F16A121E942900594B6E /* PBXTextBookmark */;
+			0887F172121E942900594B6E /* PBXTextBookmark */ = 0887F172121E942900594B6E /* PBXTextBookmark */;
+			0887F175121E942900594B6E /* PBXTextBookmark */ = 0887F175121E942900594B6E /* PBXTextBookmark */;
+			0887F177121E942900594B6E /* PBXTextBookmark */ = 0887F177121E942900594B6E /* PBXTextBookmark */;
+			0887F179121E942900594B6E /* PBXTextBookmark */ = 0887F179121E942900594B6E /* PBXTextBookmark */;
+			0887F17E121E942900594B6E /* PBXTextBookmark */ = 0887F17E121E942900594B6E /* PBXTextBookmark */;
+			0887F180121E942900594B6E /* PBXTextBookmark */ = 0887F180121E942900594B6E /* PBXTextBookmark */;
+			0887F183121E942900594B6E /* PBXTextBookmark */ = 0887F183121E942900594B6E /* PBXTextBookmark */;
+			0887F184121E942900594B6E /* PBXTextBookmark */ = 0887F184121E942900594B6E /* PBXTextBookmark */;
+			0887F193121E942900594B6E /* PBXTextBookmark */ = 0887F193121E942900594B6E /* PBXTextBookmark */;
+			0887F194121E942900594B6E /* PBXTextBookmark */ = 0887F194121E942900594B6E /* PBXTextBookmark */;
+			0887F195121E942900594B6E /* PBXTextBookmark */ = 0887F195121E942900594B6E /* PBXTextBookmark */;
+			0887F197121E942900594B6E /* PBXTextBookmark */ = 0887F197121E942900594B6E /* PBXTextBookmark */;
+			0887F198121E942900594B6E /* PBXTextBookmark */ = 0887F198121E942900594B6E /* PBXTextBookmark */;
+			0887F1A0121E942900594B6E /* PBXTextBookmark */ = 0887F1A0121E942900594B6E /* PBXTextBookmark */;
+			0887F1AD121E942900594B6E /* PBXTextBookmark */ = 0887F1AD121E942900594B6E /* PBXTextBookmark */;
+			0887F1D8121E95D600594B6E /* PBXTextBookmark */ = 0887F1D8121E95D600594B6E /* PBXTextBookmark */;
+			0887F1D9121E95D600594B6E /* PBXTextBookmark */ = 0887F1D9121E95D600594B6E /* PBXTextBookmark */;
+			0887F261121E9D3A00594B6E /* PBXTextBookmark */ = 0887F261121E9D3A00594B6E /* PBXTextBookmark */;
+			0887F276121EA6C200594B6E /* PBXTextBookmark */ = 0887F276121EA6C200594B6E /* PBXTextBookmark */;
+			0887F277121EA6C200594B6E /* PBXTextBookmark */ = 0887F277121EA6C200594B6E /* PBXTextBookmark */;
+			0887F29A121ECE2D00594B6E /* PBXTextBookmark */ = 0887F29A121ECE2D00594B6E /* PBXTextBookmark */;
+			0887F2B2121ED05A00594B6E /* PBXTextBookmark */ = 0887F2B2121ED05A00594B6E /* PBXTextBookmark */;
+			0887F317121ED79C00594B6E /* PBXTextBookmark */ = 0887F317121ED79C00594B6E /* PBXTextBookmark */;
+			0887F346121ED91500594B6E /* PBXTextBookmark */ = 0887F346121ED91500594B6E /* PBXTextBookmark */;
+			0888D91E11F56F8D00C1CF80 /* PBXTextBookmark */ = 0888D91E11F56F8D00C1CF80 /* PBXTextBookmark */;
+			088ACEF711ED8B5D00FD6CA7 /* PBXBookmark */ = 088ACEF711ED8B5D00FD6CA7 /* PBXBookmark */;
+			088ACEFA11ED8B5D00FD6CA7 /* PBXTextBookmark */ = 088ACEFA11ED8B5D00FD6CA7 /* PBXTextBookmark */;
+			088B437211ED9DF500B19E2B /* PBXBookmark */ = 088B437211ED9DF500B19E2B /* PBXBookmark */;
+			088B437311ED9DF500B19E2B /* PBXBookmark */ = 088B437311ED9DF500B19E2B /* PBXBookmark */;
+			088B437511ED9DF500B19E2B /* PBXBookmark */ = 088B437511ED9DF500B19E2B /* PBXBookmark */;
+			088B437711ED9DF500B19E2B /* PBXBookmark */ = 088B437711ED9DF500B19E2B /* PBXBookmark */;
+			088B437811ED9DF500B19E2B /* PBXBookmark */ = 088B437811ED9DF500B19E2B /* PBXBookmark */;
+			088B437911ED9DF500B19E2B /* PBXBookmark */ = 088B437911ED9DF500B19E2B /* PBXBookmark */;
+			088B437A11ED9DF500B19E2B /* PBXBookmark */ = 088B437A11ED9DF500B19E2B /* PBXBookmark */;
+			088B43C211EDA12100B19E2B /* PBXTextBookmark */ = 088B43C211EDA12100B19E2B /* PBXTextBookmark */;
+			088B43CD11EDA12100B19E2B /* PBXTextBookmark */ = 088B43CD11EDA12100B19E2B /* PBXTextBookmark */;
+			088B441F11EDA51600B19E2B /* PBXTextBookmark */ = 088B441F11EDA51600B19E2B /* PBXTextBookmark */;
+			088C356F121C1EEF009BC8EF /* PBXTextBookmark */ = 088C356F121C1EEF009BC8EF /* PBXTextBookmark */;
+			088C3570121C1EEF009BC8EF /* PBXTextBookmark */ = 088C3570121C1EEF009BC8EF /* PBXTextBookmark */;
+			088C3572121C1EEF009BC8EF /* PBXTextBookmark */ = 088C3572121C1EEF009BC8EF /* PBXTextBookmark */;
+			088C3577121C1EEF009BC8EF /* PBXTextBookmark */ = 088C3577121C1EEF009BC8EF /* PBXTextBookmark */;
+			088C9120121F9AD800FDC1E0 /* PBXTextBookmark */ = 088C9120121F9AD800FDC1E0 /* PBXTextBookmark */;
+			088C9123121F9AD800FDC1E0 /* PBXTextBookmark */ = 088C9123121F9AD800FDC1E0 /* PBXTextBookmark */;
+			088C912B121F9AD800FDC1E0 /* PBXTextBookmark */ = 088C912B121F9AD800FDC1E0 /* PBXTextBookmark */;
+			088C9195121FABA500FDC1E0 /* PBXTextBookmark */ = 088C9195121FABA500FDC1E0 /* PBXTextBookmark */;
+			088C9197121FABA500FDC1E0 /* PBXTextBookmark */ = 088C9197121FABA500FDC1E0 /* PBXTextBookmark */;
+			088C91B1121FC20400FDC1E0 /* PBXTextBookmark */ = 088C91B1121FC20400FDC1E0 /* PBXTextBookmark */;
+			088C91B2121FC20400FDC1E0 /* PBXTextBookmark */ = 088C91B2121FC20400FDC1E0 /* PBXTextBookmark */;
+			088C91C6121FC3CA00FDC1E0 /* PBXTextBookmark */ = 088C91C6121FC3CA00FDC1E0 /* PBXTextBookmark */;
+			088C91CC121FC3CA00FDC1E0 /* PBXTextBookmark */ = 088C91CC121FC3CA00FDC1E0 /* PBXTextBookmark */;
+			088C91D6121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91D6121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91D7121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91D7121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91D8121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91D8121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91D9121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91D9121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91DB121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91DB121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91DC121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91DC121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91DD121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91DD121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91DE121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91DE121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91E1121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91E1121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91E2121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91E2121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91E3121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91E3121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91E4121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91E4121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91E5121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91E5121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91E6121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91E6121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91E7121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91E7121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91E8121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91E8121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91E9121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91E9121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91EA121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91EA121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91EB121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91EB121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91EC121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91EC121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91ED121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91ED121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91EE121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91EE121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91EF121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91EF121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91F0121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91F0121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91F1121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91F1121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91F2121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91F2121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91F4121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91F4121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91F5121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91F5121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91F7121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91F7121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91F8121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91F8121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91F9121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91F9121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91FA121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91FA121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91FB121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91FB121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91FC121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91FC121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C91FF121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C91FF121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C9200121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C9200121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C9201121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C9201121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C9202121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C9202121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C9206121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C9206121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C920B121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C920B121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C921F121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C921F121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C9221121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C9221121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C9229121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C9229121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C9237121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C9237121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C9238121FDB9400FDC1E0 /* PBXTextBookmark */ = 088C9238121FDB9400FDC1E0 /* PBXTextBookmark */;
+			088C9245121FE15300FDC1E0 /* PBXTextBookmark */ = 088C9245121FE15300FDC1E0 /* PBXTextBookmark */;
+			088CA7B3121CF13B00DC959C /* PBXBookmark */ = 088CA7B3121CF13B00DC959C /* PBXBookmark */;
+			088CA7B4121CF13B00DC959C /* PBXBookmark */ = 088CA7B4121CF13B00DC959C /* PBXBookmark */;
+			088CA7B9121CF13B00DC959C /* PBXTextBookmark */ = 088CA7B9121CF13B00DC959C /* PBXTextBookmark */;
+			088CA7BC121CF13B00DC959C /* PBXTextBookmark */ = 088CA7BC121CF13B00DC959C /* PBXTextBookmark */;
+			088CA7C7121CF1CE00DC959C /* PBXBookmark */ = 088CA7C7121CF1CE00DC959C /* PBXBookmark */;
+			088CA7CE121CF1CE00DC959C /* PBXTextBookmark */ = 088CA7CE121CF1CE00DC959C /* PBXTextBookmark */;
+			088CA7D8121CF1CE00DC959C /* PBXBookmark */ = 088CA7D8121CF1CE00DC959C /* PBXBookmark */;
+			088CA7D9121CF1CE00DC959C /* PBXBookmark */ = 088CA7D9121CF1CE00DC959C /* PBXBookmark */;
+			088CA81C121CFB3C00DC959C /* PBXBookmark */ = 088CA81C121CFB3C00DC959C /* PBXBookmark */;
+			088CA81E121CFB3C00DC959C /* PBXBookmark */ = 088CA81E121CFB3C00DC959C /* PBXBookmark */;
+			088CA823121CFB3C00DC959C /* PBXBookmark */ = 088CA823121CFB3C00DC959C /* PBXBookmark */;
+			088CA824121CFB3C00DC959C /* PBXTextBookmark */ = 088CA824121CFB3C00DC959C /* PBXTextBookmark */;
+			088CA86B121D041500DC959C /* PBXTextBookmark */ = 088CA86B121D041500DC959C /* PBXTextBookmark */;
+			088CA8D8121D079900DC959C /* PBXTextBookmark */ = 088CA8D8121D079900DC959C /* PBXTextBookmark */;
+			088CA8E7121D085800DC959C /* PBXTextBookmark */ = 088CA8E7121D085800DC959C /* PBXTextBookmark */;
+			088CA980121D236000DC959C /* PBXTextBookmark */ = 088CA980121D236000DC959C /* PBXTextBookmark */;
+			088CA981121D236000DC959C /* PBXTextBookmark */ = 088CA981121D236000DC959C /* PBXTextBookmark */;
+			088CA983121D236000DC959C /* PBXTextBookmark */ = 088CA983121D236000DC959C /* PBXTextBookmark */;
+			088CA9F1121D28C900DC959C /* PBXTextBookmark */ = 088CA9F1121D28C900DC959C /* PBXTextBookmark */;
+			088CAA20121D2B4500DC959C /* PBXTextBookmark */ = 088CAA20121D2B4500DC959C /* PBXTextBookmark */;
+			088CAA6A121D31A300DC959C /* PBXTextBookmark */ = 088CAA6A121D31A300DC959C /* PBXTextBookmark */;
+			088CAA6B121D31A300DC959C /* PBXTextBookmark */ = 088CAA6B121D31A300DC959C /* PBXTextBookmark */;
+			088CAABF121D3D1B00DC959C /* PBXTextBookmark */ = 088CAABF121D3D1B00DC959C /* PBXTextBookmark */;
+			088CAACD121D3D1B00DC959C /* PBXTextBookmark */ = 088CAACD121D3D1B00DC959C /* PBXTextBookmark */;
+			088CAADE121D3D1B00DC959C /* PBXTextBookmark */ = 088CAADE121D3D1B00DC959C /* PBXTextBookmark */;
+			088CAADF121D3D1B00DC959C /* PBXTextBookmark */ = 088CAADF121D3D1B00DC959C /* PBXTextBookmark */;
+			088CAB35121D3FB400DC959C /* PBXTextBookmark */ = 088CAB35121D3FB400DC959C /* PBXTextBookmark */;
+			088CAB86121D471000DC959C /* PBXTextBookmark */ = 088CAB86121D471000DC959C /* PBXTextBookmark */;
+			088CAB88121D471000DC959C /* PBXTextBookmark */ = 088CAB88121D471000DC959C /* PBXTextBookmark */;
+			088CABC7121D4AFC00DC959C /* PBXTextBookmark */ = 088CABC7121D4AFC00DC959C /* PBXTextBookmark */;
+			088CAC14121D55F800DC959C /* PBXTextBookmark */ = 088CAC14121D55F800DC959C /* PBXTextBookmark */;
+			088CAC25121D55F800DC959C /* PBXTextBookmark */ = 088CAC25121D55F800DC959C /* PBXTextBookmark */;
+			088CAC2B121D55F800DC959C /* PBXBookmark */ = 088CAC2B121D55F800DC959C /* PBXBookmark */;
+			088CACA7121D851900DC959C /* PBXTextBookmark */ = 088CACA7121D851900DC959C /* PBXTextBookmark */;
+			088CACA9121D851900DC959C /* PBXTextBookmark */ = 088CACA9121D851900DC959C /* PBXTextBookmark */;
+			088CACAA121D851900DC959C /* PBXTextBookmark */ = 088CACAA121D851900DC959C /* PBXTextBookmark */;
+			088CACAB121D851900DC959C /* PBXBookmark */ = 088CACAB121D851900DC959C /* PBXBookmark */;
+			088CACAC121D851900DC959C /* PBXBookmark */ = 088CACAC121D851900DC959C /* PBXBookmark */;
+			088CACAD121D851900DC959C /* PBXBookmark */ = 088CACAD121D851900DC959C /* PBXBookmark */;
+			088CACAE121D851900DC959C /* PBXBookmark */ = 088CACAE121D851900DC959C /* PBXBookmark */;
+			088CACAF121D851900DC959C /* PBXBookmark */ = 088CACAF121D851900DC959C /* PBXBookmark */;
+			088CACB0121D851900DC959C /* PBXBookmark */ = 088CACB0121D851900DC959C /* PBXBookmark */;
+			088CACB1121D851900DC959C /* PBXBookmark */ = 088CACB1121D851900DC959C /* PBXBookmark */;
+			088CACB2121D851900DC959C /* PBXBookmark */ = 088CACB2121D851900DC959C /* PBXBookmark */;
+			088CACB4121D851900DC959C /* PBXBookmark */ = 088CACB4121D851900DC959C /* PBXBookmark */;
+			088CACB5121D851900DC959C /* PBXBookmark */ = 088CACB5121D851900DC959C /* PBXBookmark */;
+			088CACB6121D851900DC959C /* PBXBookmark */ = 088CACB6121D851900DC959C /* PBXBookmark */;
+			088CACB7121D851900DC959C /* PBXBookmark */ = 088CACB7121D851900DC959C /* PBXBookmark */;
+			088CACBE121D851900DC959C /* PBXTextBookmark */ = 088CACBE121D851900DC959C /* PBXTextBookmark */;
+			088CACC0121D851900DC959C /* PBXTextBookmark */ = 088CACC0121D851900DC959C /* PBXTextBookmark */;
+			088CACC1121D851900DC959C /* PBXTextBookmark */ = 088CACC1121D851900DC959C /* PBXTextBookmark */;
+			088CACC2121D851900DC959C /* PBXTextBookmark */ = 088CACC2121D851900DC959C /* PBXTextBookmark */;
+			088CACC5121D851900DC959C /* PBXTextBookmark */ = 088CACC5121D851900DC959C /* PBXTextBookmark */;
+			088CACC6121D851900DC959C /* PBXTextBookmark */ = 088CACC6121D851900DC959C /* PBXTextBookmark */;
+			088CACCB121D851900DC959C /* PBXBookmark */ = 088CACCB121D851900DC959C /* PBXBookmark */;
+			088CACD0121D851900DC959C /* PBXBookmark */ = 088CACD0121D851900DC959C /* PBXBookmark */;
+			088CACD1121D851900DC959C /* PBXBookmark */ = 088CACD1121D851900DC959C /* PBXBookmark */;
+			088CACD4121D851900DC959C /* PBXBookmark */ = 088CACD4121D851900DC959C /* PBXBookmark */;
+			088CACD6121D851900DC959C /* PBXTextBookmark */ = 088CACD6121D851900DC959C /* PBXTextBookmark */;
+			088CAD09121D8B2700DC959C /* PBXBookmark */ = 088CAD09121D8B2700DC959C /* PBXBookmark */;
+			088CAD0A121D8B2700DC959C /* PBXBookmark */ = 088CAD0A121D8B2700DC959C /* PBXBookmark */;
+			088CAD0B121D8B2700DC959C /* PBXBookmark */ = 088CAD0B121D8B2700DC959C /* PBXBookmark */;
+			088CAD3A121D8FAB00DC959C /* PBXTextBookmark */ = 088CAD3A121D8FAB00DC959C /* PBXTextBookmark */;
+			088CAD3D121D8FAB00DC959C /* PBXTextBookmark */ = 088CAD3D121D8FAB00DC959C /* PBXTextBookmark */;
+			088CAD4C121D920900DC959C /* PBXTextBookmark */ = 088CAD4C121D920900DC959C /* PBXTextBookmark */;
+			0891FB4411F650B2009F986C /* PBXTextBookmark */ = 0891FB4411F650B2009F986C /* PBXTextBookmark */;
+			0892489E11EF8472005993B6 /* PBXBookmark */ = 0892489E11EF8472005993B6 /* PBXBookmark */;
+			089248E511EF9BC4005993B6 /* PBXTextBookmark */ = 089248E511EF9BC4005993B6 /* PBXTextBookmark */;
+			0892493E11EFA06A005993B6 /* PBXBookmark */ = 0892493E11EFA06A005993B6 /* PBXBookmark */;
+			0892494F11EFA16C005993B6 /* PBXBookmark */ = 0892494F11EFA16C005993B6 /* PBXBookmark */;
+			0892496011EFA1D9005993B6 /* PlistBookmark */ = 0892496011EFA1D9005993B6 /* PlistBookmark */;
+			0892496311EFA1D9005993B6 /* PBXTextBookmark */ = 0892496311EFA1D9005993B6 /* PBXTextBookmark */;
+			0892497C11EFA559005993B6 /* PBXTextBookmark */ = 0892497C11EFA559005993B6 /* PBXTextBookmark */;
+			0892498111EFA559005993B6 /* PBXTextBookmark */ = 0892498111EFA559005993B6 /* PBXTextBookmark */;
+			08930AE011F9524C0062AAFC /* PBXTextBookmark */ = 08930AE011F9524C0062AAFC /* PBXTextBookmark */;
+			08930B1611F955D90062AAFC /* PBXTextBookmark */ = 08930B1611F955D90062AAFC /* PBXTextBookmark */;
+			089B3141122779CB00EB1218 /* PBXTextBookmark */ = 089B3141122779CB00EB1218 /* PBXTextBookmark */;
+			089B3142122779CB00EB1218 /* PBXTextBookmark */ = 089B3142122779CB00EB1218 /* PBXTextBookmark */;
+			089B3143122779CB00EB1218 /* PBXTextBookmark */ = 089B3143122779CB00EB1218 /* PBXTextBookmark */;
+			089B3144122779CB00EB1218 /* PBXTextBookmark */ = 089B3144122779CB00EB1218 /* PBXTextBookmark */;
+			089B3145122779CB00EB1218 /* PBXTextBookmark */ = 089B3145122779CB00EB1218 /* PBXTextBookmark */;
+			089B316212277E6900EB1218 /* PBXTextBookmark */ = 089B316212277E6900EB1218 /* PBXTextBookmark */;
+			089B316312277E6900EB1218 /* PBXTextBookmark */ = 089B316312277E6900EB1218 /* PBXTextBookmark */;
+			089B316412277E6900EB1218 /* PBXTextBookmark */ = 089B316412277E6900EB1218 /* PBXTextBookmark */;
+			089B316512277E6900EB1218 /* PBXTextBookmark */ = 089B316512277E6900EB1218 /* PBXTextBookmark */;
+			089B316612277E6900EB1218 /* PBXTextBookmark */ = 089B316612277E6900EB1218 /* PBXTextBookmark */;
+			089B316712277E6900EB1218 /* PBXTextBookmark */ = 089B316712277E6900EB1218 /* PBXTextBookmark */;
+			089B316812277E6900EB1218 /* PBXTextBookmark */ = 089B316812277E6900EB1218 /* PBXTextBookmark */;
+			089B318512278EC100EB1218 /* PBXTextBookmark */ = 089B318512278EC100EB1218 /* PBXTextBookmark */;
+			089B318612278EC100EB1218 /* PBXTextBookmark */ = 089B318612278EC100EB1218 /* PBXTextBookmark */;
+			089B318712278EC100EB1218 /* PBXTextBookmark */ = 089B318712278EC100EB1218 /* PBXTextBookmark */;
+			089B31AD12278EE100EB1218 /* PBXTextBookmark */ = 089B31AD12278EE100EB1218 /* PBXTextBookmark */;
+			089B31C812278FC600EB1218 /* PBXTextBookmark */ = 089B31C812278FC600EB1218 /* PBXTextBookmark */;
+			089ECA7D11F5C8A70003D048 /* PlistBookmark */ = 089ECA7D11F5C8A70003D048 /* PlistBookmark */;
+			089ECB3C11F5CECB0003D048 /* PBXTextBookmark */ = 089ECB3C11F5CECB0003D048 /* PBXTextBookmark */;
+			08A1ADC711E786B500CD7F91 /* PBXTextBookmark */ = 08A1ADC711E786B500CD7F91 /* PBXTextBookmark */;
+			08B2C54211F8B12100017F35 /* PBXTextBookmark */ = 08B2C54211F8B12100017F35 /* PBXTextBookmark */;
+			08B2C5C511F8BCEC00017F35 /* PBXTextBookmark */ = 08B2C5C511F8BCEC00017F35 /* PBXTextBookmark */;
+			08B2C61911F8C36100017F35 /* PBXTextBookmark */ = 08B2C61911F8C36100017F35 /* PBXTextBookmark */;
+			08B2C6AB11F8CBC700017F35 /* PBXTextBookmark */ = 08B2C6AB11F8CBC700017F35 /* PBXTextBookmark */;
+			08B2C6AD11F8CBC700017F35 /* PBXTextBookmark */ = 08B2C6AD11F8CBC700017F35 /* PBXTextBookmark */;
+			08C5CB1E11E90A5A006080D0 /* PBXTextBookmark */ = 08C5CB1E11E90A5A006080D0 /* PBXTextBookmark */;
+			08C5CBB411E91224006080D0 /* PBXTextBookmark */ = 08C5CBB411E91224006080D0 /* PBXTextBookmark */;
+			08C5CBB911E91224006080D0 /* PBXTextBookmark */ = 08C5CBB911E91224006080D0 /* PBXTextBookmark */;
+			08C5CBD311E914EC006080D0 /* PBXTextBookmark */ = 08C5CBD311E914EC006080D0 /* PBXTextBookmark */;
+			08C5CBD411E914EC006080D0 /* PBXTextBookmark */ = 08C5CBD411E914EC006080D0 /* PBXTextBookmark */;
+			08C5CC3A11E91BA1006080D0 /* PBXTextBookmark */ = 08C5CC3A11E91BA1006080D0 /* PBXTextBookmark */;
+			08E57F9F11EBB1630047E1F2 /* PBXTextBookmark */ = 08E57F9F11EBB1630047E1F2 /* PBXTextBookmark */;
+			08EF3F2C11E7FF65000F0BE9 /* PBXBookmark */ = 08EF3F2C11E7FF65000F0BE9 /* PBXBookmark */;
+			08EF3F2E11E7FF65000F0BE9 /* PBXBookmark */ = 08EF3F2E11E7FF65000F0BE9 /* PBXBookmark */;
+			08EF3F3111E7FF65000F0BE9 /* PBXTextBookmark */ = 08EF3F3111E7FF65000F0BE9 /* PBXTextBookmark */;
+			08EF3F3211E7FF65000F0BE9 /* PBXTextBookmark */ = 08EF3F3211E7FF65000F0BE9 /* PBXTextBookmark */;
+			08EF3F6F11E803D8000F0BE9 /* PBXBookmark */ = 08EF3F6F11E803D8000F0BE9 /* PBXBookmark */;
+			08EF3F8311E80464000F0BE9 /* PBXBookmark */ = 08EF3F8311E80464000F0BE9 /* PBXBookmark */;
+		};
+		sourceControlManager = 089962A811E5EE6D0002A55B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Jiwok_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 269}}";
+			sepNavSelRange = "{142, 191}";
+			sepNavVisRange = "{0, 333}";
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	4C6ACCE111E304A00037A194 /* LoggerClass.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 448}}";
+			sepNavSelRange = "{168, 11}";
+			sepNavVisRange = "{3, 542}";
+		};
+	};
+	4C6ACCE211E304A00037A194 /* LoggerClass.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1038, 1960}}";
+			sepNavSelRange = "{1500, 0}";
+			sepNavVisRange = "{636, 1084}";
+		};
+	};
+	4C6AD00811E33C710037A194 /* JiwokLoginBackGroundView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 409}}";
+			sepNavSelRange = "{7, 24}";
+			sepNavVisRange = "{0, 240}";
+		};
+	};
+	4C6AD00911E33C710037A194 /* JiwokLoginBackGroundView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 532}}";
+			sepNavSelRange = "{530, 0}";
+			sepNavVisRange = "{144, 531}";
+		};
+	};
+	4C6AD05511E33F810037A194 /* JiwokDownloderWindowController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {991, 409}}";
+			sepNavSelRange = "{89, 0}";
+			sepNavVisRange = "{0, 498}";
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	4C6AD05611E33F810037A194 /* JiwokDownloderWindowController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {991, 2814}}";
+			sepNavSelRange = "{6175, 14}";
+			sepNavVisRange = "{6270, 1001}";
+			sepNavWindowFrame = "{{389, 66}, {980, 680}}";
+		};
+	};
+	4CCF1B2A11DDBA8E00794D34 /* JiwokLoginWindowController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 409}}";
+			sepNavSelRange = "{246, 0}";
+			sepNavVisRange = "{0, 693}";
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	4CCF1B2B11DDBA8E00794D34 /* JiwokLoginWindowController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {991, 2856}}";
+			sepNavSelRange = "{5015, 2}";
+			sepNavVisRange = "{5013, 1114}";
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	4CCF1B3A11DDBB3100794D34 /* JiwokAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 468}}";
+			sepNavSelRange = "{512, 0}";
+			sepNavVisRange = "{0, 808}";
+		};
+	};
+	4CCF1B3B11DDBB3100794D34 /* JiwokAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {991, 1610}}";
+			sepNavSelRange = "{327, 16}";
+			sepNavVisRange = "{0, 943}";
+			sepNavWindowFrame = "{{15, 66}, {980, 680}}";
+		};
+	};
+	4CCF1D2A11DDEF6700794D34 /* JiwokAPIHelper.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 448}}";
+			sepNavSelRange = "{371, 14}";
+			sepNavVisRange = "{0, 1163}";
+		};
+	};
+	4CCF1D2B11DDEF6700794D34 /* JiwokAPIHelper.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {991, 2842}}";
+			sepNavSelRange = "{202, 36}";
+			sepNavVisRange = "{0, 922}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Jiwok */ = {
+		activeExec = 0;
+		executables = (
+			0899629A11E5EE6A0002A55B /* Jiwok */,
+		);
+	};
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Download_SpecificSong_Path</key>
+	<string>ftp://jiwok-wbdd.najman.lbn.fr/macspecificsongs</string>
+	<key>Download_Vocal_Path</key>
+	<string>ftp://jiwok-wbdd.najman.lbn.fr/vocals</string>
+	<key>IntroProgramVocals_Path</key>
+	<string>ftp://jiwok-wbdd.najman.lbn.fr/introvocals/programs</string>
+	<key>IntroWorkoutVocals_Path</key>
+	<string>ftp://jiwok-wbdd.najman.lbn.fr/introvocals/workouts</string>
+	<key>Download_Originforce_Path</key>
+	<string>ftp://jiwok-wbdd.najman.lbn.fr/originforce</string>
+	<key>ftpWebSiteName</key>
+	<string>ftp://jiwok-wbdd.najman.lbn.fr</string>
+	<key>Download_BgSong_Path</key>
+	<string>ftp://jiwok-wbdd.najman.lbn.fr/backgrounds</string>
+	<key>UpdateLoginStatus_api</key>
+	<string>http://www.jiwok.com/webservices/UpdateUserTagLoginStatus.php</string>
+	<key>GetUserDetails_api</key>
+	<string>http://www.jiwok.com/webservices/GetUserDetails.php</string>
+	<key>updatePackageDownloadedStatus_api</key>
+	<string>http://www.jiwok.com/webservices/updatePackageDownloadedStatus.php</string>
+	<key>GetWorkoutInQueue_api</key>
+	<string>http://www.jiwok.com/webservices/GetWorkoutInQueue.php</string>
+	<key>GetVocalInfo_api</key>
+	<string>http://www.jiwok.com/webservices/GetVocalInfo.php</string>
+	<key>GetSpecificSongInfo_api</key>
+	<string>http://www.jiwok.com/webservices/GetSpecificSongInfo.php</string>
+	<key>UpdateMP3GenerationStatus_api</key>
+	<string>http://www.jiwok.com/webservices/UpdateMP3GenerationStatus.php</string>
+	<key>UpdateTagDetectedGenre_api</key>
+	<string>http://www.jiwok.com/webservices/UpdateTagDetectedGenre.php</string>
+	<key>DeleteUserTagDetectedGenre_api</key>
+	<string>http://www.jiwok.com/webservices/DeleteUserTagDetectedGenre.php</string>
+	<key>CheckNewVersion</key>
+	<string>http://www.jiwok.com/webservices/GetLatestTAGVersion.php</string>
+	<key>forgotPasswordUrl</key>
+	<string>http://www.jiwok.com/forgot_password.php</string>
+	<key>userRegistrationUrl</key>
+	<string>http://www.jiwok.com/userreg1.php</string>
+	<key>JiwokUrl</key>
+	<string>http://www.jiwok.com</string>
+	<key>JiwokHelpUrl</key>
+	<string>http://www.jiwok.com/help.php</string>
+	<key>GetMailDetails_api</key>
+	<string>http://www.jiwok.com/webservices/GetMailDetails.php</string>
+	<key>GetAllWorkoutInQueue_api</key>
+	<string>http://www.jiwok.com/webservices/GetAllWorkoutInQueue.php</string>
+	<key>GetWorkoutByQueueId_api</key>
+	<string>http://www.jiwok.com/webservices/GetWorkoutByQueueId.php</string>
+	<key>ShouldCheckTemporaryUpdates</key>
+	<false/>
+</dict>
+</plist>

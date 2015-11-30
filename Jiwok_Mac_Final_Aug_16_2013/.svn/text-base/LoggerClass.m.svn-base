@@ -1,0 +1,160 @@
+//
+//  logClass.m
+//  Jiwok_Coredata_Trial
+//
+//  Created by reubro R on 02/07/10.
+//  Copyright 2010 kk. All rights reserved.
+//
+
+#import "LoggerClass.h"
+
+
+@implementation LoggerClass
+
+static LoggerClass *LogFileInstance = nil;
+
+
+//Gets Shared Instance
++ (LoggerClass *)getInstance {
+	if (LogFileInstance == nil) {
+		
+        LogFileInstance = [[super allocWithZone:NULL] init];
+		
+    }	
+    return LogFileInstance;
+}
+
+
+
++ (id)allocWithZone:(NSZone *)zone
+
+{
+	
+    return [[self getInstance] retain];
+	
+}
+
+- (id) retain { 
+	
+	return self;
+}
+
+- (id)copyWithZone:(NSZone *)zone {
+	
+    return self;
+	
+}
+- (id) copy {
+	
+	return self;
+}
+
+- (unsigned int) retainCount { 
+	
+	return UINT_MAX; 
+}
+
+- (void) release{ 
+}
+
+- (id)autorelease {
+	return self;
+}
+
+//open a file
+-(void)Open:(NSString*)inFilePath withAppName:(NSString*)inAppName
+{
+	NSCalendarDate *calenderDate;
+	NSString *initialString,*fileName;
+	NSFileHandle *fileHandler;
+	
+    if(LogFileInstance==nil)
+		LogFileInstance = [[LoggerClass alloc] init];
+	
+	calenderDate=[NSCalendarDate calendarDate];//@"%@/%@-%d-%d-%d.log"
+	fileName=[[NSString alloc]initWithFormat:@"%@/%@log.txt",inFilePath,inAppName];//,[calenderDate monthOfYear],[calenderDate dayOfMonth],[calenderDate yearOfCommonEra]];
+	NSLog(@"class file is %@" ,fileName);
+	if ( ![[NSFileManager defaultManager] fileExistsAtPath: fileName] )
+	{
+		if([[NSFileManager defaultManager]createFileAtPath:fileName contents:nil attributes:nil]==NO)
+		{
+			NSLog(@"Couldnot create Log file");
+		}
+	}
+	fileHandler = [NSFileHandle  
+				   fileHandleForWritingAtPath:fileName];
+	[fileHandler truncateFileAtOffset:[fileHandler seekToEndOfFile]];
+	
+	[fileName release];
+	initialString= [NSString stringWithFormat:@"\n\n-----------------Starting New Session: ----------------"];
+	[fileHandler writeData:[initialString
+							dataUsingEncoding:NSUTF8StringEncoding]];
+	[LogFileInstance setFileHandler:fileHandler];
+	
+}
+
+//sets filehandler
+-(void)setFileHandler:(NSFileHandle *)inHandler
+{
+	if(mFileHandler !=inHandler)
+	{  
+		[inHandler retain];
+		[mFileHandler release];
+		mFileHandler =inHandler;
+	}
+}
+
+//Return filehandler
+-(NSFileHandle*)getFileHandler
+{
+	return mFileHandler;
+}
+
+//Write Data
+-(void )logData:(NSString*)format, ...
+{
+	NSString *textString,*writeString;
+	NSCalendarDate *calenderDate;
+	
+	calenderDate=[NSCalendarDate calendarDate];
+	va_list		l_argptr;
+	va_start(l_argptr,format);
+	//textString=[[NSString alloc] initWithFormat:format arguments:l_argptr];
+	//NSLog(@"%@",textString); //to send contents to console
+    //va_end(l_argptr);
+	
+	@try {
+		
+		textString=[[NSString alloc] initWithFormat:format arguments:l_argptr];
+		va_end(l_argptr);
+		
+		NSDate *date=[[NSDate date] retain];
+	
+	//writeString =[[NSString alloc]initWithFormat:@"\n%@:- \t%@",[[NSDate date]description], textString];
+	
+		
+	writeString =[[NSString alloc]initWithFormat:@"\n%@:- \t%@",[date description], textString];
+
+	[date release];
+	[textString release];
+	[[LogFileInstance getFileHandler] writeData:[writeString
+												 dataUsingEncoding:NSUTF8StringEncoding]];
+	
+	//@try {
+		
+		NSLog(@"%@",writeString);
+
+	}
+	@catch (NSException * e) {
+		
+	}
+	@finally {
+		
+	}
+
+	[writeString release];
+
+}
+
+
+@end

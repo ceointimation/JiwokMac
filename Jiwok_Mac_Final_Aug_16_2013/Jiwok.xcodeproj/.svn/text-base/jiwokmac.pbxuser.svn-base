@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	0881121A1206E9BB008104AB /* French */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 793}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2411}";
+		};
+	};
+	0881E01A11E867B500BE3252 /* JiwokUtil.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 3744}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1225}";
+		};
+	};
+	0881E0AB11E8785F00BE3252 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 793}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2577}";
+		};
+	};
+	0887ECE2121E471E00594B6E /* SupportTab.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {11240, 2769}}";
+			sepNavSelRange = "{1985, 0}";
+			sepNavVisRange = "{1766, 477}";
+		};
+	};
+	088ACEE311ED8AE900FD6CA7 /* JiwokMainWindowController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 610}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1200}";
+		};
+	};
+	088ACEE411ED8AE900FD6CA7 /* JiwokMainWindowController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 4615}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 859}";
+		};
+	};
+	088B43A811ED9F4800B19E2B /* JiwokLoginPanelViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 610}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 866}";
+		};
+	};
+	088B43A911ED9F4800B19E2B /* JiwokLoginPanelViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 4615}}";
+			sepNavSelRange = "{8161, 26}";
+			sepNavVisRange = "{7449, 1496}";
+		};
+	};
+	188FDEBD124CDCBF0041DF30 /* JiwokAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 6734}}";
+			sepNavSelRange = "{509, 14}";
+			sepNavVisRange = "{0, 1349}";
+		};
+	};
+	18917A171227AE460046FE7A /* JiwokAudioPlayController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 633}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 372}";
+		};
+	};
+	18D953701268998600729EDB /* GenerateWorkout.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1447, 610}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1044}";
+		};
+	};
+	18D953711268998600729EDB /* GenerateWorkout.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 30589}}";
+			sepNavSelRange = "{1793, 14}";
+			sepNavVisRange = "{1062, 1112}";
+		};
+	};
+	18E2635F1250D00C0022BF1F /* JiwokMyMusicPanelViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 33501}}";
+			sepNavSelRange = "{22497, 0}";
+			sepNavVisRange = "{21922, 1235}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FFC69D1812C07CA8008EF063 /* Jiwok */;
+		activeTarget = 8D1107260486CEB800E47090 /* Jiwok */;
+		codeSenseManager = FFC69D2B12C07CC8008EF063 /* Code sense */;
+		executables = (
+			FFC69D1812C07CA8008EF063 /* Jiwok */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1233,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1193,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 314604712;
+			PBXWorkspaceStateSaveDate = 314604712;
+		};
+		perUserProjectItems = {
+			FFC69D6512C08A0D008EF063 /* PBXTextBookmark */ = FFC69D6512C08A0D008EF063 /* PBXTextBookmark */;
+			FFC69D6612C08A0D008EF063 /* PBXTextBookmark */ = FFC69D6612C08A0D008EF063 /* PBXTextBookmark */;
+			FFC69D6712C08A0D008EF063 /* PBXTextBookmark */ = FFC69D6712C08A0D008EF063 /* PBXTextBookmark */;
+			FFC69D6812C08A0D008EF063 /* PBXTextBookmark */ = FFC69D6812C08A0D008EF063 /* PBXTextBookmark */;
+			FFC69D6912C08A0D008EF063 /* PBXTextBookmark */ = FFC69D6912C08A0D008EF063 /* PBXTextBookmark */;
+			FFC69D6A12C08A0D008EF063 /* PBXTextBookmark */ = FFC69D6A12C08A0D008EF063 /* PBXTextBookmark */;
+			FFC69D6B12C08A0D008EF063 /* PBXTextBookmark */ = FFC69D6B12C08A0D008EF063 /* PBXTextBookmark */;
+			FFC69D6C12C08A0D008EF063 /* PBXTextBookmark */ = FFC69D6C12C08A0D008EF063 /* PBXTextBookmark */;
+			FFC69D6D12C08A0D008EF063 /* PBXTextBookmark */ = FFC69D6D12C08A0D008EF063 /* PBXTextBookmark */;
+			FFC69D6E12C08A0D008EF063 /* PBXTextBookmark */ = FFC69D6E12C08A0D008EF063 /* PBXTextBookmark */;
+			FFC69D6F12C08A0D008EF063 /* PBXTextBookmark */ = FFC69D6F12C08A0D008EF063 /* PBXTextBookmark */;
+			FFC69D7012C08A0D008EF063 /* PBXTextBookmark */ = FFC69D7012C08A0D008EF063 /* PBXTextBookmark */;
+			FFC69D7112C08A0D008EF063 /* PBXTextBookmark */ = FFC69D7112C08A0D008EF063 /* PBXTextBookmark */;
+			FFC69D7212C08A0D008EF063 /* PBXTextBookmark */ = FFC69D7212C08A0D008EF063 /* PBXTextBookmark */;
+			FFC69D7312C08A0D008EF063 /* PBXTextBookmark */ = FFC69D7312C08A0D008EF063 /* PBXTextBookmark */;
+			FFC69D8212C09C2C008EF063 /* PBXTextBookmark */ = FFC69D8212C09C2C008EF063 /* PBXTextBookmark */;
+			FFC69D8312C09C2C008EF063 /* PBXTextBookmark */ = FFC69D8312C09C2C008EF063 /* PBXTextBookmark */;
+			FFC69D8412C09C2C008EF063 /* PBXBookmark */ = FFC69D8412C09C2C008EF063 /* PBXBookmark */;
+			FFC69D8812C09D0F008EF063 /* PBXTextBookmark */ = FFC69D8812C09D0F008EF063 /* PBXTextBookmark */;
+		};
+		sourceControlManager = FFC69D2A12C07CC8008EF063 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4C6AD00911E33C710037A194 /* JiwokLoginBackGroundView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 610}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 675}";
+		};
+	};
+	4C78F7DA124B7CBA00096169 /* JiwokMyWorkoutPanelViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 780}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1184}";
+		};
+	};
+	4C78F7DB124B7CBA00096169 /* JiwokMyWorkoutPanelViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 6760}}";
+			sepNavSelRange = "{8113, 0}";
+			sepNavVisRange = "{7098, 1432}";
+		};
+	};
+	4CCF1B2B11DDBA8E00794D34 /* JiwokLoginWindowController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 2652}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1205}";
+		};
+	};
+	4CCF1D2B11DDEF6700794D34 /* JiwokAPIHelper.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 3575}}";
+			sepNavSelRange = "{8193, 7}";
+			sepNavVisRange = "{7436, 1537}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Jiwok */ = {
+		activeExec = 0;
+		executables = (
+			FFC69D1812C07CA8008EF063 /* Jiwok */,
+		);
+	};
+	FFC69D1812C07CA8008EF063 /* Jiwok */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Jiwok;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FFC69D2A12C07CC8008EF063 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FFC69D2B12C07CC8008EF063 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FFC69D6512C08A0D008EF063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0887ECE2121E471E00594B6E /* SupportTab.m */;
+		name = "SupportTab.m: 73";
+		rLen = 0;
+		rLoc = 1985;
+		rType = 0;
+		vrLen = 4426;
+		vrLoc = 1188;
+	};
+	FFC69D6612C08A0D008EF063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C78F7DA124B7CBA00096169 /* JiwokMyWorkoutPanelViewController.h */;
+		name = "JiwokMyWorkoutPanelViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1184;
+		vrLoc = 0;
+	};
+	FFC69D6712C08A0D008EF063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 18D953701268998600729EDB /* GenerateWorkout.h */;
+		name = "GenerateWorkout.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1044;
+		vrLoc = 0;
+	};
+	FFC69D6812C08A0D008EF063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881E01A11E867B500BE3252 /* JiwokUtil.m */;
+		name = "JiwokUtil.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1225;
+		vrLoc = 0;
+	};
+	FFC69D6912C08A0D008EF063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CCF1D2B11DDEF6700794D34 /* JiwokAPIHelper.m */;
+		name = "JiwokAPIHelper.m: 242";
+		rLen = 7;
+		rLoc = 8193;
+		rType = 0;
+		vrLen = 1537;
+		vrLoc = 7436;
+	};
+	FFC69D6A12C08A0D008EF063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088B43A811ED9F4800B19E2B /* JiwokLoginPanelViewController.h */;
+		name = "JiwokLoginPanelViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 0;
+	};
+	FFC69D6B12C08A0D008EF063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088B43A911ED9F4800B19E2B /* JiwokLoginPanelViewController.m */;
+		name = "JiwokLoginPanelViewController.m: 292";
+		rLen = 26;
+		rLoc = 8161;
+		rType = 0;
+		vrLen = 1496;
+		vrLoc = 7449;
+	};
+	FFC69D6C12C08A0D008EF063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CCF1B2B11DDBA8E00794D34 /* JiwokLoginWindowController.m */;
+		name = "JiwokLoginWindowController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1205;
+		vrLoc = 0;
+	};
+	FFC69D6D12C08A0D008EF063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C6AD00911E33C710037A194 /* JiwokLoginBackGroundView.m */;
+		name = "JiwokLoginBackGroundView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 675;
+		vrLoc = 0;
+	};
+	FFC69D6E12C08A0D008EF063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088ACEE311ED8AE900FD6CA7 /* JiwokMainWindowController.h */;
+		name = "JiwokMainWindowController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1200;
+		vrLoc = 0;
+	};
+	FFC69D6F12C08A0D008EF063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 188FDEBD124CDCBF0041DF30 /* JiwokAppDelegate.m */;
+		name = "JiwokAppDelegate.m: 22";
+		rLen = 14;
+		rLoc = 509;
+		rType = 0;
+		vrLen = 1349;
+		vrLoc = 0;
+	};
+	FFC69D7012C08A0D008EF063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 088ACEE411ED8AE900FD6CA7 /* JiwokMainWindowController.m */;
+		name = "JiwokMainWindowController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 859;
+		vrLoc = 0;
+	};
+	FFC69D7112C08A0D008EF063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 18D953711268998600729EDB /* GenerateWorkout.m */;
+		name = "GenerateWorkout.m: 69";
+		rLen = 14;
+		rLoc = 1793;
+		rType = 0;
+		vrLen = 1112;
+		vrLoc = 1062;
+	};
+	FFC69D7212C08A0D008EF063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C78F7DB124B7CBA00096169 /* JiwokMyWorkoutPanelViewController.m */;
+		name = "JiwokMyWorkoutPanelViewController.m: 264";
+		rLen = 0;
+		rLoc = 8113;
+		rType = 0;
+		vrLen = 1432;
+		vrLoc = 7098;
+	};
+	FFC69D7312C08A0D008EF063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881121A1206E9BB008104AB /* French */;
+		name = "Localization.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2411;
+		vrLoc = 0;
+	};
+	FFC69D8212C09C2C008EF063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0881E0AB11E8785F00BE3252 /* English */;
+		name = "Localization.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2577;
+		vrLoc = 0;
+	};
+	FFC69D8312C09C2C008EF063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 18917A171227AE460046FE7A /* JiwokAudioPlayController.h */;
+		name = "JiwokAudioPlayController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 372;
+		vrLoc = 0;
+	};
+	FFC69D8412C09C2C008EF063 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 18E2635F1250D00C0022BF1F /* JiwokMyMusicPanelViewController.m */;
+	};
+	FFC69D8812C09D0F008EF063 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 18E2635F1250D00C0022BF1F /* JiwokMyMusicPanelViewController.m */;
+		name = "JiwokMyMusicPanelViewController.m: 816";
+		rLen = 0;
+		rLoc = 22497;
+		rType = 0;
+		vrLen = 1235;
+		vrLoc = 21922;
+	};
+}

@@ -1,0 +1,274 @@
+//
+//  JiwokLastfmClient.m
+//  Jiwok_Coredata_Trial
+//
+//  Created by APPLE on 05/08/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "JiwokLastfmClient.h"
+#import "FingerPrintParser.h"
+#import "JSON.h"
+#import "LoggerClass.h"
+
+@implementation JiwokLastfmClient
+
+-(NSMutableArray*)getArtists:(NSString *)filePath{
+	
+	//	NSString * toolPath;	
+	//	toolPath = @"/usr/local/bin/lastfmfpclient";
+	
+	
+	//	NSString * toolPath;	
+	//	NSString *bundlePath = [[NSBundle mainBundle] resourcePath];
+	//	toolPath = [bundlePath stringByAppendingPathComponent:@"lastfmfpclient"];
+	DUBUG_LOG(@"getArtists");
+	NSString *toolPath;// = [[[NSBundle mainBundle] bundlePath]  stringByAppendingPathComponent:@"lastfmfpclient"];	
+	
+	
+	toolPath=[[NSBundle mainBundle] pathForResource:@"lastfmfpclient" ofType:@""];
+
+	
+	
+	if (![[NSFileManager defaultManager] changeCurrentDirectoryPath:[toolPath stringByDeletingLastPathComponent]])
+	{
+		[[LoggerClass getInstance] logData:@"getArtists-> Failed to set current directory to %@",[toolPath stringByDeletingLastPathComponent]];
+	}
+	
+	
+	//NSLog(@"PAth --->>> %@",toolPath);
+	
+
+	
+	NSMutableArray *mArray = [[NSMutableArray alloc] init];	
+	[mArray addObject:filePath];
+		
+	task = [[NSTask alloc] init]; 	
+	[task setLaunchPath: toolPath];
+	[task setArguments: mArray];
+	
+	NSPipe *pipe;
+    pipe = [NSPipe pipe];
+    [task setStandardOutput: pipe];
+	[task setStandardError: pipe];
+	
+    NSFileHandle *file;
+    file = [pipe fileHandleForReading];
+	
+    [task launch];
+    [task waitUntilExit];
+	
+    NSData *data;
+    data = [file readDataToEndOfFile];
+				
+	FingerPrintParser *fingerPrintParser = [[FingerPrintParser alloc] init];
+	
+	NSMutableArray *array; 
+
+	
+	//NSMutableArray *array = [fingerPrintParser startDataParsing:data];
+	
+	@try {
+		array = [fingerPrintParser startDataParsing:data];
+	}
+	@catch (NSException * e) {
+		
+		[[LoggerClass getInstance] logData:@"Exception occured in getArtists %@",[e description]];
+
+	}
+	@finally {
+		
+		return(array);		
+
+	}
+		
+}
+
+
+
+-(NSMutableArray *)GetArtistTopTag:(NSString*)artist{
+	
+	//NSString *album=@"B'day";
+	DUBUG_LOG(@"GetArtistTopTag with artist |%@|",artist);
+	fmEngine = [[FMEngine alloc] init];
+	NSDictionary *urlDict = [NSDictionary dictionaryWithObjectsAndKeys:artist, @"artist", _LASTFM_API_KEY_, @"api_key", nil, nil];
+	//[fmEngine performMethod:@"artist.getTopTags" withTarget:self withParameters:urlDict andAction:@selector(GetArtistCallBack:data:) useSignature:YES httpMethod:POST_TYPE];
+	NSError*error;
+	NSData *data = [fmEngine dataForMethod:@"artist.getTopTags" withParameters:urlDict useSignature:YES httpMethod:POST_TYPE error:error];
+	////NSLog(@"data %@",data);
+	// data is either NSData or NSError	
+	// Create new SBJSON parser object
+	SBJSON *parser = [[SBJSON alloc] init];		
+	NSString *json_string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];	
+	
+	// parse the JSON response into an object
+	// Here we're using NSArray since we're parsing an array of JSON status objects
+	NSDictionary *statuses = [parser objectWithString:json_string error:nil];
+	
+	[parser release];	
+	
+	//if([artist isEqualToString:@" Steve Kuban"])
+	//NSLog(@"statuses statuses statuses is %@",statuses);
+	
+	NSMutableArray *topTags=[[NSMutableArray alloc]init];
+	
+	@try {
+
+	
+	int count=0;
+	
+	
+	//if ([statuses count]) {
+		
+		//if ([[statuses objectForKey:@"toptags"] count]) {
+			
+				
+	if([[[statuses objectForKey:@"toptags"]objectForKey:@"tag"] isKindOfClass:[NSArray class]])
+	
+		count=[[[statuses objectForKey:@"toptags"]objectForKey:@"tag"] count];	
+		
+		
+		else if([[[statuses objectForKey:@"toptags"]objectForKey:@"tag"] isKindOfClass:[NSDictionary class]])
+				 count=1;
+
+	//	}
+
+	//}
+	
+	
+	int i;
+	
+	for(i=0;i<count;i++)		
+	{
+		if(i<2)
+			//if([statuses objectForKey:@"toptags"])
+				//if([[statuses objectForKey:@"toptags"]objectForKey:@"tag"])
+		{
+			if(count==1)
+				[topTags addObject:[[[statuses objectForKey:@"toptags"]objectForKey:@"tag"] objectForKey:@"name"]];
+			else
+				[topTags addObject:[[[[statuses objectForKey:@"toptags"]objectForKey:@"tag"] objectAtIndex:i]objectForKey:@"name"]];
+		}
+		
+	}
+	
+	}
+	@catch (NSException * e) {
+		
+		[[LoggerClass getInstance] logData:@"Exception occured in GetArtistTopTag %@",[e description]];
+		
+	}
+	@finally {
+	//DUBUG_LOG(@"GetArtistTopTag statuses %@",statuses);
+	DUBUG_LOG(@"GetArtistTopTag topTags %@",topTags);
+	DUBUG_LOG(@"[topTags count] %d", [topTags count]);
+	
+//	[[NSNotificationCenter defaultCenter] postNotificationName:@"GetArtistTopTagFinished" object:topTags];	
+	
+	return [topTags autorelease];
+	}
+}
+
+
+- (void)GetArtistCallBack:(NSString *)identifier data:(id)data {		
+	
+	DUBUG_LOG(@"GetArtistCallBack");
+	
+}
+
+
+-(NSMutableArray *)GetAlbumTopTag:(NSString*)artist:(NSString*)album
+{	
+	
+	DUBUG_LOG(@"GetAlbumTopTag with artist and album %@,%@",artist,album);
+	
+	fmEngine = [[FMEngine alloc] init];
+	//Old Code
+	//NSDictionary *urlDict = [NSDictionary dictionaryWithObjectsAndKeys:artist, @"artist",album,@"album" , _LASTFM_API_KEY_, @"api_key", nil, nil];
+	
+	NSDictionary *urlDict = [NSDictionary dictionaryWithObjectsAndKeys:artist, @"artist",album,@"track" , _LASTFM_API_KEY_, @"api_key", nil, nil];
+
+	
+	
+	//[fmEngine performMethod:@"album.getTopTags" withTarget:self withParameters:urlDict andAction:@selector(GetAlbumCallBack:data:) useSignature:YES httpMethod:POST_TYPE];
+	NSError*error;
+	//Old Code
+	//NSData *data = [fmEngine dataForMethod:@"album.getTopTags" withParameters:urlDict useSignature:YES httpMethod:POST_TYPE error:error];
+	
+	
+	NSData *data = [fmEngine dataForMethod:@"track.getTopTags" withParameters:urlDict useSignature:YES httpMethod:POST_TYPE error:error];
+	
+	// data is either NSData or NSError	
+	// Create new SBJSON parser object
+	SBJSON *parser = [[SBJSON alloc] init];		
+	NSString *json_string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];	
+	
+	// parse the JSON response into an object
+	// Here we're using NSArray since we're parsing an array of JSON status objects
+	NSDictionary *statuses = [parser objectWithString:json_string error:nil];
+	
+	DUBUG_LOG(@"GetAlbumTopTag statuses %@",statuses);
+
+	
+	[parser release];
+	
+	NSMutableArray *topTags=[[NSMutableArray alloc]init];
+	
+	@try {
+	
+	int count=[[[statuses objectForKey:@"toptags"]objectForKey:@"tag"] count];	
+	
+	int i;
+	
+	if([[[statuses objectForKey:@"toptags"]objectForKey:@"tag"] isKindOfClass:[NSArray class]])
+	{
+	
+	for(i=0;i<count;i++)		
+	{
+		if(i<2)
+			[topTags addObject:[[[[statuses objectForKey:@"toptags"]objectForKey:@"tag"] objectAtIndex:i]objectForKey:@"name"]];
+		
+	}
+	}
+	
+	else if ([[[statuses objectForKey:@"toptags"]objectForKey:@"tag"] isKindOfClass:[NSDictionary class]])
+	{
+	
+		[topTags addObject:[[[statuses objectForKey:@"toptags"]objectForKey:@"tag"] objectForKey:@"name"]];
+	}
+	
+	}
+	@catch (NSException * e) {
+		
+		[[LoggerClass getInstance] logData:@"Exception occured in GetAlbumTopTag %@",[e description]];
+		
+	}
+	@finally {
+	DUBUG_LOG(@"GetAlbumTopTag topTags %@",topTags);
+	
+	//[[NSNotificationCenter defaultCenter] postNotificationName:@"GetAlbumTopTagFinished" object:topTags];	
+	
+	return [topTags autorelease];
+		
+	}
+	
+}
+
+
+- (void)GetAlbumCallBack:(NSString *)identifier data:(id)data {		
+	
+		DUBUG_LOG(@"GetAlbumCallBack");
+	
+		
+}
+
+
+- (void) dealloc {	
+	DUBUG_LOG(@"JiwokLastfmClient dealloc");
+	
+   [fmEngine release];
+    [super dealloc];
+}
+
+
+@end

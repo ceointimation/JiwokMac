@@ -1,0 +1,170 @@
+#import "JiwokFfmpegID3TagReader.h"
+#import "LoggerClass.h"
+#import "Common.h"
+
+@implementation JiwokFfmpegID3TagReader
+
+-(NSMutableDictionary*)getID3TagInfo:(NSString *)fileName
+{	
+     DUBUG_LOG(@"Now you are in getID3TagInfo method in getID3TagInfo class");
+	DUBUG_LOG(@"getID3TagInfo ");
+	
+	NSString * toolPath;	
+	//toolPath = @"/usr/local/bin/ffmpeg";	
+	//NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
+	//toolPath = [[NSBundle mainBundle]  pathForAuxiliaryExecutable:@"ffmpeg"];
+	
+	
+	toolPath=[[NSBundle mainBundle] pathForResource:@"ffmpeg" ofType:@""];
+	
+	
+	////NSLog(@"BUNDLE is %@",[NSBundle mainBundle]);
+	
+	
+	if ( ![[NSFileManager defaultManager] fileExistsAtPath: toolPath] )
+	{
+		[[LoggerClass getInstance] logData:@"getID3TagInfo --> File not found %@",toolPath];
+		return nil;
+	}
+	
+	NSString *filename = fileName;		
+			
+	NSMutableArray *mArray = [[NSMutableArray alloc] init];	
+	[mArray addObject:@"-i"];	
+	[mArray addObject:filename];
+	
+	task = [[NSTask alloc] init]; 	
+	[task setLaunchPath: toolPath];
+	[task setArguments: mArray];
+	 NSLog(@"mArray NSMutableArray==%@",mArray);
+	NSPipe *pipe;
+    pipe = [NSPipe pipe];
+    [task setStandardOutput: pipe];	
+	[task setStandardError: pipe];	
+	
+    NSFileHandle *file;
+    file = [pipe fileHandleForReading];
+	
+    [task launch];
+    //[task waitUntilExit];
+	
+    NSData *data;
+    data = [file readDataToEndOfFile];
+	
+    NSMutableString *string;
+    string = [[NSMutableString alloc] initWithData: data encoding: NSUTF8StringEncoding];
+	
+	[mArray release];
+	[task release];
+	
+	NSArray *listItems = [string componentsSeparatedByString:@"\n"];		
+	 NSLog(@"listItems NSArray==%@",listItems);
+	NSMutableDictionary *RetrievedTags=[[[NSMutableDictionary alloc]init]autorelease];	
+	int k=0;
+	for ( k=1;k<[listItems count];k++)
+	{
+		NSArray *TRY=[[listItems objectAtIndex:k] componentsSeparatedByString:@":"];
+		 NSLog(@"TRY NSArray==%@",TRY);
+		if([TRY count]>1)			
+		{
+			NSString *firstString=[TRY objectAtIndex:0] ;	
+			firstString = [firstString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+			NSString *secondString=[TRY objectAtIndex:1];
+			[RetrievedTags setObject:secondString forKey:firstString];			
+		}		
+	}
+	// set file name
+	[RetrievedTags setObject:[fileName lastPathComponent] forKey:ID3_TAG_FILENAME];
+	//DUBUG_LOG(@"getID3TagInfo ret %@",RetrievedTags);
+     NSLog(@"RetrievedTags NSMutableDictionary==%@",RetrievedTags);
+    DUBUG_LOG(@"Now you are completed getID3TagInfo method in getID3TagInfo class");
+	return(RetrievedTags);
+	
+}
+
+
+
+
+-(NSMutableDictionary*)getID3TagInfoOfAac:(NSString *)fileName
+{	
+    DUBUG_LOG(@"Now you are in getID3TagInfoOfAac:(NSString *)fileName method in getID3TagInfo class");
+	DUBUG_LOG(@"getID3TagInfo ");
+	
+	NSString * toolPath;	
+	//toolPath = @"/usr/local/bin/ffmpeg";	
+	//NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
+	//toolPath = [bundlePath  stringByAppendingPathComponent:@"faad"];
+	
+	toolPath=[[NSBundle mainBundle] pathForResource:@"faad" ofType:@""];
+
+	
+	if ( ![[NSFileManager defaultManager] fileExistsAtPath: toolPath] )
+	{
+		[[LoggerClass getInstance] logData:@"getID3TagInfo --> File not found %@",toolPath];
+		return nil;
+	}
+	
+	NSString *filename = fileName;		
+	
+	NSMutableArray *mArray = [[NSMutableArray alloc] init];	
+	[mArray addObject:@"-i"];	
+	[mArray addObject:filename];
+	
+	task = [[NSTask alloc] init]; 	
+	[task setLaunchPath: toolPath];
+	[task setArguments: mArray];
+	NSLog(@"mArray NSMutableArray==%@",mArray);
+	NSPipe *pipe;
+    pipe = [NSPipe pipe];
+    [task setStandardOutput: pipe];	
+	[task setStandardError: pipe];	
+	
+    NSFileHandle *file;
+    file = [pipe fileHandleForReading];
+	
+    [task launch];
+    //[task waitUntilExit];
+	
+    NSData *data;
+    data = [file readDataToEndOfFile];
+	
+    NSMutableString *string;
+    //string = [[NSMutableString alloc] initWithData: data encoding: NSUTF8StringEncoding];
+	
+	string = [[NSMutableString alloc] initWithData: data encoding: NSASCIIStringEncoding];
+
+	
+	
+	[mArray release];
+	[task release];
+	
+	NSArray *listItems = [string componentsSeparatedByString:@"\n"];		
+	NSLog(@"listItems NSArray==%@",listItems);
+	//NSLog(@"string string string is %@",string);
+	
+//	//NSLog(@"listItems listItems listItems is %@",listItems);
+	
+	
+	NSMutableDictionary *RetrievedTags=[[[NSMutableDictionary alloc]init]autorelease];	
+	int k=0;
+	for ( k=1;k<[listItems count];k++)
+	{
+		NSArray *TRY=[[listItems objectAtIndex:k] componentsSeparatedByString:@":"];
+		
+		if([TRY count]>1)			
+		{
+			NSString *firstString=[TRY objectAtIndex:0] ;	
+			firstString = [firstString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+			NSString *secondString=[TRY objectAtIndex:1];
+			[RetrievedTags setObject:secondString forKey:firstString];			
+		}		
+	}
+	// set file name
+	[RetrievedTags setObject:[fileName lastPathComponent] forKey:ID3_TAG_FILENAME];
+	//DUBUG_LOG(@"getID3TagInfo ret %@",RetrievedTags);
+    NSLog(@"RetrievedTags NSMutableDictionary==%@",RetrievedTags);
+    DUBUG_LOG(@"Now you are completed getID3TagInfoOfAac:(NSString *)fileName method in getID3TagInfo class");
+	return(RetrievedTags);
+	
+}
+@end

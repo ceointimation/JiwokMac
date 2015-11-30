@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'Jiwok' target in the 'Jiwok' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#ifdef _WITH_LOG	
+#define DUBUG_LOG(format,...)  [[LoggerClass getInstance] logData:format, ## __VA_ARGS__] //macro with variable no of arguments
+#else
+#define DUBUG_LOG(format,...)   
+#endif

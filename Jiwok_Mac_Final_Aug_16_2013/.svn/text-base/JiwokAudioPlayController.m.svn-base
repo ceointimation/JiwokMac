@@ -1,0 +1,53 @@
+
+
+#import "JiwokAudioPlayController.h"
+#import "LoggerClass.h"
+
+
+@implementation JiwokAudioPlayController
+
+//Play the music
+-(void)playMusic:(NSString *)path
+{
+	if(sound) 
+	{
+		[sound stop];
+		[sound release];
+	}
+	
+	testPlay =NO;
+	sound = [[NSSound alloc] initWithContentsOfFile:path byReference:YES ];
+	
+	//NSLog(@"palyeiii");
+	
+	[sound play];
+}
+
+//Pause the music
+-(void)pauseMusic
+{
+	[sound pause];
+}
+	
+//Resume the music
+-(void)resumeMusic 
+{
+	[sound resume];
+}
+
+//Stop the music
+-(void)stopMusic
+{
+	if ([sound isPlaying])
+	{
+		[sound stop];
+	}
+}
+
+- (void)dealloc 
+{		
+	[super dealloc];
+}
+
+
+@end

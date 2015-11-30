@@ -1,0 +1,1689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		084AF42511EDD6DA000EED55 /* JiwokMyMusicPanelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 084AF42411EDD6DA000EED55 /* JiwokMyMusicPanelView.xib */; };
+		087F182412140752005E8244 /* Save_WorkoutLoc_En.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 087F182212140752005E8244 /* Save_WorkoutLoc_En.JPG */; };
+		087F182512140752005E8244 /* Save_WorkoutLoc_Fr.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 087F182312140752005E8244 /* Save_WorkoutLoc_Fr.JPG */; };
+		087F18281214075B005E8244 /* viewMyWorkout_Fr.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 087F18261214075B005E8244 /* viewMyWorkout_Fr.JPG */; };
+		087F18291214075B005E8244 /* viewMyWorkout_En.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 087F18271214075B005E8244 /* viewMyWorkout_En.JPG */; };
+		087F182B121407CA005E8244 /* Fileopen.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 087F182A121407CA005E8244 /* Fileopen.JPG */; };
+		088112181206E94E008104AB /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 088112171206E94E008104AB /* Localization.strings */; };
+		0881DD8411EB365F00F063E6 /* JiwokFTPDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0881DD8311EB365F00F063E6 /* JiwokFTPDownloader.m */; };
+		0881E01B11E867B500BE3252 /* JiwokUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0881E01A11E867B500BE3252 /* JiwokUtil.m */; };
+		0881E05311E86C0000BE3252 /* JiwokSettingPlistReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0881E05211E86C0000BE3252 /* JiwokSettingPlistReader.m */; };
+		0881E05711E86E9A00BE3252 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0881E05611E86E9A00BE3252 /* Settings.plist */; };
+		0882C96D120AD13E00E97380 /* JiwokAnalysisSummaryWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0882C96C120AD13E00E97380 /* JiwokAnalysisSummaryWindow.xib */; };
+		08839EBA120177600044A084 /* cancel_Normal_En.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08839EB6120177600044A084 /* cancel_Normal_En.jpg */; };
+		08839EBB120177600044A084 /* cancel_Normal_Fr.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 08839EB7120177600044A084 /* cancel_Normal_Fr.JPG */; };
+		08839EBC120177600044A084 /* search_Normal_Fr.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 08839EB8120177600044A084 /* search_Normal_Fr.JPG */; };
+		08841FE31208174700E7BE76 /* search_Bg.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 08841FE21208174700E7BE76 /* search_Bg.JPG */; };
+		088459F6121019D700B5E938 /* FMCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 088459E1121019D700B5E938 /* FMCallback.m */; };
+		088459F7121019D700B5E938 /* FMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 088459E3121019D700B5E938 /* FMEngine.m */; };
+		088459F8121019D700B5E938 /* FMEngineURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 088459E5121019D700B5E938 /* FMEngineURLConnection.m */; };
+		088459F9121019D700B5E938 /* NSString+FMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 088459E7121019D700B5E938 /* NSString+FMEngine.m */; };
+		088459FA121019D700B5E938 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 088459EB121019D700B5E938 /* NSObject+SBJSON.m */; };
+		088459FB121019D700B5E938 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 088459ED121019D700B5E938 /* NSString+SBJSON.m */; };
+		088459FC121019D700B5E938 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 088459EF121019D700B5E938 /* SBJSON.m */; };
+		088459FD121019D700B5E938 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 088459F1121019D700B5E938 /* SBJsonBase.m */; };
+		088459FE121019D700B5E938 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 088459F3121019D700B5E938 /* SBJsonParser.m */; };
+		088459FF121019D700B5E938 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 088459F5121019D700B5E938 /* SBJsonWriter.m */; };
+		08845A02121019EB00B5E938 /* FingerPrintParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 08845A00121019EB00B5E938 /* FingerPrintParser.m */; };
+		08845A05121019F900B5E938 /* JiwokLastfmClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 08845A03121019F900B5E938 /* JiwokLastfmClient.m */; };
+		08849BA41202899000CA5428 /* addNewFolder_Fr.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 08849BA21202899000CA5428 /* addNewFolder_Fr.JPG */; };
+		08849BA51202899000CA5428 /* addNewFolder_En.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 08849BA31202899000CA5428 /* addNewFolder_En.JPG */; };
+		0884B9C311EDB84A00723F9A /* login_Panel_Bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0884B9C211EDB84A00723F9A /* login_Panel_Bg.png */; };
+		0884B9CA11EDB9CB00723F9A /* disconnect_Normal_Fr.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0884B9C611EDB9CB00723F9A /* disconnect_Normal_Fr.JPG */; };
+		0884B9CB11EDB9CB00723F9A /* disconnect_Normal_En.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0884B9C711EDB9CB00723F9A /* disconnect_Normal_En.JPG */; };
+		0884B9CC11EDB9CB00723F9A /* connect_Normal_Fr.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0884B9C811EDB9CB00723F9A /* connect_Normal_Fr.JPG */; };
+		0884B9CD11EDB9CB00723F9A /* connect_Normal_En.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0884B9C911EDB9CB00723F9A /* connect_Normal_En.JPG */; };
+		08860D2911EC4DB800F60064 /* JiwokDownloadBkndView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08860D2811EC4DB800F60064 /* JiwokDownloadBkndView.m */; };
+		08860D5611EC4E8B00F60064 /* download_bknd.png in Resources */ = {isa = PBXBuildFile; fileRef = 08860D5511EC4E8B00F60064 /* download_bknd.png */; };
+		0886432711EB205B00175F07 /* JiwokDownloadWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0886432611EB205B00175F07 /* JiwokDownloadWindow.xib */; };
+		0887ECE4121E471E00594B6E /* SupportTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 0887ECE2121E471E00594B6E /* SupportTab.m */; };
+		0887ECE7121E472C00594B6E /* GetSupportMailDetailsXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0887ECE6121E472C00594B6E /* GetSupportMailDetailsXmlParser.m */; };
+		0887ECF8121E479300594B6E /* S7FTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0887ECF6121E479300594B6E /* S7FTPRequest.m */; };
+		088ACEDF11ED89C900FD6CA7 /* Main_Bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 088ACEDE11ED89C900FD6CA7 /* Main_Bg.png */; };
+		088ACEE511ED8AE900FD6CA7 /* JiwokMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088ACEE411ED8AE900FD6CA7 /* JiwokMainWindowController.m */; };
+		088B431611ED973F00B19E2B /* loginTab_Normal_En.png in Resources */ = {isa = PBXBuildFile; fileRef = 088B431211ED973F00B19E2B /* loginTab_Normal_En.png */; };
+		088B431711ED973F00B19E2B /* loginTab_Hover_En.png in Resources */ = {isa = PBXBuildFile; fileRef = 088B431311ED973F00B19E2B /* loginTab_Hover_En.png */; };
+		088B431811ED973F00B19E2B /* loginTab_Normal_Fr.png in Resources */ = {isa = PBXBuildFile; fileRef = 088B431411ED973F00B19E2B /* loginTab_Normal_Fr.png */; };
+		088B431911ED973F00B19E2B /* loginTab_Hover_Fr.png in Resources */ = {isa = PBXBuildFile; fileRef = 088B431511ED973F00B19E2B /* loginTab_Hover_Fr.png */; };
+		088B431F11ED978C00B19E2B /* myMusicTab_Hover_Fr.png in Resources */ = {isa = PBXBuildFile; fileRef = 088B431B11ED978C00B19E2B /* myMusicTab_Hover_Fr.png */; };
+		088B432011ED978C00B19E2B /* myMusicTab_Hover_En.png in Resources */ = {isa = PBXBuildFile; fileRef = 088B431C11ED978C00B19E2B /* myMusicTab_Hover_En.png */; };
+		088B432111ED978C00B19E2B /* myMusicTab_Normal_Fr.png in Resources */ = {isa = PBXBuildFile; fileRef = 088B431D11ED978C00B19E2B /* myMusicTab_Normal_Fr.png */; };
+		088B432211ED978C00B19E2B /* myMusicTab_Normal_En.png in Resources */ = {isa = PBXBuildFile; fileRef = 088B431E11ED978C00B19E2B /* myMusicTab_Normal_En.png */; };
+		088B432811ED980500B19E2B /* myWorkoutTab_Hover_En.png in Resources */ = {isa = PBXBuildFile; fileRef = 088B432411ED980500B19E2B /* myWorkoutTab_Hover_En.png */; };
+		088B432911ED980500B19E2B /* myWorkoutTab_Normal_Fr.png in Resources */ = {isa = PBXBuildFile; fileRef = 088B432511ED980500B19E2B /* myWorkoutTab_Normal_Fr.png */; };
+		088B432A11ED980500B19E2B /* myWorkoutTab_Normal_En.png in Resources */ = {isa = PBXBuildFile; fileRef = 088B432611ED980500B19E2B /* myWorkoutTab_Normal_En.png */; };
+		088B432B11ED980500B19E2B /* myWorkoutTab_Hover_Fr.png in Resources */ = {isa = PBXBuildFile; fileRef = 088B432711ED980500B19E2B /* myWorkoutTab_Hover_Fr.png */; };
+		088B433411ED989D00B19E2B /* support_Normal_En.png in Resources */ = {isa = PBXBuildFile; fileRef = 088B432F11ED989D00B19E2B /* support_Normal_En.png */; };
+		088B433511ED989D00B19E2B /* support_Normal_Fr.png in Resources */ = {isa = PBXBuildFile; fileRef = 088B433011ED989D00B19E2B /* support_Normal_Fr.png */; };
+		088B43AA11ED9F4800B19E2B /* JiwokLoginPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088B43A911ED9F4800B19E2B /* JiwokLoginPanelViewController.m */; };
+		088C6813120BEA420075448F /* playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 088C6811120BEA420075448F /* playbutton.png */; };
+		088C6814120BEA420075448F /* stopbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 088C6812120BEA420075448F /* stopbutton.png */; };
+		088CA841121CFD3400DC959C /* JiwokWorkoutPopupWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 088CA840121CFD3400DC959C /* JiwokWorkoutPopupWindow.xib */; };
+		088CA85B121D02B800DC959C /* viewMyWorkoutInQueue_Fr.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 088CA85A121D02B800DC959C /* viewMyWorkoutInQueue_Fr.JPG */; };
+		088CA96B121D210900DC959C /* JiwokAllWorkoutInfoXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 088CA96A121D210900DC959C /* JiwokAllWorkoutInfoXMLParser.m */; };
+		088CAC84121D7DFA00DC959C /* JiwokSupportPanelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 088CAC83121D7DFA00DC959C /* JiwokSupportPanelView.xib */; };
+		088CAC88121D7E5500DC959C /* JiwokSupportPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088CAC87121D7E5500DC959C /* JiwokSupportPanelViewController.m */; };
+		088E8A2011E83F8800A19CB2 /* JiwokUserdetailsXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 088E8A1E11E83F8800A19CB2 /* JiwokUserdetailsXmlParser.m */; };
+		088F0146121A687000FB3B42 /* JiwokVocalInfoXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 088F0145121A687000FB3B42 /* JiwokVocalInfoXMLParser.m */; };
+		0892484911EF7C1A005993B6 /* JiwokMyWorkoutPanelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0892484811EF7C1A005993B6 /* JiwokMyWorkoutPanelView.xib */; };
+		0892492D11EFA022005993B6 /* JiwokAPPIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0892492C11EFA022005993B6 /* JiwokAPPIcon.icns */; };
+		08A103521219574F00BD3FD3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A103511219574F00BD3FD3 /* Security.framework */; };
+		08A8BC4612002899001C1C39 /* JiwokDataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A8BC4512002899001C1C39 /* JiwokDataBaseManager.m */; };
+		08C5CBBF11E9123C006080D0 /* JiwokUpdateLoginStatusXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C5CBBD11E9123C006080D0 /* JiwokUpdateLoginStatusXmlParser.m */; };
+		08C5CBF811E918EA006080D0 /* JiwokMusicalSearchWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08C5CBF711E918EA006080D0 /* JiwokMusicalSearchWindow.xib */; };
+		08EF3F1211E7FDED000F0BE9 /* logIn_Normal_Fr.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 08EF3F0E11E7FDED000F0BE9 /* logIn_Normal_Fr.JPG */; };
+		08EF3F1311E7FDED000F0BE9 /* logIn_Cancel_Normal_En.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 08EF3F0F11E7FDED000F0BE9 /* logIn_Cancel_Normal_En.JPG */; };
+		08EF3F1411E7FDED000F0BE9 /* logIn_Normal_En.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 08EF3F1011E7FDED000F0BE9 /* logIn_Normal_En.JPG */; };
+		08EF3F1511E7FDED000F0BE9 /* logIn_Cancel_Normal_Fr.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 08EF3F1111E7FDED000F0BE9 /* logIn_Cancel_Normal_Fr.JPG */; };
+		11BD98FE140CB70D00EB1642 /* aacgain in Resources */ = {isa = PBXBuildFile; fileRef = 11BD98FD140CB70D00EB1642 /* aacgain */; };
+		180B0D611C043EBE00A5F9B3 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 180B0D601C043EBE00A5F9B3 /* libsqlite3.dylib */; };
+		182C43FC1C09E6E60026AB0A /* MailCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182C43FB1C09E6E60026AB0A /* MailCore.framework */; settings = {ASSET_TAGS = (); }; };
+		182C43FE1C09E8190026AB0A /* MailCore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 182C43FB1C09E6E60026AB0A /* MailCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1839273512C32D8A0005D21B /* JiwokLoginPanelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1839273412C32D8A0005D21B /* JiwokLoginPanelView.xib */; };
+		1839284A12C350B50005D21B /* viewMyWorkoutInQueue_En.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1839284912C350B50005D21B /* viewMyWorkoutInQueue_En.JPG */; };
+		1839286312C352860005D21B /* search_Normal_En.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1839286212C352860005D21B /* search_Normal_En.JPG */; };
+		1858639A12AA5868008C8322 /* aubiocut in Resources */ = {isa = PBXBuildFile; fileRef = 1858639412AA5868008C8322 /* aubiocut */; };
+		1858639B12AA5868008C8322 /* aubionotes in Resources */ = {isa = PBXBuildFile; fileRef = 1858639512AA5868008C8322 /* aubionotes */; };
+		1858639C12AA5868008C8322 /* aubioonset in Resources */ = {isa = PBXBuildFile; fileRef = 1858639612AA5868008C8322 /* aubioonset */; };
+		1858639D12AA5868008C8322 /* aubiopitch in Resources */ = {isa = PBXBuildFile; fileRef = 1858639712AA5868008C8322 /* aubiopitch */; };
+		1858639E12AA5868008C8322 /* aubiotrack in Resources */ = {isa = PBXBuildFile; fileRef = 1858639812AA5868008C8322 /* aubiotrack */; };
+		1858639F12AA5868008C8322 /* autopoint in Resources */ = {isa = PBXBuildFile; fileRef = 1858639912AA5868008C8322 /* autopoint */; };
+		185863A312AA5892008C8322 /* BpmCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 185863A212AA5892008C8322 /* BpmCalculator.m */; };
+		1874BE57124A27E5005C26DA /* TAGOfflineDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1874BE56124A27E5005C26DA /* TAGOfflineDB.sqlite */; };
+		188C1BDF124E385F004A1B70 /* support_Hover_En.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C1BDD124E385F004A1B70 /* support_Hover_En.png */; };
+		188C1BE0124E385F004A1B70 /* support_Hover_Fr.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C1BDE124E385F004A1B70 /* support_Hover_Fr.png */; };
+		188FDE46124CC9DB0041DF30 /* JiwokUpdateWorkoutStatusXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FDE45124CC9DB0041DF30 /* JiwokUpdateWorkoutStatusXmlParser.m */; };
+		188FDE74124CD0600041DF30 /* JiwokUpdateTagDetectedGenreXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FDE73124CD0600041DF30 /* JiwokUpdateTagDetectedGenreXmlParser.m */; };
+		188FDEB6124CDC3F0041DF30 /* JiwokMusicSystemDBMgrWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FDEB5124CDC3F0041DF30 /* JiwokMusicSystemDBMgrWrapper.m */; };
+		188FDEBE124CDCBF0041DF30 /* JiwokAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FDEBD124CDCBF0041DF30 /* JiwokAppDelegate.m */; };
+		18917A231227AE460046FE7A /* JiwokFMODWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18917A111227AE460046FE7A /* JiwokFMODWrapper.cpp */; };
+		18917A251227AE460046FE7A /* JiwokAudioPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18917A181227AE460046FE7A /* JiwokAudioPlayController.m */; };
+		18917A271227AE460046FE7A /* JiwokMusicConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18917A1C1227AE460046FE7A /* JiwokMusicConverter.m */; };
+		18917A281227AE460046FE7A /* JiwokFMODUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18917A1E1227AE460046FE7A /* JiwokFMODUtil.mm */; };
+		18917A291227AE460046FE7A /* JiwokAnalysisSummaryWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18917A201227AE460046FE7A /* JiwokAnalysisSummaryWindowController.m */; };
+		189578CB1C09DDB000A1078E /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C294FFB12CD991E008376A4 /* Growl.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		189B73F31268111500025536 /* JiwokFfmpegID3TagReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B73F11268111500025536 /* JiwokFfmpegID3TagReader.m */; };
+		18BE851C125C6BD300C5BC9E /* JiwokCurlFtpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE851B125C6BD300C5BC9E /* JiwokCurlFtpClient.m */; };
+		18BE8521125C6C0100C5BC9E /* JiwokDownloderWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE8520125C6C0100C5BC9E /* JiwokDownloderWindowController.m */; };
+		18D953721268998600729EDB /* GenerateWorkout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D953711268998600729EDB /* GenerateWorkout.m */; };
+		18E263601250D00C0022BF1F /* JiwokMyMusicPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E2635F1250D00C0022BF1F /* JiwokMyMusicPanelViewController.m */; };
+		18F233111C07653B00BAC143 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F233101C07653B00BAC143 /* Carbon.framework */; };
+		18F233131C07654D00BAC143 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F233121C07654D00BAC143 /* AudioUnit.framework */; };
+		18F233151C07655400BAC143 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F233141C07655400BAC143 /* CoreAudio.framework */; };
+		18F233171C07658A00BAC143 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F233161C07658A00BAC143 /* CoreFoundation.framework */; };
+		18F233191C07660200BAC143 /* libfmodex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F233181C07660200BAC143 /* libfmodex.dylib */; };
+		18F2331A1C07662600BAC143 /* libfmodex.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18F233181C07660200BAC143 /* libfmodex.dylib */; };
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		4C04E5C11285593000A5F596 /* CFFTPSample in Resources */ = {isa = PBXBuildFile; fileRef = 4C04E5BA1285593000A5F596 /* CFFTPSample */; };
+		4C04E5C21285593000A5F596 /* faad in Resources */ = {isa = PBXBuildFile; fileRef = 4C04E5BB1285593000A5F596 /* faad */; };
+		4C04E5C41285593000A5F596 /* lastfmfpclient in Resources */ = {isa = PBXBuildFile; fileRef = 4C04E5BD1285593000A5F596 /* lastfmfpclient */; };
+		4C04E5C51285593000A5F596 /* mp3gain in Resources */ = {isa = PBXBuildFile; fileRef = 4C04E5BE1285593000A5F596 /* mp3gain */; };
+		4C04E5C71285593000A5F596 /* sox in Resources */ = {isa = PBXBuildFile; fileRef = 4C04E5C01285593000A5F596 /* sox */; };
+		4C2632AF12EEB12500B0E0F8 /* JiwokUpdater.app in Resources */ = {isa = PBXBuildFile; fileRef = 4C2632AE12EEB12500B0E0F8 /* JiwokUpdater.app */; };
+		4C294FFC12CD991E008376A4 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C294FFB12CD991E008376A4 /* Growl.framework */; };
+		4C29500B12CD9966008376A4 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C294FFB12CD991E008376A4 /* Growl.framework */; };
+		4C2B1DCB12CB0D7D00EB1451 /* Dock_blue_Menu_Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2B1DC712CB0D7D00EB1451 /* Dock_blue_Menu_Bar.png */; };
+		4C2B1DCC12CB0D7D00EB1451 /* Dock_gray_Menu_Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2B1DC812CB0D7D00EB1451 /* Dock_gray_Menu_Bar.png */; };
+		4C2B1DCD12CB0D7D00EB1451 /* Dock_green_Menu_Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2B1DC912CB0D7D00EB1451 /* Dock_green_Menu_Bar.png */; };
+		4C2B1DCE12CB0D7D00EB1451 /* Dock_pink_Menu_Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2B1DCA12CB0D7D00EB1451 /* Dock_pink_Menu_Bar.png */; };
+		4C2B1E8412CB35CC00EB1451 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2B1E8312CB35CC00EB1451 /* 3.png */; };
+		4C2B1E8F12CB396700EB1451 /* support_Panel_Bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2B1E8E12CB396700EB1451 /* support_Panel_Bg.png */; };
+		4C2B1E9F12CB3E3300EB1451 /* myWorkout_Panel_Bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2B1E9E12CB3E3300EB1451 /* myWorkout_Panel_Bg.png */; };
+		4C6ACCE311E304A00037A194 /* LoggerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6ACCE211E304A00037A194 /* LoggerClass.m */; };
+		4C6AD00A11E33C710037A194 /* JiwokLoginBackGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6AD00911E33C710037A194 /* JiwokLoginBackGroundView.m */; };
+		4C6AD14F11E34FFD0037A194 /* JiwokMainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C6AD14E11E34FFD0037A194 /* JiwokMainWindow.xib */; };
+		4C6F57F612DAED160009AE13 /* search_anim.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F57F412DAED160009AE13 /* search_anim.gif */; };
+		4C6F57F712DAED160009AE13 /* search_anim2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F57F512DAED160009AE13 /* search_anim2.gif */; };
+		4C6F580312DAFF5A0009AE13 /* Search_Animation_fast.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F580112DAFF5A0009AE13 /* Search_Animation_fast.gif */; };
+		4C6F580412DAFF5A0009AE13 /* Search_Animation_slow.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F580212DAFF5A0009AE13 /* Search_Animation_slow.gif */; };
+		4C761C73163E91DB00F44AF7 /* addNewFolder_Pl.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C761C61163E91DB00F44AF7 /* addNewFolder_Pl.JPG */; };
+		4C761C74163E91DB00F44AF7 /* cancel_Normal_Pl.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C761C62163E91DB00F44AF7 /* cancel_Normal_Pl.JPG */; };
+		4C761C75163E91DB00F44AF7 /* connect_Normal_Pl.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C761C63163E91DB00F44AF7 /* connect_Normal_Pl.JPG */; };
+		4C761C76163E91DB00F44AF7 /* disconnect_Normal_Pl.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C761C64163E91DB00F44AF7 /* disconnect_Normal_Pl.JPG */; };
+		4C761C77163E91DB00F44AF7 /* logIn_Cancel_Normal_Pl.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C761C65163E91DB00F44AF7 /* logIn_Cancel_Normal_Pl.JPG */; };
+		4C761C78163E91DB00F44AF7 /* logIn_Normal_pl.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C761C66163E91DB00F44AF7 /* logIn_Normal_pl.JPG */; };
+		4C761C79163E91DB00F44AF7 /* loginTab_Hover_Pl.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C761C67163E91DB00F44AF7 /* loginTab_Hover_Pl.png */; };
+		4C761C7A163E91DB00F44AF7 /* loginTab_Normal_Pl.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C761C68163E91DB00F44AF7 /* loginTab_Normal_Pl.png */; };
+		4C761C7B163E91DB00F44AF7 /* myMusicTab_Hover_Pl.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C761C69163E91DB00F44AF7 /* myMusicTab_Hover_Pl.png */; };
+		4C761C7C163E91DB00F44AF7 /* myMusicTab_Normal_Pl.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C761C6A163E91DB00F44AF7 /* myMusicTab_Normal_Pl.png */; };
+		4C761C7D163E91DB00F44AF7 /* myWorkoutTab_Hover_Pl.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C761C6B163E91DB00F44AF7 /* myWorkoutTab_Hover_Pl.png */; };
+		4C761C7E163E91DB00F44AF7 /* myWorkoutTab_Normal_Pl.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C761C6C163E91DB00F44AF7 /* myWorkoutTab_Normal_Pl.png */; };
+		4C761C7F163E91DB00F44AF7 /* Save_WorkoutLoc_Pl.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C761C6D163E91DB00F44AF7 /* Save_WorkoutLoc_Pl.JPG */; };
+		4C761C80163E91DB00F44AF7 /* search_Normal_Pl.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C761C6E163E91DB00F44AF7 /* search_Normal_Pl.JPG */; };
+		4C761C81163E91DB00F44AF7 /* support_Hover_Pl.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C761C6F163E91DB00F44AF7 /* support_Hover_Pl.png */; };
+		4C761C82163E91DB00F44AF7 /* support_Normal_Pl.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C761C70163E91DB00F44AF7 /* support_Normal_Pl.png */; };
+		4C761C83163E91DB00F44AF7 /* viewMyWorkout_Pl.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C761C71163E91DB00F44AF7 /* viewMyWorkout_Pl.JPG */; };
+		4C761C84163E91DB00F44AF7 /* viewMyWorkoutInQueue_Pl.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C761C72163E91DB00F44AF7 /* viewMyWorkoutInQueue_Pl.JPG */; };
+		4C76484D13C33D3300E12F88 /* addNewFolder_Es.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C76483C13C33D3300E12F88 /* addNewFolder_Es.JPG */; };
+		4C76484E13C33D3300E12F88 /* cancel_Normal_Es.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C76483D13C33D3300E12F88 /* cancel_Normal_Es.JPG */; };
+		4C76484F13C33D3300E12F88 /* connect_Normal_Es.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C76483E13C33D3300E12F88 /* connect_Normal_Es.JPG */; };
+		4C76485013C33D3300E12F88 /* disconnect_Normal_Es.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C76483F13C33D3300E12F88 /* disconnect_Normal_Es.JPG */; };
+		4C76485113C33D3300E12F88 /* logIn_Cancel_Normal_Es.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C76484013C33D3300E12F88 /* logIn_Cancel_Normal_Es.JPG */; };
+		4C76485213C33D3300E12F88 /* logIn_Normal_Es.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C76484113C33D3300E12F88 /* logIn_Normal_Es.JPG */; };
+		4C76485313C33D3300E12F88 /* loginTab_Hover_Es.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C76484213C33D3300E12F88 /* loginTab_Hover_Es.png */; };
+		4C76485413C33D3300E12F88 /* loginTab_Normal_Es.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C76484313C33D3300E12F88 /* loginTab_Normal_Es.png */; };
+		4C76485513C33D3300E12F88 /* myMusicTab_Hover_Es.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C76484413C33D3300E12F88 /* myMusicTab_Hover_Es.png */; };
+		4C76485613C33D3300E12F88 /* myMusicTab_Normal_Es.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C76484513C33D3300E12F88 /* myMusicTab_Normal_Es.png */; };
+		4C76485713C33D3300E12F88 /* myWorkoutTab_Hover_Es.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C76484613C33D3300E12F88 /* myWorkoutTab_Hover_Es.png */; };
+		4C76485813C33D3300E12F88 /* myWorkoutTab_Normal_Es.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C76484713C33D3300E12F88 /* myWorkoutTab_Normal_Es.png */; };
+		4C76485A13C33D3300E12F88 /* search_Normal_Es.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C76484913C33D3300E12F88 /* search_Normal_Es.JPG */; };
+		4C76485B13C33D3300E12F88 /* support_Hover_Es.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C76484A13C33D3300E12F88 /* support_Hover_Es.jpg */; };
+		4C76485C13C33D3300E12F88 /* support_Normal_Es.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C76484B13C33D3300E12F88 /* support_Normal_Es.png */; };
+		4C76487113C33D3900E12F88 /* addNewFolder_It.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C76485F13C33D3900E12F88 /* addNewFolder_It.JPG */; };
+		4C76487313C33D3900E12F88 /* cancel_Normal_It.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C76486113C33D3900E12F88 /* cancel_Normal_It.JPG */; };
+		4C76487413C33D3900E12F88 /* connect_Normal_It.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C76486213C33D3900E12F88 /* connect_Normal_It.JPG */; };
+		4C76487513C33D3900E12F88 /* disconnect_Normal_It.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C76486313C33D3900E12F88 /* disconnect_Normal_It.JPG */; };
+		4C76487613C33D3900E12F88 /* logIn_Cancel_Normal_It.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C76486413C33D3900E12F88 /* logIn_Cancel_Normal_It.JPG */; };
+		4C76487713C33D3900E12F88 /* logIn_Normal_It.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C76486513C33D3900E12F88 /* logIn_Normal_It.JPG */; };
+		4C76487813C33D3900E12F88 /* loginTab_Hover_It.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C76486613C33D3900E12F88 /* loginTab_Hover_It.png */; };
+		4C76487913C33D3900E12F88 /* loginTab_Normal_It.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C76486713C33D3900E12F88 /* loginTab_Normal_It.png */; };
+		4C76487A13C33D3900E12F88 /* myMusicTab_Hover_It.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C76486813C33D3900E12F88 /* myMusicTab_Hover_It.png */; };
+		4C76487B13C33D3900E12F88 /* myMusicTab_Normal_It.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C76486913C33D3900E12F88 /* myMusicTab_Normal_It.png */; };
+		4C76487C13C33D3900E12F88 /* myWorkoutTab_Hover_It.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C76486A13C33D3900E12F88 /* myWorkoutTab_Hover_It.png */; };
+		4C76487D13C33D3900E12F88 /* myWorkoutTab_Normal_It.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C76486B13C33D3900E12F88 /* myWorkoutTab_Normal_It.png */; };
+		4C76487E13C33D3900E12F88 /* Save_WorkoutLoc_It.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C76486C13C33D3900E12F88 /* Save_WorkoutLoc_It.JPG */; };
+		4C76487F13C33D3900E12F88 /* search_Normal_It.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C76486D13C33D3900E12F88 /* search_Normal_It.JPG */; };
+		4C76489613C341C600E12F88 /* support_Hover_It.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C76489513C341C600E12F88 /* support_Hover_It.png */; };
+		4C76489813C341D300E12F88 /* support_Hover_Es .png in Resources */ = {isa = PBXBuildFile; fileRef = 4C76489713C341D300E12F88 /* support_Hover_Es .png */; };
+		4C76489A13C3424800E12F88 /* viewMyWorkout_Es.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C76489913C3424800E12F88 /* viewMyWorkout_Es.JPG */; };
+		4C76489C13C3425B00E12F88 /* viewMyWorkout_It.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C76489B13C3425B00E12F88 /* viewMyWorkout_It.JPG */; };
+		4C7648C913C3461A00E12F88 /* support_Normal_It.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7648C813C3461A00E12F88 /* support_Normal_It.png */; };
+		4C7648CE13C3468300E12F88 /* support_Hover_Es.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7648CD13C3468300E12F88 /* support_Hover_Es.png */; };
+		4C7648DF13C3471E00E12F88 /* viewMyWorkoutInQueue_It.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C7648DE13C3471E00E12F88 /* viewMyWorkoutInQueue_It.JPG */; };
+		4C7648E113C3474A00E12F88 /* viewMyWorkoutInQueue_Es.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4C7648E013C3474A00E12F88 /* viewMyWorkoutInQueue_Es.JPG */; };
+		4C78F7DC124B7CBA00096169 /* JiwokMyWorkoutPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C78F7DB124B7CBA00096169 /* JiwokMyWorkoutPanelViewController.m */; };
+		4C78F7DF124B7CCE00096169 /* JiwokWorkoutPopupWndController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C78F7DE124B7CCE00096169 /* JiwokWorkoutPopupWndController.m */; };
+		4C78F7E2124B7EB500096169 /* JiwokMusicProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C78F7E1124B7EB500096169 /* JiwokMusicProcessor.m */; };
+		4C87A9051250B4C1008229E8 /* JiwokMusicalSearchWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C87A9041250B4C1008229E8 /* JiwokMusicalSearchWindowController.m */; };
+		4C9C37DE12C1CC22002B75D2 /* GrowlExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C37DD12C1CC22002B75D2 /* GrowlExample.m */; };
+		4C9E5A4612C0AC0F00D25D55 /* WorkoutDetailsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E5A4512C0AC0F00D25D55 /* WorkoutDetailsParser.m */; };
+		4CA84AC112C270A90069DD24 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 4CA84AB012C26FB70069DD24 /* Growl Registration Ticket.growlRegDict */; };
+		4CB1C39212AF546F00E21C88 /* PeakFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CB1C39012AF546F00E21C88 /* PeakFinder.cpp */; };
+		4CB1C39712AF548D00E21C88 /* BPMDetect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CB1C39512AF548D00E21C88 /* BPMDetect.cpp */; };
+		4CB1C39E12AF54BF00E21C88 /* FIFOSampleBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CB1C39D12AF54BF00E21C88 /* FIFOSampleBuffer.cpp */; };
+		4CB1C46712AF8D4F00E21C88 /* soundstretch in Resources */ = {isa = PBXBuildFile; fileRef = 4CB1C46612AF8D4F00E21C88 /* soundstretch */; };
+		4CBC57F212BA2B3E002F0050 /* bpmdetect in Resources */ = {isa = PBXBuildFile; fileRef = 4CBC57F112BA2B3E002F0050 /* bpmdetect */; };
+		4CBC583012BA41E5002F0050 /* ffmpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4CBC582F12BA41E5002F0050 /* ffmpeg */; };
+		4CC290451272D4D000FF8BEA /* JiwokBPMDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC290441272D4D000FF8BEA /* JiwokBPMDetector.m */; };
+		4CCF1B2411DDB99900794D34 /* JiwokLoginWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF1B2311DDB99900794D34 /* JiwokLoginWindow.xib */; };
+		4CCF1B2C11DDBA8E00794D34 /* JiwokLoginWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF1B2B11DDBA8E00794D34 /* JiwokLoginWindowController.m */; };
+		4CCF1C4511DDDBF400794D34 /* Login_Bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF1C4411DDDBF400794D34 /* Login_Bg.png */; };
+		4CCF1D2C11DDEF6700794D34 /* JiwokAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF1D2B11DDEF6700794D34 /* JiwokAPIHelper.m */; };
+		4CD788CA12BF2958007BEEE8 /* Dock_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD788C612BF2958007BEEE8 /* Dock_gray.png */; };
+		4CD788CC12BF2958007BEEE8 /* Dock_pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD788C812BF2958007BEEE8 /* Dock_pink.png */; };
+		4CD788F512BF2D8F007BEEE8 /* Dock_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD788F312BF2D8F007BEEE8 /* Dock_blue.png */; };
+		4CD788F612BF2D8F007BEEE8 /* Dock_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD788F412BF2D8F007BEEE8 /* Dock_green.png */; };
+		4CDD499212CF059800924DC2 /* Autoupdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDD498F12CF059800924DC2 /* Autoupdater.m */; };
+		4CDD499312CF059800924DC2 /* VersionCheckXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDD499112CF059800924DC2 /* VersionCheckXmlParser.m */; };
+		4CE38EE513CD56AD00A62B9B /* Save_WorkoutLoc_Es.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4CE38EE413CD56AD00A62B9B /* Save_WorkoutLoc_Es.JPG */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0887EDE9121E4CED00594B6E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				182C43FE1C09E8190026AB0A /* MailCore.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088C7F8B1209455300014A60 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Mylib;
+			dstSubfolderSpec = 6;
+			files = (
+				189578CB1C09DDB000A1078E /* Growl.framework in CopyFiles */,
+				18F2331A1C07662600BAC143 /* libfmodex.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C29501012CD996D008376A4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4C29500B12CD9966008376A4 /* Growl.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9C3A0312C1F575002B75D2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9C3A1A12C1F648002B75D2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA84AB912C26FE90069DD24 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		084AF42411EDD6DA000EED55 /* JiwokMyMusicPanelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JiwokMyMusicPanelView.xib; sourceTree = "<group>"; };
+		087F182212140752005E8244 /* Save_WorkoutLoc_En.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Save_WorkoutLoc_En.JPG; sourceTree = "<group>"; };
+		087F182312140752005E8244 /* Save_WorkoutLoc_Fr.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Save_WorkoutLoc_Fr.JPG; sourceTree = "<group>"; };
+		087F18261214075B005E8244 /* viewMyWorkout_Fr.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = viewMyWorkout_Fr.JPG; path = Images/viewMyWorkout_Fr.JPG; sourceTree = "<group>"; };
+		087F18271214075B005E8244 /* viewMyWorkout_En.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = viewMyWorkout_En.JPG; path = Images/viewMyWorkout_En.JPG; sourceTree = "<group>"; };
+		087F182A121407CA005E8244 /* Fileopen.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fileopen.JPG; path = Images/Fileopen.JPG; sourceTree = "<group>"; };
+		0881121A1206E9BB008104AB /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localization.strings; sourceTree = "<group>"; };
+		0881DD8211EB365F00F063E6 /* JiwokFTPDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokFTPDownloader.h; sourceTree = "<group>"; };
+		0881DD8311EB365F00F063E6 /* JiwokFTPDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokFTPDownloader.m; sourceTree = "<group>"; };
+		0881E01911E867B500BE3252 /* JiwokUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokUtil.h; sourceTree = "<group>"; };
+		0881E01A11E867B500BE3252 /* JiwokUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokUtil.m; sourceTree = "<group>"; };
+		0881E05111E86C0000BE3252 /* JiwokSettingPlistReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokSettingPlistReader.h; sourceTree = "<group>"; };
+		0881E05211E86C0000BE3252 /* JiwokSettingPlistReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokSettingPlistReader.m; sourceTree = "<group>"; };
+		0881E05611E86E9A00BE3252 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
+		0881E0AB11E8785F00BE3252 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localization.strings; sourceTree = "<group>"; };
+		0882C96C120AD13E00E97380 /* JiwokAnalysisSummaryWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JiwokAnalysisSummaryWindow.xib; sourceTree = "<group>"; };
+		08839EB6120177600044A084 /* cancel_Normal_En.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cancel_Normal_En.jpg; path = Images/cancel_Normal_En.jpg; sourceTree = "<group>"; };
+		08839EB7120177600044A084 /* cancel_Normal_Fr.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cancel_Normal_Fr.JPG; path = Images/cancel_Normal_Fr.JPG; sourceTree = "<group>"; };
+		08839EB8120177600044A084 /* search_Normal_Fr.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = search_Normal_Fr.JPG; path = Images/search_Normal_Fr.JPG; sourceTree = "<group>"; };
+		08841FE21208174700E7BE76 /* search_Bg.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = search_Bg.JPG; path = Images/search_Bg.JPG; sourceTree = "<group>"; };
+		088459E0121019D700B5E938 /* FMCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMCallback.h; sourceTree = "<group>"; };
+		088459E1121019D700B5E938 /* FMCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMCallback.m; sourceTree = "<group>"; };
+		088459E2121019D700B5E938 /* FMEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMEngine.h; sourceTree = "<group>"; };
+		088459E3121019D700B5E938 /* FMEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMEngine.m; sourceTree = "<group>"; };
+		088459E4121019D700B5E938 /* FMEngineURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMEngineURLConnection.h; sourceTree = "<group>"; };
+		088459E5121019D700B5E938 /* FMEngineURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMEngineURLConnection.m; sourceTree = "<group>"; };
+		088459E6121019D700B5E938 /* NSString+FMEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FMEngine.h"; sourceTree = "<group>"; };
+		088459E7121019D700B5E938 /* NSString+FMEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FMEngine.m"; sourceTree = "<group>"; };
+		088459E9121019D700B5E938 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		088459EA121019D700B5E938 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		088459EB121019D700B5E938 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		088459EC121019D700B5E938 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		088459ED121019D700B5E938 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		088459EE121019D700B5E938 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		088459EF121019D700B5E938 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		088459F0121019D700B5E938 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		088459F1121019D700B5E938 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		088459F2121019D700B5E938 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		088459F3121019D700B5E938 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		088459F4121019D700B5E938 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		088459F5121019D700B5E938 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		08845A00121019EB00B5E938 /* FingerPrintParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerPrintParser.m; sourceTree = "<group>"; };
+		08845A01121019EB00B5E938 /* FingerPrintParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerPrintParser.h; sourceTree = "<group>"; };
+		08845A03121019F900B5E938 /* JiwokLastfmClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokLastfmClient.m; sourceTree = "<group>"; };
+		08845A04121019F900B5E938 /* JiwokLastfmClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokLastfmClient.h; sourceTree = "<group>"; };
+		08849BA21202899000CA5428 /* addNewFolder_Fr.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = addNewFolder_Fr.JPG; path = Images/addNewFolder_Fr.JPG; sourceTree = "<group>"; };
+		08849BA31202899000CA5428 /* addNewFolder_En.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = addNewFolder_En.JPG; path = Images/addNewFolder_En.JPG; sourceTree = "<group>"; };
+		08849BA712028AD500CA5428 /* Delegates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Delegates.h; sourceTree = "<group>"; };
+		0884B9C211EDB84A00723F9A /* login_Panel_Bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_Panel_Bg.png; path = Images/login_Panel_Bg.png; sourceTree = "<group>"; };
+		0884B9C611EDB9CB00723F9A /* disconnect_Normal_Fr.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = disconnect_Normal_Fr.JPG; path = Images/disconnect_Normal_Fr.JPG; sourceTree = "<group>"; };
+		0884B9C711EDB9CB00723F9A /* disconnect_Normal_En.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = disconnect_Normal_En.JPG; path = Images/disconnect_Normal_En.JPG; sourceTree = "<group>"; };
+		0884B9C811EDB9CB00723F9A /* connect_Normal_Fr.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = connect_Normal_Fr.JPG; path = Images/connect_Normal_Fr.JPG; sourceTree = "<group>"; };
+		0884B9C911EDB9CB00723F9A /* connect_Normal_En.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = connect_Normal_En.JPG; path = Images/connect_Normal_En.JPG; sourceTree = "<group>"; };
+		08860D2711EC4DB800F60064 /* JiwokDownloadBkndView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokDownloadBkndView.h; sourceTree = "<group>"; };
+		08860D2811EC4DB800F60064 /* JiwokDownloadBkndView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokDownloadBkndView.m; sourceTree = "<group>"; };
+		08860D5511EC4E8B00F60064 /* download_bknd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = download_bknd.png; path = Images/download_bknd.png; sourceTree = "<group>"; };
+		0886432611EB205B00175F07 /* JiwokDownloadWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JiwokDownloadWindow.xib; sourceTree = "<group>"; };
+		0887ECE2121E471E00594B6E /* SupportTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportTab.m; sourceTree = "<group>"; };
+		0887ECE3121E471E00594B6E /* SupportTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportTab.h; sourceTree = "<group>"; };
+		0887ECE5121E472C00594B6E /* GetSupportMailDetailsXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetSupportMailDetailsXmlParser.h; sourceTree = "<group>"; };
+		0887ECE6121E472C00594B6E /* GetSupportMailDetailsXmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetSupportMailDetailsXmlParser.m; sourceTree = "<group>"; };
+		0887ECF6121E479300594B6E /* S7FTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S7FTPRequest.m; sourceTree = "<group>"; };
+		0887ECF7121E479300594B6E /* S7FTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S7FTPRequest.h; sourceTree = "<group>"; };
+		088ACEDE11ED89C900FD6CA7 /* Main_Bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Main_Bg.png; path = Images/Main_Bg.png; sourceTree = "<group>"; };
+		088ACEE311ED8AE900FD6CA7 /* JiwokMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokMainWindowController.h; sourceTree = "<group>"; };
+		088ACEE411ED8AE900FD6CA7 /* JiwokMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokMainWindowController.m; sourceTree = "<group>"; };
+		088B431211ED973F00B19E2B /* loginTab_Normal_En.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginTab_Normal_En.png; path = Images/loginTab_Normal_En.png; sourceTree = "<group>"; };
+		088B431311ED973F00B19E2B /* loginTab_Hover_En.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginTab_Hover_En.png; path = Images/loginTab_Hover_En.png; sourceTree = "<group>"; };
+		088B431411ED973F00B19E2B /* loginTab_Normal_Fr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginTab_Normal_Fr.png; path = Images/loginTab_Normal_Fr.png; sourceTree = "<group>"; };
+		088B431511ED973F00B19E2B /* loginTab_Hover_Fr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginTab_Hover_Fr.png; path = Images/loginTab_Hover_Fr.png; sourceTree = "<group>"; };
+		088B431B11ED978C00B19E2B /* myMusicTab_Hover_Fr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myMusicTab_Hover_Fr.png; path = Images/myMusicTab_Hover_Fr.png; sourceTree = "<group>"; };
+		088B431C11ED978C00B19E2B /* myMusicTab_Hover_En.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myMusicTab_Hover_En.png; path = Images/myMusicTab_Hover_En.png; sourceTree = "<group>"; };
+		088B431D11ED978C00B19E2B /* myMusicTab_Normal_Fr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myMusicTab_Normal_Fr.png; path = Images/myMusicTab_Normal_Fr.png; sourceTree = "<group>"; };
+		088B431E11ED978C00B19E2B /* myMusicTab_Normal_En.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myMusicTab_Normal_En.png; path = Images/myMusicTab_Normal_En.png; sourceTree = "<group>"; };
+		088B432411ED980500B19E2B /* myWorkoutTab_Hover_En.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myWorkoutTab_Hover_En.png; path = Images/myWorkoutTab_Hover_En.png; sourceTree = "<group>"; };
+		088B432511ED980500B19E2B /* myWorkoutTab_Normal_Fr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myWorkoutTab_Normal_Fr.png; path = Images/myWorkoutTab_Normal_Fr.png; sourceTree = "<group>"; };
+		088B432611ED980500B19E2B /* myWorkoutTab_Normal_En.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myWorkoutTab_Normal_En.png; path = Images/myWorkoutTab_Normal_En.png; sourceTree = "<group>"; };
+		088B432711ED980500B19E2B /* myWorkoutTab_Hover_Fr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myWorkoutTab_Hover_Fr.png; path = Images/myWorkoutTab_Hover_Fr.png; sourceTree = "<group>"; };
+		088B432F11ED989D00B19E2B /* support_Normal_En.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = support_Normal_En.png; path = Images/support_Normal_En.png; sourceTree = "<group>"; };
+		088B433011ED989D00B19E2B /* support_Normal_Fr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = support_Normal_Fr.png; path = Images/support_Normal_Fr.png; sourceTree = "<group>"; };
+		088B43A811ED9F4800B19E2B /* JiwokLoginPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokLoginPanelViewController.h; sourceTree = "<group>"; };
+		088B43A911ED9F4800B19E2B /* JiwokLoginPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokLoginPanelViewController.m; sourceTree = "<group>"; };
+		088C6811120BEA420075448F /* playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playbutton.png; path = Images/playbutton.png; sourceTree = "<group>"; };
+		088C6812120BEA420075448F /* stopbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stopbutton.png; path = Images/stopbutton.png; sourceTree = "<group>"; };
+		088CA840121CFD3400DC959C /* JiwokWorkoutPopupWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JiwokWorkoutPopupWindow.xib; sourceTree = "<group>"; };
+		088CA85A121D02B800DC959C /* viewMyWorkoutInQueue_Fr.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = viewMyWorkoutInQueue_Fr.JPG; path = Images/viewMyWorkoutInQueue_Fr.JPG; sourceTree = "<group>"; };
+		088CA969121D210900DC959C /* JiwokAllWorkoutInfoXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokAllWorkoutInfoXMLParser.h; sourceTree = "<group>"; };
+		088CA96A121D210900DC959C /* JiwokAllWorkoutInfoXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokAllWorkoutInfoXMLParser.m; sourceTree = "<group>"; };
+		088CAC83121D7DFA00DC959C /* JiwokSupportPanelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JiwokSupportPanelView.xib; sourceTree = "<group>"; };
+		088CAC86121D7E5500DC959C /* JiwokSupportPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokSupportPanelViewController.h; sourceTree = "<group>"; };
+		088CAC87121D7E5500DC959C /* JiwokSupportPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokSupportPanelViewController.m; sourceTree = "<group>"; };
+		088E8A1E11E83F8800A19CB2 /* JiwokUserdetailsXmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokUserdetailsXmlParser.m; sourceTree = "<group>"; };
+		088E8A1F11E83F8800A19CB2 /* JiwokUserdetailsXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokUserdetailsXmlParser.h; sourceTree = "<group>"; };
+		088F0144121A687000FB3B42 /* JiwokVocalInfoXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokVocalInfoXMLParser.h; sourceTree = "<group>"; };
+		088F0145121A687000FB3B42 /* JiwokVocalInfoXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokVocalInfoXMLParser.m; sourceTree = "<group>"; };
+		0892484811EF7C1A005993B6 /* JiwokMyWorkoutPanelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JiwokMyWorkoutPanelView.xib; sourceTree = "<group>"; };
+		0892492C11EFA022005993B6 /* JiwokAPPIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = JiwokAPPIcon.icns; path = Images/JiwokAPPIcon.icns; sourceTree = "<group>"; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08A103511219574F00BD3FD3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		08A8BC4412002899001C1C39 /* JiwokDataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokDataBaseManager.h; sourceTree = "<group>"; };
+		08A8BC4512002899001C1C39 /* JiwokDataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokDataBaseManager.m; sourceTree = "<group>"; };
+		08C5C9C911E8E581006080D0 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		08C5CBBD11E9123C006080D0 /* JiwokUpdateLoginStatusXmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokUpdateLoginStatusXmlParser.m; sourceTree = "<group>"; };
+		08C5CBBE11E9123C006080D0 /* JiwokUpdateLoginStatusXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokUpdateLoginStatusXmlParser.h; sourceTree = "<group>"; };
+		08C5CBF711E918EA006080D0 /* JiwokMusicalSearchWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JiwokMusicalSearchWindow.xib; sourceTree = "<group>"; };
+		08EF3F0E11E7FDED000F0BE9 /* logIn_Normal_Fr.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logIn_Normal_Fr.JPG; path = Images/logIn_Normal_Fr.JPG; sourceTree = "<group>"; };
+		08EF3F0F11E7FDED000F0BE9 /* logIn_Cancel_Normal_En.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logIn_Cancel_Normal_En.JPG; path = Images/logIn_Cancel_Normal_En.JPG; sourceTree = "<group>"; };
+		08EF3F1011E7FDED000F0BE9 /* logIn_Normal_En.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logIn_Normal_En.JPG; path = Images/logIn_Normal_En.JPG; sourceTree = "<group>"; };
+		08EF3F1111E7FDED000F0BE9 /* logIn_Cancel_Normal_Fr.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logIn_Cancel_Normal_Fr.JPG; path = Images/logIn_Cancel_Normal_Fr.JPG; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		11BD98FD140CB70D00EB1642 /* aacgain */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = aacgain; sourceTree = "<group>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		180B0D601C043EBE00A5F9B3 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		182C43FB1C09E6E60026AB0A /* MailCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MailCore.framework; sourceTree = "<group>"; };
+		1839273412C32D8A0005D21B /* JiwokLoginPanelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JiwokLoginPanelView.xib; sourceTree = "<group>"; };
+		1839284912C350B50005D21B /* viewMyWorkoutInQueue_En.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = viewMyWorkoutInQueue_En.JPG; sourceTree = "<group>"; };
+		1839286212C352860005D21B /* search_Normal_En.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = search_Normal_En.JPG; sourceTree = "<group>"; };
+		1858639412AA5868008C8322 /* aubiocut */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = aubiocut; sourceTree = "<group>"; };
+		1858639512AA5868008C8322 /* aubionotes */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = aubionotes; sourceTree = "<group>"; };
+		1858639612AA5868008C8322 /* aubioonset */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = aubioonset; sourceTree = "<group>"; };
+		1858639712AA5868008C8322 /* aubiopitch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = aubiopitch; sourceTree = "<group>"; };
+		1858639812AA5868008C8322 /* aubiotrack */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = aubiotrack; sourceTree = "<group>"; };
+		1858639912AA5868008C8322 /* autopoint */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = autopoint; sourceTree = "<group>"; };
+		185863A112AA5892008C8322 /* BpmCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BpmCalculator.h; sourceTree = "<group>"; };
+		185863A212AA5892008C8322 /* BpmCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BpmCalculator.m; sourceTree = "<group>"; };
+		1874BE56124A27E5005C26DA /* TAGOfflineDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = TAGOfflineDB.sqlite; sourceTree = "<group>"; };
+		188C1BDD124E385F004A1B70 /* support_Hover_En.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = support_Hover_En.png; sourceTree = "<group>"; };
+		188C1BDE124E385F004A1B70 /* support_Hover_Fr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = support_Hover_Fr.png; sourceTree = "<group>"; };
+		188FDE44124CC9DB0041DF30 /* JiwokUpdateWorkoutStatusXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokUpdateWorkoutStatusXmlParser.h; sourceTree = "<group>"; };
+		188FDE45124CC9DB0041DF30 /* JiwokUpdateWorkoutStatusXmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokUpdateWorkoutStatusXmlParser.m; sourceTree = "<group>"; };
+		188FDE72124CD0600041DF30 /* JiwokUpdateTagDetectedGenreXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokUpdateTagDetectedGenreXmlParser.h; sourceTree = "<group>"; };
+		188FDE73124CD0600041DF30 /* JiwokUpdateTagDetectedGenreXmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokUpdateTagDetectedGenreXmlParser.m; sourceTree = "<group>"; };
+		188FDEB4124CDC3F0041DF30 /* JiwokMusicSystemDBMgrWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokMusicSystemDBMgrWrapper.h; sourceTree = "<group>"; };
+		188FDEB5124CDC3F0041DF30 /* JiwokMusicSystemDBMgrWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokMusicSystemDBMgrWrapper.m; sourceTree = "<group>"; };
+		188FDEBC124CDCBF0041DF30 /* JiwokAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokAppDelegate.h; sourceTree = "<group>"; };
+		188FDEBD124CDCBF0041DF30 /* JiwokAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokAppDelegate.m; sourceTree = "<group>"; };
+		18917A081227AE460046FE7A /* fmod_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_codec.h; sourceTree = "<group>"; };
+		18917A0A1227AE460046FE7A /* fmod_dsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_dsp.h; sourceTree = "<group>"; };
+		18917A0D1227AE460046FE7A /* fmod_memoryinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_memoryinfo.h; sourceTree = "<group>"; };
+		18917A101227AE460046FE7A /* JiwokFMODWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokFMODWrapper.h; sourceTree = "<group>"; };
+		18917A111227AE460046FE7A /* JiwokFMODWrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JiwokFMODWrapper.cpp; sourceTree = "<group>"; };
+		18917A141227AE460046FE7A /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod.h; sourceTree = "<group>"; };
+		18917A151227AE460046FE7A /* fmod_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_errors.h; sourceTree = "<group>"; };
+		18917A171227AE460046FE7A /* JiwokAudioPlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokAudioPlayController.h; sourceTree = "<group>"; };
+		18917A181227AE460046FE7A /* JiwokAudioPlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokAudioPlayController.m; sourceTree = "<group>"; };
+		18917A1B1227AE460046FE7A /* JiwokMusicConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokMusicConverter.h; sourceTree = "<group>"; };
+		18917A1C1227AE460046FE7A /* JiwokMusicConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokMusicConverter.m; sourceTree = "<group>"; };
+		18917A1D1227AE460046FE7A /* JiwokFMODUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokFMODUtil.h; sourceTree = "<group>"; };
+		18917A1E1227AE460046FE7A /* JiwokFMODUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JiwokFMODUtil.mm; sourceTree = "<group>"; };
+		18917A1F1227AE460046FE7A /* JiwokAnalysisSummaryWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokAnalysisSummaryWindowController.h; sourceTree = "<group>"; };
+		18917A201227AE460046FE7A /* JiwokAnalysisSummaryWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokAnalysisSummaryWindowController.m; sourceTree = "<group>"; };
+		189B73F11268111500025536 /* JiwokFfmpegID3TagReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokFfmpegID3TagReader.m; sourceTree = "<group>"; };
+		189B73F21268111500025536 /* JiwokFfmpegID3TagReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokFfmpegID3TagReader.h; sourceTree = "<group>"; };
+		189EC1021C04B241008D8475 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		18BE851A125C6BD300C5BC9E /* JiwokCurlFtpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokCurlFtpClient.h; sourceTree = "<group>"; };
+		18BE851B125C6BD300C5BC9E /* JiwokCurlFtpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokCurlFtpClient.m; sourceTree = "<group>"; };
+		18BE851F125C6C0100C5BC9E /* JiwokDownloderWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokDownloderWindowController.h; sourceTree = "<group>"; };
+		18BE8520125C6C0100C5BC9E /* JiwokDownloderWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokDownloderWindowController.m; sourceTree = "<group>"; };
+		18D953701268998600729EDB /* GenerateWorkout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenerateWorkout.h; sourceTree = "<group>"; };
+		18D953711268998600729EDB /* GenerateWorkout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenerateWorkout.m; sourceTree = "<group>"; };
+		18E2635E1250D00C0022BF1F /* JiwokMyMusicPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokMyMusicPanelViewController.h; sourceTree = "<group>"; };
+		18E2635F1250D00C0022BF1F /* JiwokMyMusicPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokMyMusicPanelViewController.m; sourceTree = "<group>"; };
+		18F2330E1C07646B00BAC143 /* libfmod.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfmod.dylib; sourceTree = "<group>"; };
+		18F233101C07653B00BAC143 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		18F233121C07654D00BAC143 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		18F233141C07655400BAC143 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		18F233161C07658A00BAC143 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		18F233181C07660200BAC143 /* libfmodex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfmodex.dylib; sourceTree = "<group>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Jiwok_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jiwok_Prefix.pch; sourceTree = "<group>"; };
+		4C04E5BA1285593000A5F596 /* CFFTPSample */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = CFFTPSample; sourceTree = "<group>"; };
+		4C04E5BB1285593000A5F596 /* faad */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = faad; sourceTree = "<group>"; };
+		4C04E5BD1285593000A5F596 /* lastfmfpclient */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = lastfmfpclient; sourceTree = "<group>"; };
+		4C04E5BE1285593000A5F596 /* mp3gain */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; path = mp3gain; sourceTree = "<group>"; };
+		4C04E5C01285593000A5F596 /* sox */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = sox; sourceTree = "<group>"; };
+		4C136FBB161993E900C32C39 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localization.strings; sourceTree = "<group>"; };
+		4C136FBC1619947600C32C39 /* pl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pl; path = pl.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4C2632AE12EEB12500B0E0F8 /* JiwokUpdater.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = JiwokUpdater.app; sourceTree = "<group>"; };
+		4C294FFB12CD991E008376A4 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
+		4C2B1DC712CB0D7D00EB1451 /* Dock_blue_Menu_Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dock_blue_Menu_Bar.png; sourceTree = "<group>"; };
+		4C2B1DC812CB0D7D00EB1451 /* Dock_gray_Menu_Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dock_gray_Menu_Bar.png; sourceTree = "<group>"; };
+		4C2B1DC912CB0D7D00EB1451 /* Dock_green_Menu_Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dock_green_Menu_Bar.png; sourceTree = "<group>"; };
+		4C2B1DCA12CB0D7D00EB1451 /* Dock_pink_Menu_Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dock_pink_Menu_Bar.png; sourceTree = "<group>"; };
+		4C2B1E8312CB35CC00EB1451 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		4C2B1E8E12CB396700EB1451 /* support_Panel_Bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = support_Panel_Bg.png; sourceTree = "<group>"; };
+		4C2B1E9E12CB3E3300EB1451 /* myWorkout_Panel_Bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myWorkout_Panel_Bg.png; sourceTree = "<group>"; };
+		4C4AB5DD1339F98D00A86435 /* libsqlite3.0.8.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsqlite3.0.8.6.dylib; sourceTree = "<group>"; };
+		4C6ACCE111E304A00037A194 /* LoggerClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggerClass.h; sourceTree = "<group>"; };
+		4C6ACCE211E304A00037A194 /* LoggerClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggerClass.m; sourceTree = "<group>"; };
+		4C6AD00811E33C710037A194 /* JiwokLoginBackGroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokLoginBackGroundView.h; sourceTree = "<group>"; };
+		4C6AD00911E33C710037A194 /* JiwokLoginBackGroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokLoginBackGroundView.m; sourceTree = "<group>"; };
+		4C6AD14E11E34FFD0037A194 /* JiwokMainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JiwokMainWindow.xib; sourceTree = "<group>"; };
+		4C6F57F412DAED160009AE13 /* search_anim.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = search_anim.gif; sourceTree = "<group>"; };
+		4C6F57F512DAED160009AE13 /* search_anim2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = search_anim2.gif; sourceTree = "<group>"; };
+		4C6F580112DAFF5A0009AE13 /* Search_Animation_fast.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Search_Animation_fast.gif; sourceTree = "<group>"; };
+		4C6F580212DAFF5A0009AE13 /* Search_Animation_slow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Search_Animation_slow.gif; sourceTree = "<group>"; };
+		4C761C61163E91DB00F44AF7 /* addNewFolder_Pl.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = addNewFolder_Pl.JPG; path = Polish_Buttons/addNewFolder_Pl.JPG; sourceTree = "<group>"; };
+		4C761C62163E91DB00F44AF7 /* cancel_Normal_Pl.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cancel_Normal_Pl.JPG; path = Polish_Buttons/cancel_Normal_Pl.JPG; sourceTree = "<group>"; };
+		4C761C63163E91DB00F44AF7 /* connect_Normal_Pl.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = connect_Normal_Pl.JPG; path = Polish_Buttons/connect_Normal_Pl.JPG; sourceTree = "<group>"; };
+		4C761C64163E91DB00F44AF7 /* disconnect_Normal_Pl.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = disconnect_Normal_Pl.JPG; path = Polish_Buttons/disconnect_Normal_Pl.JPG; sourceTree = "<group>"; };
+		4C761C65163E91DB00F44AF7 /* logIn_Cancel_Normal_Pl.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logIn_Cancel_Normal_Pl.JPG; path = Polish_Buttons/logIn_Cancel_Normal_Pl.JPG; sourceTree = "<group>"; };
+		4C761C66163E91DB00F44AF7 /* logIn_Normal_pl.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logIn_Normal_pl.JPG; path = Polish_Buttons/logIn_Normal_pl.JPG; sourceTree = "<group>"; };
+		4C761C67163E91DB00F44AF7 /* loginTab_Hover_Pl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginTab_Hover_Pl.png; path = Polish_Buttons/loginTab_Hover_Pl.png; sourceTree = "<group>"; };
+		4C761C68163E91DB00F44AF7 /* loginTab_Normal_Pl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginTab_Normal_Pl.png; path = Polish_Buttons/loginTab_Normal_Pl.png; sourceTree = "<group>"; };
+		4C761C69163E91DB00F44AF7 /* myMusicTab_Hover_Pl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myMusicTab_Hover_Pl.png; path = Polish_Buttons/myMusicTab_Hover_Pl.png; sourceTree = "<group>"; };
+		4C761C6A163E91DB00F44AF7 /* myMusicTab_Normal_Pl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myMusicTab_Normal_Pl.png; path = Polish_Buttons/myMusicTab_Normal_Pl.png; sourceTree = "<group>"; };
+		4C761C6B163E91DB00F44AF7 /* myWorkoutTab_Hover_Pl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myWorkoutTab_Hover_Pl.png; path = Polish_Buttons/myWorkoutTab_Hover_Pl.png; sourceTree = "<group>"; };
+		4C761C6C163E91DB00F44AF7 /* myWorkoutTab_Normal_Pl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myWorkoutTab_Normal_Pl.png; path = Polish_Buttons/myWorkoutTab_Normal_Pl.png; sourceTree = "<group>"; };
+		4C761C6D163E91DB00F44AF7 /* Save_WorkoutLoc_Pl.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Save_WorkoutLoc_Pl.JPG; path = Polish_Buttons/Save_WorkoutLoc_Pl.JPG; sourceTree = "<group>"; };
+		4C761C6E163E91DB00F44AF7 /* search_Normal_Pl.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = search_Normal_Pl.JPG; path = Polish_Buttons/search_Normal_Pl.JPG; sourceTree = "<group>"; };
+		4C761C6F163E91DB00F44AF7 /* support_Hover_Pl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = support_Hover_Pl.png; path = Polish_Buttons/support_Hover_Pl.png; sourceTree = "<group>"; };
+		4C761C70163E91DB00F44AF7 /* support_Normal_Pl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = support_Normal_Pl.png; path = Polish_Buttons/support_Normal_Pl.png; sourceTree = "<group>"; };
+		4C761C71163E91DB00F44AF7 /* viewMyWorkout_Pl.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = viewMyWorkout_Pl.JPG; path = Polish_Buttons/viewMyWorkout_Pl.JPG; sourceTree = "<group>"; };
+		4C761C72163E91DB00F44AF7 /* viewMyWorkoutInQueue_Pl.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = viewMyWorkoutInQueue_Pl.JPG; path = Polish_Buttons/viewMyWorkoutInQueue_Pl.JPG; sourceTree = "<group>"; };
+		4C7645CF13C2E97C00E12F88 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/Localization.strings; sourceTree = "<group>"; };
+		4C7645D013C2E98800E12F88 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Italian; path = Italian.lproj/Localization.strings; sourceTree = "<group>"; };
+		4C76483C13C33D3300E12F88 /* addNewFolder_Es.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = addNewFolder_Es.JPG; sourceTree = "<group>"; };
+		4C76483D13C33D3300E12F88 /* cancel_Normal_Es.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cancel_Normal_Es.JPG; sourceTree = "<group>"; };
+		4C76483E13C33D3300E12F88 /* connect_Normal_Es.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = connect_Normal_Es.JPG; sourceTree = "<group>"; };
+		4C76483F13C33D3300E12F88 /* disconnect_Normal_Es.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = disconnect_Normal_Es.JPG; sourceTree = "<group>"; };
+		4C76484013C33D3300E12F88 /* logIn_Cancel_Normal_Es.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logIn_Cancel_Normal_Es.JPG; sourceTree = "<group>"; };
+		4C76484113C33D3300E12F88 /* logIn_Normal_Es.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logIn_Normal_Es.JPG; sourceTree = "<group>"; };
+		4C76484213C33D3300E12F88 /* loginTab_Hover_Es.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginTab_Hover_Es.png; sourceTree = "<group>"; };
+		4C76484313C33D3300E12F88 /* loginTab_Normal_Es.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginTab_Normal_Es.png; sourceTree = "<group>"; };
+		4C76484413C33D3300E12F88 /* myMusicTab_Hover_Es.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myMusicTab_Hover_Es.png; sourceTree = "<group>"; };
+		4C76484513C33D3300E12F88 /* myMusicTab_Normal_Es.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myMusicTab_Normal_Es.png; sourceTree = "<group>"; };
+		4C76484613C33D3300E12F88 /* myWorkoutTab_Hover_Es.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myWorkoutTab_Hover_Es.png; sourceTree = "<group>"; };
+		4C76484713C33D3300E12F88 /* myWorkoutTab_Normal_Es.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myWorkoutTab_Normal_Es.png; sourceTree = "<group>"; };
+		4C76484913C33D3300E12F88 /* search_Normal_Es.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = search_Normal_Es.JPG; sourceTree = "<group>"; };
+		4C76484A13C33D3300E12F88 /* support_Hover_Es.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = support_Hover_Es.jpg; sourceTree = "<group>"; };
+		4C76484B13C33D3300E12F88 /* support_Normal_Es.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = support_Normal_Es.png; sourceTree = "<group>"; };
+		4C76485F13C33D3900E12F88 /* addNewFolder_It.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = addNewFolder_It.JPG; sourceTree = "<group>"; };
+		4C76486113C33D3900E12F88 /* cancel_Normal_It.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cancel_Normal_It.JPG; sourceTree = "<group>"; };
+		4C76486213C33D3900E12F88 /* connect_Normal_It.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = connect_Normal_It.JPG; sourceTree = "<group>"; };
+		4C76486313C33D3900E12F88 /* disconnect_Normal_It.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = disconnect_Normal_It.JPG; sourceTree = "<group>"; };
+		4C76486413C33D3900E12F88 /* logIn_Cancel_Normal_It.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logIn_Cancel_Normal_It.JPG; sourceTree = "<group>"; };
+		4C76486513C33D3900E12F88 /* logIn_Normal_It.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logIn_Normal_It.JPG; sourceTree = "<group>"; };
+		4C76486613C33D3900E12F88 /* loginTab_Hover_It.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginTab_Hover_It.png; sourceTree = "<group>"; };
+		4C76486713C33D3900E12F88 /* loginTab_Normal_It.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginTab_Normal_It.png; sourceTree = "<group>"; };
+		4C76486813C33D3900E12F88 /* myMusicTab_Hover_It.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myMusicTab_Hover_It.png; sourceTree = "<group>"; };
+		4C76486913C33D3900E12F88 /* myMusicTab_Normal_It.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myMusicTab_Normal_It.png; sourceTree = "<group>"; };
+		4C76486A13C33D3900E12F88 /* myWorkoutTab_Hover_It.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myWorkoutTab_Hover_It.png; sourceTree = "<group>"; };
+		4C76486B13C33D3900E12F88 /* myWorkoutTab_Normal_It.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myWorkoutTab_Normal_It.png; sourceTree = "<group>"; };
+		4C76486C13C33D3900E12F88 /* Save_WorkoutLoc_It.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Save_WorkoutLoc_It.JPG; sourceTree = "<group>"; };
+		4C76486D13C33D3900E12F88 /* search_Normal_It.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = search_Normal_It.JPG; sourceTree = "<group>"; };
+		4C76489513C341C600E12F88 /* support_Hover_It.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = support_Hover_It.png; sourceTree = "<group>"; };
+		4C76489713C341D300E12F88 /* support_Hover_Es .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "support_Hover_Es .png"; sourceTree = "<group>"; };
+		4C76489913C3424800E12F88 /* viewMyWorkout_Es.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = viewMyWorkout_Es.JPG; sourceTree = "<group>"; };
+		4C76489B13C3425B00E12F88 /* viewMyWorkout_It.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = viewMyWorkout_It.JPG; sourceTree = "<group>"; };
+		4C7648C813C3461A00E12F88 /* support_Normal_It.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = support_Normal_It.png; sourceTree = "<group>"; };
+		4C7648CB13C3466B00E12F88 /* support_Hover_It.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = support_Hover_It.png; sourceTree = "<group>"; };
+		4C7648CD13C3468300E12F88 /* support_Hover_Es.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = support_Hover_Es.png; sourceTree = "<group>"; };
+		4C7648DE13C3471E00E12F88 /* viewMyWorkoutInQueue_It.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = viewMyWorkoutInQueue_It.JPG; sourceTree = "<group>"; };
+		4C7648E013C3474A00E12F88 /* viewMyWorkoutInQueue_Es.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = viewMyWorkoutInQueue_Es.JPG; sourceTree = "<group>"; };
+		4C78F7D4124B7C6E00096169 /* WorkoutDetailsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutDetailsParser.h; sourceTree = "<group>"; };
+		4C78F7DA124B7CBA00096169 /* JiwokMyWorkoutPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokMyWorkoutPanelViewController.h; sourceTree = "<group>"; };
+		4C78F7DB124B7CBA00096169 /* JiwokMyWorkoutPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokMyWorkoutPanelViewController.m; sourceTree = "<group>"; };
+		4C78F7DD124B7CCE00096169 /* JiwokWorkoutPopupWndController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokWorkoutPopupWndController.h; sourceTree = "<group>"; };
+		4C78F7DE124B7CCE00096169 /* JiwokWorkoutPopupWndController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokWorkoutPopupWndController.m; sourceTree = "<group>"; };
+		4C78F7E0124B7EB500096169 /* JiwokMusicProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokMusicProcessor.h; sourceTree = "<group>"; };
+		4C78F7E1124B7EB500096169 /* JiwokMusicProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokMusicProcessor.m; sourceTree = "<group>"; };
+		4C78F803124B7F5A00096169 /* Variable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Variable.h; sourceTree = "<group>"; };
+		4C87A9031250B4C1008229E8 /* JiwokMusicalSearchWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokMusicalSearchWindowController.h; sourceTree = "<group>"; };
+		4C87A9041250B4C1008229E8 /* JiwokMusicalSearchWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokMusicalSearchWindowController.m; sourceTree = "<group>"; };
+		4C9C37DC12C1CC22002B75D2 /* GrowlExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlExample.h; sourceTree = "<group>"; };
+		4C9C37DD12C1CC22002B75D2 /* GrowlExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowlExample.m; sourceTree = "<group>"; };
+		4C9E5A4512C0AC0F00D25D55 /* WorkoutDetailsParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutDetailsParser.m; sourceTree = "<group>"; };
+		4CA563AE12CA03FD005B6E04 /* French */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = French; path = French.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4CA84AB012C26FB70069DD24 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
+		4CB1C38F12AF545300E21C88 /* STTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTypes.h; sourceTree = "<group>"; };
+		4CB1C39012AF546F00E21C88 /* PeakFinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PeakFinder.cpp; sourceTree = "<group>"; };
+		4CB1C39112AF546F00E21C88 /* PeakFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeakFinder.h; sourceTree = "<group>"; };
+		4CB1C39512AF548D00E21C88 /* BPMDetect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BPMDetect.cpp; sourceTree = "<group>"; };
+		4CB1C39612AF548D00E21C88 /* BPMDetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPMDetect.h; sourceTree = "<group>"; };
+		4CB1C39812AF54A800E21C88 /* FIFOSampleBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIFOSampleBuffer.h; sourceTree = "<group>"; };
+		4CB1C39D12AF54BF00E21C88 /* FIFOSampleBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FIFOSampleBuffer.cpp; sourceTree = "<group>"; };
+		4CB1C39F12AF54D400E21C88 /* FIFOSamplePipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIFOSamplePipe.h; sourceTree = "<group>"; };
+		4CB1C46612AF8D4F00E21C88 /* soundstretch */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = soundstretch; sourceTree = "<group>"; };
+		4CBC57F112BA2B3E002F0050 /* bpmdetect */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = bpmdetect; sourceTree = "<group>"; };
+		4CBC582F12BA41E5002F0050 /* ffmpeg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffmpeg; sourceTree = "<group>"; };
+		4CC290431272D4D000FF8BEA /* JiwokBPMDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokBPMDetector.h; sourceTree = "<group>"; };
+		4CC290441272D4D000FF8BEA /* JiwokBPMDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokBPMDetector.m; sourceTree = "<group>"; };
+		4CCF1B2311DDB99900794D34 /* JiwokLoginWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JiwokLoginWindow.xib; sourceTree = "<group>"; };
+		4CCF1B2A11DDBA8E00794D34 /* JiwokLoginWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokLoginWindowController.h; sourceTree = "<group>"; };
+		4CCF1B2B11DDBA8E00794D34 /* JiwokLoginWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokLoginWindowController.m; sourceTree = "<group>"; };
+		4CCF1C4411DDDBF400794D34 /* Login_Bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Login_Bg.png; path = Images/Login_Bg.png; sourceTree = "<group>"; };
+		4CCF1D2A11DDEF6700794D34 /* JiwokAPIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiwokAPIHelper.h; sourceTree = "<group>"; };
+		4CCF1D2B11DDEF6700794D34 /* JiwokAPIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiwokAPIHelper.m; sourceTree = "<group>"; };
+		4CD788C612BF2958007BEEE8 /* Dock_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dock_gray.png; sourceTree = "<group>"; };
+		4CD788C812BF2958007BEEE8 /* Dock_pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dock_pink.png; sourceTree = "<group>"; };
+		4CD788F312BF2D8F007BEEE8 /* Dock_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dock_blue.png; sourceTree = "<group>"; };
+		4CD788F412BF2D8F007BEEE8 /* Dock_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dock_green.png; sourceTree = "<group>"; };
+		4CDD498E12CF059800924DC2 /* Autoupdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Autoupdater.h; sourceTree = "<group>"; };
+		4CDD498F12CF059800924DC2 /* Autoupdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Autoupdater.m; sourceTree = "<group>"; };
+		4CDD499012CF059800924DC2 /* VersionCheckXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionCheckXmlParser.h; sourceTree = "<group>"; };
+		4CDD499112CF059800924DC2 /* VersionCheckXmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VersionCheckXmlParser.m; sourceTree = "<group>"; };
+		4CE38EE413CD56AD00A62B9B /* Save_WorkoutLoc_Es.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Save_WorkoutLoc_Es.JPG; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Jiwok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jiwok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F233191C07660200BAC143 /* libfmodex.dylib in Frameworks */,
+				18F233171C07658A00BAC143 /* CoreFoundation.framework in Frameworks */,
+				18F233151C07655400BAC143 /* CoreAudio.framework in Frameworks */,
+				18F233131C07654D00BAC143 /* AudioUnit.framework in Frameworks */,
+				18F233111C07653B00BAC143 /* Carbon.framework in Frameworks */,
+				180B0D611C043EBE00A5F9B3 /* libsqlite3.dylib in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				08A103521219574F00BD3FD3 /* Security.framework in Frameworks */,
+				182C43FC1C09E6E60026AB0A /* MailCore.framework in Frameworks */,
+				4C294FFC12CD991E008376A4 /* Growl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4CDD498D12CF059800924DC2 /* Autoupdater */,
+				4C9C37DB12C1CBFF002B75D2 /* Growl */,
+				4CC290461272D4E600FF8BEA /* BPM DETECTION */,
+				18917A2A1227AE5A0046FE7A /* MusicSearch */,
+				18917A061227AE460046FE7A /* MyMusic */,
+				088CAC85121D7E1600DC959C /* Support */,
+				088459D8121019BC00B5E938 /* LASTFM */,
+				08849E8C1202C6EA00CA5428 /* ID3 */,
+				08A8BC6112002A3B001C1C39 /* Common */,
+				08A8BC5E120029D4001C1C39 /* PlistSettings */,
+				08A8BC5D120029BD001C1C39 /* DownloadPack */,
+				08A8BC5C120029B4001C1C39 /* Logger */,
+				08A8BC5B1200299D001C1C39 /* API */,
+				08A8BC5A12002993001C1C39 /* Utils */,
+				08A8BC5912002967001C1C39 /* Main */,
+				08A8BC5812002951001C1C39 /* Login */,
+				08A8BC5612002942001C1C39 /* Workout */,
+				08A8BC3F1200287C001C1C39 /* DB */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		088459D8121019BC00B5E938 /* LASTFM */ = {
+			isa = PBXGroup;
+			children = (
+				08845A03121019F900B5E938 /* JiwokLastfmClient.m */,
+				08845A04121019F900B5E938 /* JiwokLastfmClient.h */,
+				08845A00121019EB00B5E938 /* FingerPrintParser.m */,
+				08845A01121019EB00B5E938 /* FingerPrintParser.h */,
+				088459DF121019D700B5E938 /* FMEngine */,
+				088459E8121019D700B5E938 /* JSON */,
+			);
+			name = LASTFM;
+			sourceTree = "<group>";
+		};
+		088459DF121019D700B5E938 /* FMEngine */ = {
+			isa = PBXGroup;
+			children = (
+				088459E0121019D700B5E938 /* FMCallback.h */,
+				088459E1121019D700B5E938 /* FMCallback.m */,
+				088459E2121019D700B5E938 /* FMEngine.h */,
+				088459E3121019D700B5E938 /* FMEngine.m */,
+				088459E4121019D700B5E938 /* FMEngineURLConnection.h */,
+				088459E5121019D700B5E938 /* FMEngineURLConnection.m */,
+				088459E6121019D700B5E938 /* NSString+FMEngine.h */,
+				088459E7121019D700B5E938 /* NSString+FMEngine.m */,
+			);
+			path = FMEngine;
+			sourceTree = "<group>";
+		};
+		088459E8121019D700B5E938 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				088459E9121019D700B5E938 /* JSON.h */,
+				088459EA121019D700B5E938 /* NSObject+SBJSON.h */,
+				088459EB121019D700B5E938 /* NSObject+SBJSON.m */,
+				088459EC121019D700B5E938 /* NSString+SBJSON.h */,
+				088459ED121019D700B5E938 /* NSString+SBJSON.m */,
+				088459EE121019D700B5E938 /* SBJSON.h */,
+				088459EF121019D700B5E938 /* SBJSON.m */,
+				088459F0121019D700B5E938 /* SBJsonBase.h */,
+				088459F1121019D700B5E938 /* SBJsonBase.m */,
+				088459F2121019D700B5E938 /* SBJsonParser.h */,
+				088459F3121019D700B5E938 /* SBJsonParser.m */,
+				088459F4121019D700B5E938 /* SBJsonWriter.h */,
+				088459F5121019D700B5E938 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		08849E8C1202C6EA00CA5428 /* ID3 */ = {
+			isa = PBXGroup;
+			children = (
+				189B73F11268111500025536 /* JiwokFfmpegID3TagReader.m */,
+				189B73F21268111500025536 /* JiwokFfmpegID3TagReader.h */,
+			);
+			name = ID3;
+			sourceTree = "<group>";
+		};
+		0887ECE9121E476D00594B6E /* S7FTP */ = {
+			isa = PBXGroup;
+			children = (
+				0887ECF6121E479300594B6E /* S7FTPRequest.m */,
+				0887ECF7121E479300594B6E /* S7FTPRequest.h */,
+			);
+			name = S7FTP;
+			sourceTree = "<group>";
+		};
+		088CAC85121D7E1600DC959C /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				0887ECE9121E476D00594B6E /* S7FTP */,
+				0887ECE2121E471E00594B6E /* SupportTab.m */,
+				0887ECE3121E471E00594B6E /* SupportTab.h */,
+				0887ECE5121E472C00594B6E /* GetSupportMailDetailsXmlParser.h */,
+				0887ECE6121E472C00594B6E /* GetSupportMailDetailsXmlParser.m */,
+				088CAC86121D7E5500DC959C /* JiwokSupportPanelViewController.h */,
+				088CAC87121D7E5500DC959C /* JiwokSupportPanelViewController.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		08A8BC3F1200287C001C1C39 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				188FDEB4124CDC3F0041DF30 /* JiwokMusicSystemDBMgrWrapper.h */,
+				188FDEB5124CDC3F0041DF30 /* JiwokMusicSystemDBMgrWrapper.m */,
+				08A8BC4412002899001C1C39 /* JiwokDataBaseManager.h */,
+				08A8BC4512002899001C1C39 /* JiwokDataBaseManager.m */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		08A8BC5612002942001C1C39 /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+				18D953701268998600729EDB /* GenerateWorkout.h */,
+				18D953711268998600729EDB /* GenerateWorkout.m */,
+				4C78F7E0124B7EB500096169 /* JiwokMusicProcessor.h */,
+				4C78F7E1124B7EB500096169 /* JiwokMusicProcessor.m */,
+				4C78F7DD124B7CCE00096169 /* JiwokWorkoutPopupWndController.h */,
+				4C78F7DE124B7CCE00096169 /* JiwokWorkoutPopupWndController.m */,
+				4C78F7DA124B7CBA00096169 /* JiwokMyWorkoutPanelViewController.h */,
+				4C78F7DB124B7CBA00096169 /* JiwokMyWorkoutPanelViewController.m */,
+			);
+			name = Workout;
+			sourceTree = "<group>";
+		};
+		08A8BC5812002951001C1C39 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				088B43A911ED9F4800B19E2B /* JiwokLoginPanelViewController.m */,
+				088B43A811ED9F4800B19E2B /* JiwokLoginPanelViewController.h */,
+				4CCF1B2A11DDBA8E00794D34 /* JiwokLoginWindowController.h */,
+				4CCF1B2B11DDBA8E00794D34 /* JiwokLoginWindowController.m */,
+				4C6AD00811E33C710037A194 /* JiwokLoginBackGroundView.h */,
+				4C6AD00911E33C710037A194 /* JiwokLoginBackGroundView.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		08A8BC5912002967001C1C39 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				188FDEBC124CDCBF0041DF30 /* JiwokAppDelegate.h */,
+				188FDEBD124CDCBF0041DF30 /* JiwokAppDelegate.m */,
+				088ACEE311ED8AE900FD6CA7 /* JiwokMainWindowController.h */,
+				088ACEE411ED8AE900FD6CA7 /* JiwokMainWindowController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		08A8BC5A12002993001C1C39 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0881E01911E867B500BE3252 /* JiwokUtil.h */,
+				0881E01A11E867B500BE3252 /* JiwokUtil.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		08A8BC5B1200299D001C1C39 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4CCF1D2A11DDEF6700794D34 /* JiwokAPIHelper.h */,
+				4CCF1D2B11DDEF6700794D34 /* JiwokAPIHelper.m */,
+				188FDE72124CD0600041DF30 /* JiwokUpdateTagDetectedGenreXmlParser.h */,
+				188FDE73124CD0600041DF30 /* JiwokUpdateTagDetectedGenreXmlParser.m */,
+				188FDE44124CC9DB0041DF30 /* JiwokUpdateWorkoutStatusXmlParser.h */,
+				188FDE45124CC9DB0041DF30 /* JiwokUpdateWorkoutStatusXmlParser.m */,
+				4C78F7D4124B7C6E00096169 /* WorkoutDetailsParser.h */,
+				4C9E5A4512C0AC0F00D25D55 /* WorkoutDetailsParser.m */,
+				088E8A1E11E83F8800A19CB2 /* JiwokUserdetailsXmlParser.m */,
+				088E8A1F11E83F8800A19CB2 /* JiwokUserdetailsXmlParser.h */,
+				08C5CBBD11E9123C006080D0 /* JiwokUpdateLoginStatusXmlParser.m */,
+				08C5CBBE11E9123C006080D0 /* JiwokUpdateLoginStatusXmlParser.h */,
+				088F0144121A687000FB3B42 /* JiwokVocalInfoXMLParser.h */,
+				088F0145121A687000FB3B42 /* JiwokVocalInfoXMLParser.m */,
+				088CA969121D210900DC959C /* JiwokAllWorkoutInfoXMLParser.h */,
+				088CA96A121D210900DC959C /* JiwokAllWorkoutInfoXMLParser.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		08A8BC5C120029B4001C1C39 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				4C6ACCE111E304A00037A194 /* LoggerClass.h */,
+				4C6ACCE211E304A00037A194 /* LoggerClass.m */,
+			);
+			name = Logger;
+			sourceTree = "<group>";
+		};
+		08A8BC5D120029BD001C1C39 /* DownloadPack */ = {
+			isa = PBXGroup;
+			children = (
+				18BE851A125C6BD300C5BC9E /* JiwokCurlFtpClient.h */,
+				18BE851B125C6BD300C5BC9E /* JiwokCurlFtpClient.m */,
+				08860D2711EC4DB800F60064 /* JiwokDownloadBkndView.h */,
+				08860D2811EC4DB800F60064 /* JiwokDownloadBkndView.m */,
+				0881DD8211EB365F00F063E6 /* JiwokFTPDownloader.h */,
+				0881DD8311EB365F00F063E6 /* JiwokFTPDownloader.m */,
+				18BE851F125C6C0100C5BC9E /* JiwokDownloderWindowController.h */,
+				18BE8520125C6C0100C5BC9E /* JiwokDownloderWindowController.m */,
+			);
+			name = DownloadPack;
+			sourceTree = "<group>";
+		};
+		08A8BC5E120029D4001C1C39 /* PlistSettings */ = {
+			isa = PBXGroup;
+			children = (
+				0881E05111E86C0000BE3252 /* JiwokSettingPlistReader.h */,
+				0881E05211E86C0000BE3252 /* JiwokSettingPlistReader.m */,
+			);
+			name = PlistSettings;
+			sourceTree = "<group>";
+		};
+		08A8BC6112002A3B001C1C39 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4C78F803124B7F5A00096169 /* Variable.h */,
+				08849BA712028AD500CA5428 /* Delegates.h */,
+				08C5C9C911E8E581006080D0 /* Common.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		08A8BCA112002C26001C1C39 /* DBFile */ = {
+			isa = PBXGroup;
+			children = (
+				1874BE56124A27E5005C26DA /* TAGOfflineDB.sqlite */,
+			);
+			name = DBFile;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08A103511219574F00BD3FD3 /* Security.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1858639312AA5868008C8322 /* aubio */ = {
+			isa = PBXGroup;
+			children = (
+				1858639412AA5868008C8322 /* aubiocut */,
+				1858639512AA5868008C8322 /* aubionotes */,
+				1858639612AA5868008C8322 /* aubioonset */,
+				1858639712AA5868008C8322 /* aubiopitch */,
+				1858639812AA5868008C8322 /* aubiotrack */,
+				1858639912AA5868008C8322 /* autopoint */,
+			);
+			path = aubio;
+			sourceTree = "<group>";
+		};
+		18917A061227AE460046FE7A /* MyMusic */ = {
+			isa = PBXGroup;
+			children = (
+				18E2635E1250D00C0022BF1F /* JiwokMyMusicPanelViewController.h */,
+				18E2635F1250D00C0022BF1F /* JiwokMyMusicPanelViewController.m */,
+				18917A171227AE460046FE7A /* JiwokAudioPlayController.h */,
+				18917A181227AE460046FE7A /* JiwokAudioPlayController.m */,
+				18917A1B1227AE460046FE7A /* JiwokMusicConverter.h */,
+				18917A1C1227AE460046FE7A /* JiwokMusicConverter.m */,
+				18917A1D1227AE460046FE7A /* JiwokFMODUtil.h */,
+				18917A1E1227AE460046FE7A /* JiwokFMODUtil.mm */,
+				18917A1F1227AE460046FE7A /* JiwokAnalysisSummaryWindowController.h */,
+				18917A201227AE460046FE7A /* JiwokAnalysisSummaryWindowController.m */,
+				18917A071227AE460046FE7A /* FMOD */,
+			);
+			name = MyMusic;
+			sourceTree = "<group>";
+		};
+		18917A071227AE460046FE7A /* FMOD */ = {
+			isa = PBXGroup;
+			children = (
+				4CB1C39F12AF54D400E21C88 /* FIFOSamplePipe.h */,
+				4CB1C39D12AF54BF00E21C88 /* FIFOSampleBuffer.cpp */,
+				4CB1C39812AF54A800E21C88 /* FIFOSampleBuffer.h */,
+				4CB1C39512AF548D00E21C88 /* BPMDetect.cpp */,
+				4CB1C39612AF548D00E21C88 /* BPMDetect.h */,
+				4CB1C39012AF546F00E21C88 /* PeakFinder.cpp */,
+				4CB1C39112AF546F00E21C88 /* PeakFinder.h */,
+				4CB1C38F12AF545300E21C88 /* STTypes.h */,
+				18917A081227AE460046FE7A /* fmod_codec.h */,
+				18917A0A1227AE460046FE7A /* fmod_dsp.h */,
+				18917A0D1227AE460046FE7A /* fmod_memoryinfo.h */,
+				18917A101227AE460046FE7A /* JiwokFMODWrapper.h */,
+				18917A111227AE460046FE7A /* JiwokFMODWrapper.cpp */,
+				18917A141227AE460046FE7A /* fmod.h */,
+				18917A151227AE460046FE7A /* fmod_errors.h */,
+			);
+			name = FMOD;
+			sourceTree = "<group>";
+		};
+		18917A2A1227AE5A0046FE7A /* MusicSearch */ = {
+			isa = PBXGroup;
+			children = (
+				4C87A9031250B4C1008229E8 /* JiwokMusicalSearchWindowController.h */,
+				4C87A9041250B4C1008229E8 /* JiwokMusicalSearchWindowController.m */,
+			);
+			name = MusicSearch;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Jiwok.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Jiwok */ = {
+			isa = PBXGroup;
+			children = (
+				18F2330E1C07646B00BAC143 /* libfmod.dylib */,
+				4CCF1B7111DDBD9300794D34 /* XIB */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Jiwok;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Jiwok_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CDD50CE12CF5F6100924DC2 /* Updater App */,
+				1858639312AA5868008C8322 /* aubio */,
+				4C04E5B91285592F00A5F596 /* Libs */,
+				08A8BCA112002C26001C1C39 /* DBFile */,
+				0892492C11EFA022005993B6 /* JiwokAPPIcon.icns */,
+				088112171206E94E008104AB /* Localization.strings */,
+				4CCF1C4211DDDBDB00794D34 /* Images */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				0881E05611E86E9A00BE3252 /* Settings.plist */,
+				4CA84AB012C26FB70069DD24 /* Growl Registration Ticket.growlRegDict */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				182C43FB1C09E6E60026AB0A /* MailCore.framework */,
+				18F233181C07660200BAC143 /* libfmodex.dylib */,
+				18F233161C07658A00BAC143 /* CoreFoundation.framework */,
+				18F233141C07655400BAC143 /* CoreAudio.framework */,
+				18F233121C07654D00BAC143 /* AudioUnit.framework */,
+				18F233101C07653B00BAC143 /* Carbon.framework */,
+				189EC1021C04B241008D8475 /* Security.framework */,
+				180B0D601C043EBE00A5F9B3 /* libsqlite3.dylib */,
+				4C4AB5DD1339F98D00A86435 /* libsqlite3.0.8.6.dylib */,
+				4C294FFB12CD991E008376A4 /* Growl.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C04E5B91285592F00A5F596 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				11BD98FD140CB70D00EB1642 /* aacgain */,
+				4CBC582F12BA41E5002F0050 /* ffmpeg */,
+				4CBC57F112BA2B3E002F0050 /* bpmdetect */,
+				4CB1C46612AF8D4F00E21C88 /* soundstretch */,
+				4C04E5BA1285593000A5F596 /* CFFTPSample */,
+				4C04E5BB1285593000A5F596 /* faad */,
+				4C04E5BD1285593000A5F596 /* lastfmfpclient */,
+				4C04E5BE1285593000A5F596 /* mp3gain */,
+				4C04E5C01285593000A5F596 /* sox */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		4C2B1DC612CB0D7D00EB1451 /* MenuBar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				4C2B1DC712CB0D7D00EB1451 /* Dock_blue_Menu_Bar.png */,
+				4C2B1DC812CB0D7D00EB1451 /* Dock_gray_Menu_Bar.png */,
+				4C2B1DC912CB0D7D00EB1451 /* Dock_green_Menu_Bar.png */,
+				4C2B1DCA12CB0D7D00EB1451 /* Dock_pink_Menu_Bar.png */,
+			);
+			path = "MenuBar Icons";
+			sourceTree = "<group>";
+		};
+		4C2B1E8212CB35CC00EB1451 /* Dummy Images */ = {
+			isa = PBXGroup;
+			children = (
+				4C2B1E8312CB35CC00EB1451 /* 3.png */,
+			);
+			path = "Dummy Images";
+			sourceTree = "<group>";
+		};
+		4C6F57E312DAECFB0009AE13 /* Search Animation */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F580112DAFF5A0009AE13 /* Search_Animation_fast.gif */,
+				4C6F580212DAFF5A0009AE13 /* Search_Animation_slow.gif */,
+				4C6F57F412DAED160009AE13 /* search_anim.gif */,
+				4C6F57F512DAED160009AE13 /* search_anim2.gif */,
+			);
+			name = "Search Animation";
+			sourceTree = "<group>";
+		};
+		4C76483B13C33D3300E12F88 /* spanish_ Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				4CE38EE413CD56AD00A62B9B /* Save_WorkoutLoc_Es.JPG */,
+				4C7648E013C3474A00E12F88 /* viewMyWorkoutInQueue_Es.JPG */,
+				4C7648CD13C3468300E12F88 /* support_Hover_Es.png */,
+				4C76489913C3424800E12F88 /* viewMyWorkout_Es.JPG */,
+				4C76489713C341D300E12F88 /* support_Hover_Es .png */,
+				4C76483C13C33D3300E12F88 /* addNewFolder_Es.JPG */,
+				4C76483D13C33D3300E12F88 /* cancel_Normal_Es.JPG */,
+				4C76483E13C33D3300E12F88 /* connect_Normal_Es.JPG */,
+				4C76483F13C33D3300E12F88 /* disconnect_Normal_Es.JPG */,
+				4C76484013C33D3300E12F88 /* logIn_Cancel_Normal_Es.JPG */,
+				4C76484113C33D3300E12F88 /* logIn_Normal_Es.JPG */,
+				4C76484213C33D3300E12F88 /* loginTab_Hover_Es.png */,
+				4C76484313C33D3300E12F88 /* loginTab_Normal_Es.png */,
+				4C76484413C33D3300E12F88 /* myMusicTab_Hover_Es.png */,
+				4C76484513C33D3300E12F88 /* myMusicTab_Normal_Es.png */,
+				4C76484613C33D3300E12F88 /* myWorkoutTab_Hover_Es.png */,
+				4C76484713C33D3300E12F88 /* myWorkoutTab_Normal_Es.png */,
+				4C76484913C33D3300E12F88 /* search_Normal_Es.JPG */,
+				4C76484A13C33D3300E12F88 /* support_Hover_Es.jpg */,
+				4C76484B13C33D3300E12F88 /* support_Normal_Es.png */,
+			);
+			path = "spanish_ Buttons";
+			sourceTree = "<group>";
+		};
+		4C76485E13C33D3900E12F88 /* italian_ Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				4C7648DE13C3471E00E12F88 /* viewMyWorkoutInQueue_It.JPG */,
+				4C7648C813C3461A00E12F88 /* support_Normal_It.png */,
+				4C7648CB13C3466B00E12F88 /* support_Hover_It.png */,
+				4C76489B13C3425B00E12F88 /* viewMyWorkout_It.JPG */,
+				4C76489513C341C600E12F88 /* support_Hover_It.png */,
+				4C76485F13C33D3900E12F88 /* addNewFolder_It.JPG */,
+				4C76486113C33D3900E12F88 /* cancel_Normal_It.JPG */,
+				4C76486213C33D3900E12F88 /* connect_Normal_It.JPG */,
+				4C76486313C33D3900E12F88 /* disconnect_Normal_It.JPG */,
+				4C76486413C33D3900E12F88 /* logIn_Cancel_Normal_It.JPG */,
+				4C76486513C33D3900E12F88 /* logIn_Normal_It.JPG */,
+				4C76486613C33D3900E12F88 /* loginTab_Hover_It.png */,
+				4C76486713C33D3900E12F88 /* loginTab_Normal_It.png */,
+				4C76486813C33D3900E12F88 /* myMusicTab_Hover_It.png */,
+				4C76486913C33D3900E12F88 /* myMusicTab_Normal_It.png */,
+				4C76486A13C33D3900E12F88 /* myWorkoutTab_Hover_It.png */,
+				4C76486B13C33D3900E12F88 /* myWorkoutTab_Normal_It.png */,
+				4C76486C13C33D3900E12F88 /* Save_WorkoutLoc_It.JPG */,
+				4C76486D13C33D3900E12F88 /* search_Normal_It.JPG */,
+			);
+			path = "italian_ Buttons";
+			sourceTree = "<group>";
+		};
+		4C9C37DB12C1CBFF002B75D2 /* Growl */ = {
+			isa = PBXGroup;
+			children = (
+				4C9C37DC12C1CC22002B75D2 /* GrowlExample.h */,
+				4C9C37DD12C1CC22002B75D2 /* GrowlExample.m */,
+			);
+			path = Growl;
+			sourceTree = "<group>";
+		};
+		4CC290461272D4E600FF8BEA /* BPM DETECTION */ = {
+			isa = PBXGroup;
+			children = (
+				185863A112AA5892008C8322 /* BpmCalculator.h */,
+				185863A212AA5892008C8322 /* BpmCalculator.m */,
+				4CC290431272D4D000FF8BEA /* JiwokBPMDetector.h */,
+				4CC290441272D4D000FF8BEA /* JiwokBPMDetector.m */,
+			);
+			name = "BPM DETECTION";
+			sourceTree = "<group>";
+		};
+		4CCF1B7111DDBD9300794D34 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				0886432611EB205B00175F07 /* JiwokDownloadWindow.xib */,
+				4CCF1B2311DDB99900794D34 /* JiwokLoginWindow.xib */,
+				1839273412C32D8A0005D21B /* JiwokLoginPanelView.xib */,
+				4C6AD14E11E34FFD0037A194 /* JiwokMainWindow.xib */,
+				084AF42411EDD6DA000EED55 /* JiwokMyMusicPanelView.xib */,
+				08C5CBF711E918EA006080D0 /* JiwokMusicalSearchWindow.xib */,
+				0882C96C120AD13E00E97380 /* JiwokAnalysisSummaryWindow.xib */,
+				0892484811EF7C1A005993B6 /* JiwokMyWorkoutPanelView.xib */,
+				088CA840121CFD3400DC959C /* JiwokWorkoutPopupWindow.xib */,
+				088CAC83121D7DFA00DC959C /* JiwokSupportPanelView.xib */,
+			);
+			name = XIB;
+			sourceTree = "<group>";
+		};
+		4CCF1C4211DDDBDB00794D34 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4CD41A9F16228DF8007F0F34 /* Polish_Buttons */,
+				4C76485E13C33D3900E12F88 /* italian_ Buttons */,
+				4C76483B13C33D3300E12F88 /* spanish_ Buttons */,
+				4C6F57E312DAECFB0009AE13 /* Search Animation */,
+				4C2B1E8212CB35CC00EB1451 /* Dummy Images */,
+				4C2B1DC612CB0D7D00EB1451 /* MenuBar Icons */,
+				4CD7888112BF2309007BEEE8 /* Dock icons */,
+				087F182A121407CA005E8244 /* Fileopen.JPG */,
+				1839284912C350B50005D21B /* viewMyWorkoutInQueue_En.JPG */,
+				088CA85A121D02B800DC959C /* viewMyWorkoutInQueue_Fr.JPG */,
+				08841FE21208174700E7BE76 /* search_Bg.JPG */,
+				08849BA21202899000CA5428 /* addNewFolder_Fr.JPG */,
+				08849BA31202899000CA5428 /* addNewFolder_En.JPG */,
+				088ACEDE11ED89C900FD6CA7 /* Main_Bg.png */,
+				087F18261214075B005E8244 /* viewMyWorkout_Fr.JPG */,
+				087F18271214075B005E8244 /* viewMyWorkout_En.JPG */,
+				088C6811120BEA420075448F /* playbutton.png */,
+				4C2B1E8E12CB396700EB1451 /* support_Panel_Bg.png */,
+				088C6812120BEA420075448F /* stopbutton.png */,
+				08839EB6120177600044A084 /* cancel_Normal_En.jpg */,
+				087F182212140752005E8244 /* Save_WorkoutLoc_En.JPG */,
+				087F182312140752005E8244 /* Save_WorkoutLoc_Fr.JPG */,
+				08839EB7120177600044A084 /* cancel_Normal_Fr.JPG */,
+				08839EB8120177600044A084 /* search_Normal_Fr.JPG */,
+				1839286212C352860005D21B /* search_Normal_En.JPG */,
+				0884B9C211EDB84A00723F9A /* login_Panel_Bg.png */,
+				0884B9C611EDB9CB00723F9A /* disconnect_Normal_Fr.JPG */,
+				0884B9C711EDB9CB00723F9A /* disconnect_Normal_En.JPG */,
+				188C1BDD124E385F004A1B70 /* support_Hover_En.png */,
+				188C1BDE124E385F004A1B70 /* support_Hover_Fr.png */,
+				0884B9C811EDB9CB00723F9A /* connect_Normal_Fr.JPG */,
+				0884B9C911EDB9CB00723F9A /* connect_Normal_En.JPG */,
+				08860D5511EC4E8B00F60064 /* download_bknd.png */,
+				088B431B11ED978C00B19E2B /* myMusicTab_Hover_Fr.png */,
+				088B432F11ED989D00B19E2B /* support_Normal_En.png */,
+				088B433011ED989D00B19E2B /* support_Normal_Fr.png */,
+				4C2B1E9E12CB3E3300EB1451 /* myWorkout_Panel_Bg.png */,
+				088B432411ED980500B19E2B /* myWorkoutTab_Hover_En.png */,
+				088B432511ED980500B19E2B /* myWorkoutTab_Normal_Fr.png */,
+				088B432611ED980500B19E2B /* myWorkoutTab_Normal_En.png */,
+				088B432711ED980500B19E2B /* myWorkoutTab_Hover_Fr.png */,
+				088B431311ED973F00B19E2B /* loginTab_Hover_En.png */,
+				088B431C11ED978C00B19E2B /* myMusicTab_Hover_En.png */,
+				088B431D11ED978C00B19E2B /* myMusicTab_Normal_Fr.png */,
+				088B431E11ED978C00B19E2B /* myMusicTab_Normal_En.png */,
+				08EF3F0E11E7FDED000F0BE9 /* logIn_Normal_Fr.JPG */,
+				088B431211ED973F00B19E2B /* loginTab_Normal_En.png */,
+				088B431411ED973F00B19E2B /* loginTab_Normal_Fr.png */,
+				088B431511ED973F00B19E2B /* loginTab_Hover_Fr.png */,
+				08EF3F0F11E7FDED000F0BE9 /* logIn_Cancel_Normal_En.JPG */,
+				08EF3F1011E7FDED000F0BE9 /* logIn_Normal_En.JPG */,
+				08EF3F1111E7FDED000F0BE9 /* logIn_Cancel_Normal_Fr.JPG */,
+				4CCF1C4411DDDBF400794D34 /* Login_Bg.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4CD41A9F16228DF8007F0F34 /* Polish_Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				4C761C61163E91DB00F44AF7 /* addNewFolder_Pl.JPG */,
+				4C761C62163E91DB00F44AF7 /* cancel_Normal_Pl.JPG */,
+				4C761C63163E91DB00F44AF7 /* connect_Normal_Pl.JPG */,
+				4C761C64163E91DB00F44AF7 /* disconnect_Normal_Pl.JPG */,
+				4C761C65163E91DB00F44AF7 /* logIn_Cancel_Normal_Pl.JPG */,
+				4C761C66163E91DB00F44AF7 /* logIn_Normal_pl.JPG */,
+				4C761C67163E91DB00F44AF7 /* loginTab_Hover_Pl.png */,
+				4C761C68163E91DB00F44AF7 /* loginTab_Normal_Pl.png */,
+				4C761C69163E91DB00F44AF7 /* myMusicTab_Hover_Pl.png */,
+				4C761C6A163E91DB00F44AF7 /* myMusicTab_Normal_Pl.png */,
+				4C761C6B163E91DB00F44AF7 /* myWorkoutTab_Hover_Pl.png */,
+				4C761C6C163E91DB00F44AF7 /* myWorkoutTab_Normal_Pl.png */,
+				4C761C6D163E91DB00F44AF7 /* Save_WorkoutLoc_Pl.JPG */,
+				4C761C6E163E91DB00F44AF7 /* search_Normal_Pl.JPG */,
+				4C761C6F163E91DB00F44AF7 /* support_Hover_Pl.png */,
+				4C761C70163E91DB00F44AF7 /* support_Normal_Pl.png */,
+				4C761C71163E91DB00F44AF7 /* viewMyWorkout_Pl.JPG */,
+				4C761C72163E91DB00F44AF7 /* viewMyWorkoutInQueue_Pl.JPG */,
+			);
+			name = Polish_Buttons;
+			sourceTree = "<group>";
+		};
+		4CD7888112BF2309007BEEE8 /* Dock icons */ = {
+			isa = PBXGroup;
+			children = (
+				4CD788F312BF2D8F007BEEE8 /* Dock_blue.png */,
+				4CD788F412BF2D8F007BEEE8 /* Dock_green.png */,
+				4CD788C612BF2958007BEEE8 /* Dock_gray.png */,
+				4CD788C812BF2958007BEEE8 /* Dock_pink.png */,
+			);
+			path = "Dock icons";
+			sourceTree = "<group>";
+		};
+		4CDD498D12CF059800924DC2 /* Autoupdater */ = {
+			isa = PBXGroup;
+			children = (
+				4CDD498E12CF059800924DC2 /* Autoupdater.h */,
+				4CDD498F12CF059800924DC2 /* Autoupdater.m */,
+				4CDD499012CF059800924DC2 /* VersionCheckXmlParser.h */,
+				4CDD499112CF059800924DC2 /* VersionCheckXmlParser.m */,
+			);
+			path = Autoupdater;
+			sourceTree = "<group>";
+		};
+		4CDD50CE12CF5F6100924DC2 /* Updater App */ = {
+			isa = PBXGroup;
+			children = (
+				4C2632AE12EEB12500B0E0F8 /* JiwokUpdater.app */,
+			);
+			name = "Updater App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Jiwok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Jiwok" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				088C7F8B1209455300014A60 /* CopyFiles */,
+				0887EDE9121E4CED00594B6E /* CopyFiles */,
+				4C9C3A0312C1F575002B75D2 /* CopyFiles */,
+				4C9C3A1A12C1F648002B75D2 /* CopyFiles */,
+				4CA84AB912C26FE90069DD24 /* CopyFiles */,
+				4C29501012CD996D008376A4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jiwok;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Jiwok;
+			productReference = 8D1107320486CEB800E47090 /* Jiwok.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Jiwok" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Spanish,
+				Italian,
+				pl,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Jiwok */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Jiwok */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA84AC112C270A90069DD24 /* Growl Registration Ticket.growlRegDict in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				4CCF1B2411DDB99900794D34 /* JiwokLoginWindow.xib in Resources */,
+				4CCF1C4511DDDBF400794D34 /* Login_Bg.png in Resources */,
+				4C6AD14F11E34FFD0037A194 /* JiwokMainWindow.xib in Resources */,
+				08EF3F1211E7FDED000F0BE9 /* logIn_Normal_Fr.JPG in Resources */,
+				08EF3F1311E7FDED000F0BE9 /* logIn_Cancel_Normal_En.JPG in Resources */,
+				08EF3F1411E7FDED000F0BE9 /* logIn_Normal_En.JPG in Resources */,
+				08EF3F1511E7FDED000F0BE9 /* logIn_Cancel_Normal_Fr.JPG in Resources */,
+				0881E05711E86E9A00BE3252 /* Settings.plist in Resources */,
+				088112181206E94E008104AB /* Localization.strings in Resources */,
+				08C5CBF811E918EA006080D0 /* JiwokMusicalSearchWindow.xib in Resources */,
+				0886432711EB205B00175F07 /* JiwokDownloadWindow.xib in Resources */,
+				08860D5611EC4E8B00F60064 /* download_bknd.png in Resources */,
+				088ACEDF11ED89C900FD6CA7 /* Main_Bg.png in Resources */,
+				088B431611ED973F00B19E2B /* loginTab_Normal_En.png in Resources */,
+				088B431711ED973F00B19E2B /* loginTab_Hover_En.png in Resources */,
+				088B431811ED973F00B19E2B /* loginTab_Normal_Fr.png in Resources */,
+				088B431911ED973F00B19E2B /* loginTab_Hover_Fr.png in Resources */,
+				088B431F11ED978C00B19E2B /* myMusicTab_Hover_Fr.png in Resources */,
+				088B432011ED978C00B19E2B /* myMusicTab_Hover_En.png in Resources */,
+				088B432111ED978C00B19E2B /* myMusicTab_Normal_Fr.png in Resources */,
+				088B432211ED978C00B19E2B /* myMusicTab_Normal_En.png in Resources */,
+				088B432811ED980500B19E2B /* myWorkoutTab_Hover_En.png in Resources */,
+				088B432911ED980500B19E2B /* myWorkoutTab_Normal_Fr.png in Resources */,
+				088B432A11ED980500B19E2B /* myWorkoutTab_Normal_En.png in Resources */,
+				088B432B11ED980500B19E2B /* myWorkoutTab_Hover_Fr.png in Resources */,
+				088B433411ED989D00B19E2B /* support_Normal_En.png in Resources */,
+				088B433511ED989D00B19E2B /* support_Normal_Fr.png in Resources */,
+				0884B9C311EDB84A00723F9A /* login_Panel_Bg.png in Resources */,
+				0884B9CA11EDB9CB00723F9A /* disconnect_Normal_Fr.JPG in Resources */,
+				0884B9CB11EDB9CB00723F9A /* disconnect_Normal_En.JPG in Resources */,
+				0884B9CC11EDB9CB00723F9A /* connect_Normal_Fr.JPG in Resources */,
+				0884B9CD11EDB9CB00723F9A /* connect_Normal_En.JPG in Resources */,
+				084AF42511EDD6DA000EED55 /* JiwokMyMusicPanelView.xib in Resources */,
+				0892484911EF7C1A005993B6 /* JiwokMyWorkoutPanelView.xib in Resources */,
+				0892492D11EFA022005993B6 /* JiwokAPPIcon.icns in Resources */,
+				08839EBA120177600044A084 /* cancel_Normal_En.jpg in Resources */,
+				08839EBB120177600044A084 /* cancel_Normal_Fr.JPG in Resources */,
+				08839EBC120177600044A084 /* search_Normal_Fr.JPG in Resources */,
+				08849BA41202899000CA5428 /* addNewFolder_Fr.JPG in Resources */,
+				08849BA51202899000CA5428 /* addNewFolder_En.JPG in Resources */,
+				08841FE31208174700E7BE76 /* search_Bg.JPG in Resources */,
+				0882C96D120AD13E00E97380 /* JiwokAnalysisSummaryWindow.xib in Resources */,
+				088C6813120BEA420075448F /* playbutton.png in Resources */,
+				088C6814120BEA420075448F /* stopbutton.png in Resources */,
+				087F182412140752005E8244 /* Save_WorkoutLoc_En.JPG in Resources */,
+				087F182512140752005E8244 /* Save_WorkoutLoc_Fr.JPG in Resources */,
+				087F18281214075B005E8244 /* viewMyWorkout_Fr.JPG in Resources */,
+				087F18291214075B005E8244 /* viewMyWorkout_En.JPG in Resources */,
+				087F182B121407CA005E8244 /* Fileopen.JPG in Resources */,
+				088CA841121CFD3400DC959C /* JiwokWorkoutPopupWindow.xib in Resources */,
+				088CA85B121D02B800DC959C /* viewMyWorkoutInQueue_Fr.JPG in Resources */,
+				088CAC84121D7DFA00DC959C /* JiwokSupportPanelView.xib in Resources */,
+				1874BE57124A27E5005C26DA /* TAGOfflineDB.sqlite in Resources */,
+				188C1BDF124E385F004A1B70 /* support_Hover_En.png in Resources */,
+				188C1BE0124E385F004A1B70 /* support_Hover_Fr.png in Resources */,
+				4C04E5C11285593000A5F596 /* CFFTPSample in Resources */,
+				4C04E5C21285593000A5F596 /* faad in Resources */,
+				4C04E5C41285593000A5F596 /* lastfmfpclient in Resources */,
+				4C04E5C51285593000A5F596 /* mp3gain in Resources */,
+				4C04E5C71285593000A5F596 /* sox in Resources */,
+				1858639A12AA5868008C8322 /* aubiocut in Resources */,
+				1858639B12AA5868008C8322 /* aubionotes in Resources */,
+				1858639C12AA5868008C8322 /* aubioonset in Resources */,
+				1858639D12AA5868008C8322 /* aubiopitch in Resources */,
+				1858639E12AA5868008C8322 /* aubiotrack in Resources */,
+				1858639F12AA5868008C8322 /* autopoint in Resources */,
+				4CB1C46712AF8D4F00E21C88 /* soundstretch in Resources */,
+				4CBC57F212BA2B3E002F0050 /* bpmdetect in Resources */,
+				4CBC583012BA41E5002F0050 /* ffmpeg in Resources */,
+				4CD788CA12BF2958007BEEE8 /* Dock_gray.png in Resources */,
+				4CD788CC12BF2958007BEEE8 /* Dock_pink.png in Resources */,
+				4CD788F512BF2D8F007BEEE8 /* Dock_blue.png in Resources */,
+				4CD788F612BF2D8F007BEEE8 /* Dock_green.png in Resources */,
+				1839273512C32D8A0005D21B /* JiwokLoginPanelView.xib in Resources */,
+				1839284A12C350B50005D21B /* viewMyWorkoutInQueue_En.JPG in Resources */,
+				1839286312C352860005D21B /* search_Normal_En.JPG in Resources */,
+				4C2B1DCB12CB0D7D00EB1451 /* Dock_blue_Menu_Bar.png in Resources */,
+				4C2B1DCC12CB0D7D00EB1451 /* Dock_gray_Menu_Bar.png in Resources */,
+				4C2B1DCD12CB0D7D00EB1451 /* Dock_green_Menu_Bar.png in Resources */,
+				4C2B1DCE12CB0D7D00EB1451 /* Dock_pink_Menu_Bar.png in Resources */,
+				4C2B1E8412CB35CC00EB1451 /* 3.png in Resources */,
+				4C2B1E8F12CB396700EB1451 /* support_Panel_Bg.png in Resources */,
+				4C2B1E9F12CB3E3300EB1451 /* myWorkout_Panel_Bg.png in Resources */,
+				4C6F57F612DAED160009AE13 /* search_anim.gif in Resources */,
+				4C6F57F712DAED160009AE13 /* search_anim2.gif in Resources */,
+				4C6F580312DAFF5A0009AE13 /* Search_Animation_fast.gif in Resources */,
+				4C6F580412DAFF5A0009AE13 /* Search_Animation_slow.gif in Resources */,
+				4C2632AF12EEB12500B0E0F8 /* JiwokUpdater.app in Resources */,
+				4C76484D13C33D3300E12F88 /* addNewFolder_Es.JPG in Resources */,
+				4C76484E13C33D3300E12F88 /* cancel_Normal_Es.JPG in Resources */,
+				4C76484F13C33D3300E12F88 /* connect_Normal_Es.JPG in Resources */,
+				4C76485013C33D3300E12F88 /* disconnect_Normal_Es.JPG in Resources */,
+				4C76485113C33D3300E12F88 /* logIn_Cancel_Normal_Es.JPG in Resources */,
+				4C76485213C33D3300E12F88 /* logIn_Normal_Es.JPG in Resources */,
+				4C76485313C33D3300E12F88 /* loginTab_Hover_Es.png in Resources */,
+				4C76485413C33D3300E12F88 /* loginTab_Normal_Es.png in Resources */,
+				4C76485513C33D3300E12F88 /* myMusicTab_Hover_Es.png in Resources */,
+				4C76485613C33D3300E12F88 /* myMusicTab_Normal_Es.png in Resources */,
+				4C76485713C33D3300E12F88 /* myWorkoutTab_Hover_Es.png in Resources */,
+				4C76485813C33D3300E12F88 /* myWorkoutTab_Normal_Es.png in Resources */,
+				4C76485A13C33D3300E12F88 /* search_Normal_Es.JPG in Resources */,
+				4C76485B13C33D3300E12F88 /* support_Hover_Es.jpg in Resources */,
+				4C76485C13C33D3300E12F88 /* support_Normal_Es.png in Resources */,
+				4C76487113C33D3900E12F88 /* addNewFolder_It.JPG in Resources */,
+				4C76487313C33D3900E12F88 /* cancel_Normal_It.JPG in Resources */,
+				4C76487413C33D3900E12F88 /* connect_Normal_It.JPG in Resources */,
+				4C76487513C33D3900E12F88 /* disconnect_Normal_It.JPG in Resources */,
+				4C76487613C33D3900E12F88 /* logIn_Cancel_Normal_It.JPG in Resources */,
+				4C76487713C33D3900E12F88 /* logIn_Normal_It.JPG in Resources */,
+				4C76487813C33D3900E12F88 /* loginTab_Hover_It.png in Resources */,
+				4C76487913C33D3900E12F88 /* loginTab_Normal_It.png in Resources */,
+				4C76487A13C33D3900E12F88 /* myMusicTab_Hover_It.png in Resources */,
+				4C76487B13C33D3900E12F88 /* myMusicTab_Normal_It.png in Resources */,
+				4C76487C13C33D3900E12F88 /* myWorkoutTab_Hover_It.png in Resources */,
+				4C76487D13C33D3900E12F88 /* myWorkoutTab_Normal_It.png in Resources */,
+				4C76487E13C33D3900E12F88 /* Save_WorkoutLoc_It.JPG in Resources */,
+				4C76487F13C33D3900E12F88 /* search_Normal_It.JPG in Resources */,
+				4C76489613C341C600E12F88 /* support_Hover_It.png in Resources */,
+				4C76489813C341D300E12F88 /* support_Hover_Es .png in Resources */,
+				4C76489A13C3424800E12F88 /* viewMyWorkout_Es.JPG in Resources */,
+				4C76489C13C3425B00E12F88 /* viewMyWorkout_It.JPG in Resources */,
+				4C7648C913C3461A00E12F88 /* support_Normal_It.png in Resources */,
+				4C7648CE13C3468300E12F88 /* support_Hover_Es.png in Resources */,
+				4C7648DF13C3471E00E12F88 /* viewMyWorkoutInQueue_It.JPG in Resources */,
+				4C7648E113C3474A00E12F88 /* viewMyWorkoutInQueue_Es.JPG in Resources */,
+				4CE38EE513CD56AD00A62B9B /* Save_WorkoutLoc_Es.JPG in Resources */,
+				11BD98FE140CB70D00EB1642 /* aacgain in Resources */,
+				4C761C73163E91DB00F44AF7 /* addNewFolder_Pl.JPG in Resources */,
+				4C761C74163E91DB00F44AF7 /* cancel_Normal_Pl.JPG in Resources */,
+				4C761C75163E91DB00F44AF7 /* connect_Normal_Pl.JPG in Resources */,
+				4C761C76163E91DB00F44AF7 /* disconnect_Normal_Pl.JPG in Resources */,
+				4C761C77163E91DB00F44AF7 /* logIn_Cancel_Normal_Pl.JPG in Resources */,
+				4C761C78163E91DB00F44AF7 /* logIn_Normal_pl.JPG in Resources */,
+				4C761C79163E91DB00F44AF7 /* loginTab_Hover_Pl.png in Resources */,
+				4C761C7A163E91DB00F44AF7 /* loginTab_Normal_Pl.png in Resources */,
+				4C761C7B163E91DB00F44AF7 /* myMusicTab_Hover_Pl.png in Resources */,
+				4C761C7C163E91DB00F44AF7 /* myMusicTab_Normal_Pl.png in Resources */,
+				4C761C7D163E91DB00F44AF7 /* myWorkoutTab_Hover_Pl.png in Resources */,
+				4C761C7E163E91DB00F44AF7 /* myWorkoutTab_Normal_Pl.png in Resources */,
+				4C761C7F163E91DB00F44AF7 /* Save_WorkoutLoc_Pl.JPG in Resources */,
+				4C761C80163E91DB00F44AF7 /* search_Normal_Pl.JPG in Resources */,
+				4C761C81163E91DB00F44AF7 /* support_Hover_Pl.png in Resources */,
+				4C761C82163E91DB00F44AF7 /* support_Normal_Pl.png in Resources */,
+				4C761C83163E91DB00F44AF7 /* viewMyWorkout_Pl.JPG in Resources */,
+				4C761C84163E91DB00F44AF7 /* viewMyWorkoutInQueue_Pl.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				4CCF1B2C11DDBA8E00794D34 /* JiwokLoginWindowController.m in Sources */,
+				4CCF1D2C11DDEF6700794D34 /* JiwokAPIHelper.m in Sources */,
+				4C6ACCE311E304A00037A194 /* LoggerClass.m in Sources */,
+				4C6AD00A11E33C710037A194 /* JiwokLoginBackGroundView.m in Sources */,
+				088E8A2011E83F8800A19CB2 /* JiwokUserdetailsXmlParser.m in Sources */,
+				0881E01B11E867B500BE3252 /* JiwokUtil.m in Sources */,
+				0881E05311E86C0000BE3252 /* JiwokSettingPlistReader.m in Sources */,
+				08C5CBBF11E9123C006080D0 /* JiwokUpdateLoginStatusXmlParser.m in Sources */,
+				0881DD8411EB365F00F063E6 /* JiwokFTPDownloader.m in Sources */,
+				08860D2911EC4DB800F60064 /* JiwokDownloadBkndView.m in Sources */,
+				088ACEE511ED8AE900FD6CA7 /* JiwokMainWindowController.m in Sources */,
+				088B43AA11ED9F4800B19E2B /* JiwokLoginPanelViewController.m in Sources */,
+				08A8BC4612002899001C1C39 /* JiwokDataBaseManager.m in Sources */,
+				088459F6121019D700B5E938 /* FMCallback.m in Sources */,
+				088459F7121019D700B5E938 /* FMEngine.m in Sources */,
+				088459F8121019D700B5E938 /* FMEngineURLConnection.m in Sources */,
+				088459F9121019D700B5E938 /* NSString+FMEngine.m in Sources */,
+				088459FA121019D700B5E938 /* NSObject+SBJSON.m in Sources */,
+				088459FB121019D700B5E938 /* NSString+SBJSON.m in Sources */,
+				088459FC121019D700B5E938 /* SBJSON.m in Sources */,
+				088459FD121019D700B5E938 /* SBJsonBase.m in Sources */,
+				088459FE121019D700B5E938 /* SBJsonParser.m in Sources */,
+				088459FF121019D700B5E938 /* SBJsonWriter.m in Sources */,
+				08845A02121019EB00B5E938 /* FingerPrintParser.m in Sources */,
+				08845A05121019F900B5E938 /* JiwokLastfmClient.m in Sources */,
+				088F0146121A687000FB3B42 /* JiwokVocalInfoXMLParser.m in Sources */,
+				088CA96B121D210900DC959C /* JiwokAllWorkoutInfoXMLParser.m in Sources */,
+				088CAC88121D7E5500DC959C /* JiwokSupportPanelViewController.m in Sources */,
+				0887ECE4121E471E00594B6E /* SupportTab.m in Sources */,
+				0887ECE7121E472C00594B6E /* GetSupportMailDetailsXmlParser.m in Sources */,
+				0887ECF8121E479300594B6E /* S7FTPRequest.m in Sources */,
+				18917A231227AE460046FE7A /* JiwokFMODWrapper.cpp in Sources */,
+				18917A251227AE460046FE7A /* JiwokAudioPlayController.m in Sources */,
+				18917A271227AE460046FE7A /* JiwokMusicConverter.m in Sources */,
+				18917A281227AE460046FE7A /* JiwokFMODUtil.mm in Sources */,
+				18917A291227AE460046FE7A /* JiwokAnalysisSummaryWindowController.m in Sources */,
+				4C78F7DC124B7CBA00096169 /* JiwokMyWorkoutPanelViewController.m in Sources */,
+				4C78F7DF124B7CCE00096169 /* JiwokWorkoutPopupWndController.m in Sources */,
+				4C78F7E2124B7EB500096169 /* JiwokMusicProcessor.m in Sources */,
+				188FDE46124CC9DB0041DF30 /* JiwokUpdateWorkoutStatusXmlParser.m in Sources */,
+				188FDE74124CD0600041DF30 /* JiwokUpdateTagDetectedGenreXmlParser.m in Sources */,
+				188FDEB6124CDC3F0041DF30 /* JiwokMusicSystemDBMgrWrapper.m in Sources */,
+				188FDEBE124CDCBF0041DF30 /* JiwokAppDelegate.m in Sources */,
+				4C87A9051250B4C1008229E8 /* JiwokMusicalSearchWindowController.m in Sources */,
+				18E263601250D00C0022BF1F /* JiwokMyMusicPanelViewController.m in Sources */,
+				18BE851C125C6BD300C5BC9E /* JiwokCurlFtpClient.m in Sources */,
+				18BE8521125C6C0100C5BC9E /* JiwokDownloderWindowController.m in Sources */,
+				189B73F31268111500025536 /* JiwokFfmpegID3TagReader.m in Sources */,
+				18D953721268998600729EDB /* GenerateWorkout.m in Sources */,
+				4CC290451272D4D000FF8BEA /* JiwokBPMDetector.m in Sources */,
+				185863A312AA5892008C8322 /* BpmCalculator.m in Sources */,
+				4CB1C39212AF546F00E21C88 /* PeakFinder.cpp in Sources */,
+				4CB1C39712AF548D00E21C88 /* BPMDetect.cpp in Sources */,
+				4CB1C39E12AF54BF00E21C88 /* FIFOSampleBuffer.cpp in Sources */,
+				4C9E5A4612C0AC0F00D25D55 /* WorkoutDetailsParser.m in Sources */,
+				4C9C37DE12C1CC22002B75D2 /* GrowlExample.m in Sources */,
+				4CDD499212CF059800924DC2 /* Autoupdater.m in Sources */,
+				4CDD499312CF059800924DC2 /* VersionCheckXmlParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		088112171206E94E008104AB /* Localization.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0881E0AB11E8785F00BE3252 /* English */,
+				0881121A1206E9BB008104AB /* French */,
+				4C7645CF13C2E97C00E12F88 /* Spanish */,
+				4C7645D013C2E98800E12F88 /* Italian */,
+				4C136FBB161993E900C32C39 /* pl */,
+			);
+			name = Localization.strings;
+			sourceTree = "<group>";
+		};
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+				4CA563AE12CA03FD005B6E04 /* French */,
+				4C136FBC1619947600C32C39 /* pl */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Jiwok_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = Jiwok;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Jiwok_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"\"$(SRCROOT)/lastfmBIN/dylibs\"",
+					"\"$(SRCROOT)/lastfmBIN/mylibs\"",
+					"\"$(SRCROOT)/dylibs\"",
+					"$(PROJECT_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = Jiwok;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = _WITH_LOG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Jiwok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Jiwok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

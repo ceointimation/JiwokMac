@@ -1,0 +1,129 @@
+//
+//  JiwokAllWorkoutInfoXMLParser.m
+//  Jiwok
+//
+//  Created by reubro R on 19/08/10.
+//  Copyright 2010 kk. All rights reserved.
+//
+
+#import "JiwokAllWorkoutInfoXMLParser.h"
+
+
+@implementation JiwokAllWorkoutInfoXMLParser
+
+-(NSMutableArray *)parseData:(NSData *)data
+{
+	[self parseXMLData:data];
+	return [entities autorelease];
+	
+}
+- (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict
+{	
+	currentElement = [NSString stringWithFormat:@"%@", elementName];
+	
+	if ([elementName isEqualToString:@"workouts"])  
+	{
+		entity = [[NSMutableDictionary alloc] init];
+	}
+	if ([elementName isEqualToString:@"workout"])  
+	{
+		
+		workoutstatus = [[NSMutableString alloc] init];
+		workouttitle = [[NSMutableString alloc] init];
+		workoutQueueID = [[NSMutableString alloc] init];
+	}
+	
+}
+
+
+- (void)parseXMLData:(NSData *)dataXml
+{	
+	entities = [[NSMutableArray alloc] init];	
+	// set parsing properties
+ 	dataParser = [[NSXMLParser alloc] initWithData:dataXml];
+	[dataParser setDelegate:self]; 
+	[dataParser setShouldProcessNamespaces:NO]; 
+	[dataParser setShouldReportNamespacePrefixes:NO]; 
+	[dataParser setShouldResolveExternalEntities:NO]; 
+ 	// strat parsing
+	@try{
+		[dataParser parse]; 
+	}
+	@catch(NSException *ex)
+	{
+		NSLog(@"@catch WorkoutDetailsParser  %@ ",[ex description]);
+	}	
+	//NSError *parseError = [dataParser parserError];
+	
+}
+
+- (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName
+{     
+	////NSLog(@"parser didEndElement");
+	if ([elementName isEqualToString:@"workout"]) 
+	{
+	
+		[workoutstatus stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+		[workouttitle stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+		[workoutQueueID stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+
+		[entity setObject:workoutstatus forKey:@"status"];
+		[entity setObject:workouttitle forKey:@"title"];
+		[entity setObject:workoutQueueID forKey:@"queueId"];
+	
+		[entities addObject:[[entity copy] autorelease]];
+	//[entity release];
+		[workoutstatus release];
+		[workouttitle release];
+		[workoutQueueID release];
+	}
+
+}
+- (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string
+{
+	if ([string isEqualToString:@"\n"])
+	{
+		return;
+	}
+	if ([currentElement isEqualToString:@"status"]) 
+	{
+		[workoutstatus appendString:string];
+	}
+	if ([currentElement isEqualToString:@"title"]) 
+	{
+		[workouttitle appendString:string];
+	}
+	if ([currentElement isEqualToString:@"queueId"]) 
+	{
+		[workoutQueueID appendString:string];
+	}
+}
+- (void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError 
+{	
+	
+	//NSLog(@"parser error");
+	entities = nil;
+	//dataParser = nil;
+}
+- (void)parserDidEndDocument:(NSXMLParser *)parser 
+{	
+	//NSLog(@"parsing ended");
+	if(entities.count == 0)
+	{
+		entities = nil;
+	}
+	//[dataParser release];
+//	dataParser = nil;
+}
+- (void)dealloc {
+//    [super dealloc];
+	
+	[dataParser release];
+	dataParser = nil;
+	
+	[super dealloc];
+
+}
+
+
+@end

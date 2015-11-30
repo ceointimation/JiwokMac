@@ -1,0 +1,209 @@
+//
+//  FingerPrintParser.m
+//  Jiwok_Coredata_Trial
+//
+//  Created by APPLE on 05/08/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "FingerPrintParser.h"
+
+
+@implementation FingerPrintParser
+
+
+
+/*
+ * Object initialization
+ */
+-(id) initObject
+{
+    if(self = [super init])
+    {
+		
+	}
+    return self;
+}
+
+/*
+ * Initialize data parsing
+ */
+-(NSMutableArray *)startDataParsing:(NSData *)data 
+{
+	counter = 0;
+	////NSLog(@"  START PARSING FUNCTION ");
+	[self parseXMLData:data];
+	
+	return [entities autorelease];
+}
+
+/*
+ * Checks if data is valid for parsing
+ */
+- (void)parserDidStartDocument:(NSXMLParser *)parser
+{	
+	
+}
+
+/*
+ * Start data parsing
+ */
+- (void)parseXMLData:(NSData *)dataXml
+{		
+	//entities = [[NSMutableArray alloc] init];	
+	
+	//NSLog(@"entities entities is %@",entities);
+	
+	// set parsing properties
+ 	dataParser = [[NSXMLParser alloc] initWithData:dataXml];
+	[dataParser setDelegate:self]; 
+	[dataParser setShouldProcessNamespaces:YES]; 
+	[dataParser setShouldReportNamespacePrefixes:YES]; 
+	[dataParser setShouldResolveExternalEntities:NO]; 
+ 	// start parsing
+	[dataParser parse]; 
+	
+	//NSError *parseError = [dataParser parserError];
+	
+
+		
+}
+
+
+/*
+ * Initializes the entity properties from the Servlet's response
+ */
+- (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict{			
+	
+	
+	currentElement = [NSString stringWithFormat:@"%@", elementName];
+	
+	if([elementName isEqualToString:@"lfm"])		
+	{
+	entities = [[NSMutableArray alloc] init];		
+	}
+	
+	if([elementName isEqualToString:@"track"])		
+
+	
+	{
+		
+		isAlbumName=YES;
+	
+		entity = [[NSMutableDictionary alloc] init];
+		title=[[NSMutableString alloc]init];
+
+		
+	}
+	
+	if([elementName isEqualToString:@"artist"])		
+	{			
+		
+		isAlbumName=NO;
+
+		
+		artist = [[NSMutableString alloc] init];
+		url = [[NSMutableString alloc] init];
+	}
+	
+		
+}
+
+/*
+ * Called when the element is read.
+ * Used to store the read element in a structured array.
+ */
+- (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName{     
+	
+		
+	if ([elementName isEqualToString:@"track"]) 
+	{					
+		[entity setObject:artist forKey:@"name"];
+		[entity setObject:title forKey:@"title"];
+		[entity setObject:url forKey:@"url"];	
+		
+		[entities addObject:entity];	
+		
+		[artist release];
+		[title release];
+		[url release];		
+		[entity release];
+	}
+}	
+
+
+/*
+ * Reads the value for each entity tag property (name ,region id, application id , callcenter id)
+ */
+- (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string
+{
+		
+	if ([currentElement isEqualToString:@"name"]) 
+	{				
+		
+		if(isAlbumName==YES)
+			[title appendString:string];
+		else
+		[artist appendString:string];
+	}
+	
+	if ([currentElement isEqualToString:@"url"]) 
+	{
+		[url appendString:string];
+	}
+		
+	
+}	
+
+
+
+
+
+
+
+
+
+- (void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError 
+{
+	/*
+	NSLog(@"parseErrorOccurred  error is %@",[parseError localizedDescription]);
+	
+	if((![[parseError localizedDescription] isEqualToString:@"Operation could not be completed. (NSXMLParserErrorDomain error 4.)"]))
+		//ParseError=YES;
+	entities = nil;
+	
+	*/
+	dataParser = nil;
+}
+
+/*
+ * Finish parsing
+ */
+- (void)parserDidEndDocument:(NSXMLParser *)parser {
+	NSLog(@"parserDidEndDocument");
+	if(entities.count == 0){
+		entities = nil;
+	}
+	[dataParser release];
+	dataParser = nil;
+}
+
+/*
+ * returns data 
+ */
+-(NSMutableArray *) getData{
+	return entities;
+}
+
+
+- (void)dealloc {
+    [super dealloc];
+}
+
+
+
+
+
+
+
+@end

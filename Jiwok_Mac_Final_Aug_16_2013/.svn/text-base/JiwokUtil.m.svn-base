@@ -1,0 +1,352 @@
+//
+//  JiwokUtil.m
+//  Jiwok
+//
+//  Created by reubro R on 10/07/10.
+//  Copyright 2010 kk. All rights reserved.
+//
+
+#import "JiwokUtil.h"
+#import "LoggerClass.h"
+#import <sys/param.h>
+#import <sys/mount.h>
+
+@implementation NSAttributedString (Hyperlink)
++(id)hyperlinkFromString:(NSString*)inString withURL:(NSURL*)aURL
+{
+	NSMutableAttributedString* attrString = [[NSMutableAttributedString alloc] initWithString: inString];
+	NSRange range = NSMakeRange(0, [attrString length]);
+	
+	[attrString beginEditing];
+	[attrString addAttribute:NSLinkAttributeName value:[aURL absoluteString] range:range];
+ 	
+	// make the text appear in blue
+    [attrString addAttribute:NSForegroundColorAttributeName value:[NSColor blueColor] range:range];
+ 	
+	// next make the text appear with an underline
+    [attrString addAttribute:
+  	 NSUnderlineStyleAttributeName value:[NSNumber numberWithInt:NSSingleUnderlineStyle] range:range];
+	
+	[attrString endEditing];
+  	
+	return [attrString autorelease];
+}
+@end
+
+@implementation JiwokUtil
+
++ (BOOL)isNetworkMountAtPath:(NSString*)path
+{
+	struct statfs64 stat;
+	
+	int err = statfs64([path fileSystemRepresentation], &stat);
+	if (err == 0)
+	{
+		return !(stat.f_flags & MNT_LOCAL);
+	}
+	return NO;
+}
+
+
++(NSInteger )showAlert:(NSString *)message:(JIWOK_ALERT_TYPE) alertType
+{
+	if (alertType == JIWOK_ALERT_YES_NO)
+	{
+		
+		NSAlert *alert =[[NSAlert alloc]init];
+		[alert setMessageText:message];
+		[alert addButtonWithTitle: @"Yes"];
+		[alert addButtonWithTitle: @"No"];
+		[alert setAlertStyle: NSWarningAlertStyle];
+		return  [alert runModal];
+	}
+	NSAlert *alert =[[NSAlert alloc]init];
+	[alert setMessageText:message];
+	[alert addButtonWithTitle: @"OK"];
+	if (alertType == JIWOK_ALERT_OK_CANCEL)
+	{
+		[alert addButtonWithTitle: @"Cancel"];
+	}
+	[alert setAlertStyle: NSWarningAlertStyle];
+	return  [alert runModal];
+	
+}
++(NSString *)ReplaceSpecialCharactersInURL:(NSString *)urlPath
+{
+	
+	urlPath = [urlPath stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+	urlPath = [urlPath stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]];
+	urlPath =[urlPath stringByReplacingOccurrencesOfString:@"(" withString:@"%28"]; 
+	urlPath =[urlPath stringByReplacingOccurrencesOfString:@")" withString:@"%29"];
+	urlPath =[urlPath stringByReplacingOccurrencesOfString:@" " withString:@"%20"];
+	urlPath =[urlPath stringByReplacingOccurrencesOfString:@"<" withString:@"%3C"];
+	urlPath =[urlPath stringByReplacingOccurrencesOfString:@">" withString:@"%3E"];
+	return urlPath;
+}
+//
++(BOOL)checkForInternetConnection:(NSString *) strURL
+{	
+	NSRange range ;
+	range.length			= 0;
+	range.location			= 0;
+	NSURL *url = [NSURL URLWithString:strURL];
+	//	char *urlCString = [xmlRULString UTF8String];
+	NSURLRequest *urlRequest = [NSURLRequest requestWithURL: url
+												cachePolicy:NSURLRequestReloadIgnoringLocalCacheData  
+											timeoutInterval:30];
+	NSURLResponse *response = nil;
+	NSError		  *error	= nil;
+	NSData *data = [NSURLConnection sendSynchronousRequest:urlRequest returningResponse:&response error:&error];										 
+										 
+	if(NULL == response)
+	{
+		[[LoggerClass getInstance] logData:@"No response for Jiwok server"];		
+		return NO;
+	}
+	if (!data)
+	{
+		[[LoggerClass getInstance] logData:@"No data from Jiwok server"];	
+		return NO;
+	}
+	return YES;
+	
+}
++(NSString *)GetCurrentLocale
+{
+	NSUserDefaults* defs = [NSUserDefaults standardUserDefaults];
+	NSArray* languages = [defs objectForKey:@"AppleLanguages"];
+	NSString *currentLocale = [languages objectAtIndex:0];
+	NSLog(@"language = %@",currentLocale);
+	if ([currentLocale isEqualToString:@"fr"])
+	{
+		currentLocale = @"french";
+	}
+	else if ([currentLocale isEqualToString:@"en"])
+	{
+		currentLocale = @"english";
+	}
+	else if ([currentLocale isEqualToString:@"es"])
+	{
+		currentLocale = @"spanish";
+	}
+	else if ([currentLocale isEqualToString:@"it"])
+	{
+		currentLocale = @"italian";
+	}
+	else		
+		currentLocale = @"french";
+		
+	return currentLocale;
+	//return @"french";
+}
+
++(NSString *)GetShortCurrentLocale
+{
+	NSUserDefaults* defs = [NSUserDefaults standardUserDefaults];
+	NSArray* languages = [defs objectForKey:@"AppleLanguages"];
+	NSString *currentLocale = [languages objectAtIndex:0];
+	
+	//NSLog(@"languages %@",languages);	
+	
+	NSLog(@"language = %@",currentLocale);
+	if ([currentLocale isEqualToString:@"fr"])
+	{
+		currentLocale = @"Fr";
+	}
+	else if ([currentLocale isEqualToString:@"en"])
+	{
+		currentLocale = @"En";
+	}
+	else if ([currentLocale isEqualToString:@"es"])
+	{
+		currentLocale = @"Es";
+	}
+	else if ([currentLocale isEqualToString:@"it"])
+	{
+		currentLocale = @"It";
+	}
+	else 
+		currentLocale = @"Fr";	
+	
+	return currentLocale;
+	//return @"Fr";
+}
++ (BOOL)isStringFoundInTargetString:(NSString *)searchString:(NSString *)targetString
+{
+	BOOL bRet = NO;
+	
+	if ([targetString rangeOfString:searchString].location != NSNotFound)
+	{
+		bRet = YES;
+	}
+	return bRet;
+	
+}
++ (BOOL) isvalidFolder :(NSString *)itemPath
+{
+	
+	//NSLog(@" isInvisible got path %@",itemPath);
+	BOOL bvalidFolder = NO;
+	// examine if this object is invisible (don't include in the array)
+	CFDictionaryRef values = NULL;
+	CFStringRef attrs[1] = { kLSItemIsInvisible };
+	CFArrayRef attrNames = CFArrayCreate(NULL, (const void **)attrs, 1, NULL);
+	
+	FSRef fileRef;
+	Boolean isDirectory;
+	
+	if (FSPathMakeRef((const UInt8 *)[itemPath fileSystemRepresentation], &fileRef, &isDirectory) == noErr)
+	{
+		if (isDirectory == YES)
+		{
+			if (LSCopyItemAttributes(&fileRef, kLSRolesViewer, attrNames, &values) == noErr)
+			{
+				if (values != NULL)
+				{
+					if (CFDictionaryGetValue(values, kLSItemIsInvisible) == kCFBooleanFalse)
+					{
+						//if([itemPath isEqualToString:@"/Users/apple/Desktop"])
+						
+						bvalidFolder =  YES;
+					}
+				}
+				CFRelease(values);
+			}
+		}
+	}	
+	CFRelease(attrNames);
+	return bvalidFolder;
+}
++ (BOOL)isSkipItemPackage:(NSString *)itemPath 
+{
+	BOOL bSkipFolder = NO;
+	LSItemInfoRecord info;
+	FSRef fileRef;
+	Boolean isDirectory;
+	if (FSPathMakeRef((const UInt8 *)[itemPath fileSystemRepresentation], &fileRef, &isDirectory) == noErr)
+	{
+		if (isDirectory == YES)
+		{
+			//NSLog(@" isSkipItemPackage %@",itemPath);
+			LSCopyItemInfoForURL((CFURLRef) [NSURL fileURLWithPath:itemPath], kLSRequestAllInfo, &info);
+			
+			if (info.flags & kLSItemInfoIsPackage )
+			{
+				bSkipFolder =  YES;
+			}
+			
+			
+			
+			NSString *extension = [itemPath pathExtension];
+			if ([extension isEqualToString:@"lproj"])
+			{
+				bSkipFolder =  YES;
+			}
+			if ([extension isEqualToString:@"frameworks"])
+			{
+				bSkipFolder =  YES;
+			}
+			
+			
+			if ([JiwokUtil isStringFoundInTargetString:@"/Developer":itemPath])
+			{
+				bSkipFolder =  YES;
+			}
+			
+			if ([JiwokUtil isStringFoundInTargetString:@"/Applications":itemPath])
+			{
+				bSkipFolder =  YES;
+			}
+			
+			if ([JiwokUtil isStringFoundInTargetString:@"/Library":itemPath])
+			{
+				bSkipFolder =  YES;
+			}
+			
+			if ([JiwokUtil isStringFoundInTargetString:@"/System":itemPath])
+			{
+				bSkipFolder =  YES;
+			}
+			
+			
+			if ([itemPath isEqualToString:@"/home"])
+			{
+				bSkipFolder =  YES;
+			}
+			if ([itemPath isEqualToString:@"/net"])
+			{
+				bSkipFolder =  YES;
+			}
+			
+			if ([itemPath isEqualToString:@"/etc"])
+			{
+				bSkipFolder =  YES;
+			}
+			if ([itemPath isEqualToString:@"/Network"])
+			{
+				bSkipFolder =  YES;
+			}
+			if ([itemPath isEqualToString:@"/mach_kernel"])
+			{
+				bSkipFolder =  YES;
+			}
+			if ([itemPath isEqualToString:@"/private"])
+			{
+				bSkipFolder =  YES;
+			}
+			if ([itemPath isEqualToString:@"/sbin"])
+			{
+				bSkipFolder =  YES;
+			}
+			if ([itemPath isEqualToString:@"/bin"])
+			{
+				bSkipFolder =  YES;
+			}
+			if ([itemPath isEqualToString:@"/tmp"])
+			{
+				bSkipFolder =  YES;
+			}
+			if ([itemPath isEqualToString:@"/usr"])
+			{
+				bSkipFolder =  YES;
+			}
+			if ([itemPath isEqualToString:@"/cores"])
+			{
+				bSkipFolder =  YES;
+			}
+			if ([itemPath isEqualToString:@"/var"])
+			{
+				bSkipFolder =  YES;
+			}
+			if ([itemPath isEqualToString:@"/dev"])
+			{
+				bSkipFolder =  YES;
+			}
+			
+			/*
+			// Newly added for testing				
+			
+		//	if ([JiwokUtil isStringFoundInTargetString:@"/Music":itemPath]||[JiwokUtil isStringFoundInTargetString:@"/Music1":itemPath])
+			if ([JiwokUtil isStringFoundInTargetString:@"/Music1":itemPath]||[JiwokUtil isStringFoundInTargetString:@"/Music2":itemPath])
+
+			{
+				bSkipFolder =  NO;
+			}
+			else if ([itemPath isEqualToString:@"/"])
+				bSkipFolder =  NO;
+			
+			else
+				bSkipFolder =  YES;
+		
+		
+		*/
+		
+		
+		}
+		
+	}
+	return bSkipFolder;
+}
+
+
+@end

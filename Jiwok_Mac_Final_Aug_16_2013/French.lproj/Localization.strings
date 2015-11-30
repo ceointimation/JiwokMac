@@ -1,0 +1,105 @@
+﻿/* 
+   Localization.strings
+   Jiwok
+
+   Created by reubro R on 10/07/10.
+   Copyright 2010 kk. All rights reserved.
+ */
+ 
+"WARNING_ENTER_USERNAME" = "Entrez votre email.";
+"WARNING_ENTER_PWD" = "Entrez mot de passe.";
+"ERROR_LOGIN_FAILED" = "Échec de la connexion.S'il vous plaît réessayez.";
+"QUESTION_EXIT_APP" = "Voulez-vous vraiment quitter Jiwok?";
+"ERROR_INTERNET_CONNECTION" = "Erreur de connexion Internet.";
+"INFO_CHECK_CONNECTION" = "Vérifiez votre connexion Internet.";
+"INFO_PREPARE_DOWNLOAD" = "Téléchargement en cours.";
+"INFO_PREPARE_VOCAL_DOWNLOAD" = "Téléchargement en cours.";
+"INFO_PREPARE_SP_SONGS_DOWNLOAD" = "Téléchargement des fichiers";
+"ERROR_GETTING_VOCALS" = "Erreur lors du téléchargement des voix.";
+"ERROR_GETTING_SP_SONGS" = "Erreur lors de la sélection des chansons.";
+"INFO_VOCAL_DOWNLOAD" = "Téléchargement des voix du coach.";
+"INFO_SP_SONGS_DOWNLOAD" = "Téléchargement des fichiers musicaux Jiwok.";
+"INFO_DOWNLOAD_MUSIC" = "Le logiciel Jiwok télécharge certains fichiers afin de finaliser l’installation. Cela peut prendre quelques minutes. Merci de votre patience.";
+"INFO_DISCONNECTED" = "Vous avez été déconnecté du site Jiwok.";
+"QUESTION_DISCONNECT" = "Voulez vous vraiment vous déconnecter de votre compte Jiwok?";
+"INFO_DISCONNECTING" = "Déconnexion en cours ....";
+"INFO_ALREADY_CONNECTED" = "Votre compte est déjà connecté à Jiwok. Déconnectez-vous afin de pouvoir établir une nouvelle connexion";
+"INFO_ANALYSING_SONGS" = "Analyse de votre musique.";
+"INFO_CHECKING_FOLDERS" = "Analyse de vos dossiers.";
+"INFO_CHECKING_FOLDERS_COMPLETE" = "Jiwok a terminé la vérification des dossiers.";
+"INFO_ANALYSING_COMPLETE" = "L’analyse de votre musique est terminée, vous pouvez maintenant utiliser votre coach sur le site jiwok.";
+"QUESTION_IMPROOVE_ANALYSIS" = "Jiwok a analysé vos chansons et certaines n’ont pas pu être identifiées, afin d’améliorer votre coach, voulez vous les identifier?";
+
+
+// labels in the UI"Téléchargement des fichiers";
+"LBL_USERNAME" = "Nom d'utilisateur:";
+"LBL_PASSWORD" = "Mot de passe:";
+
+"BTN_CAPTION_GENERATE" = "Générer";
+"BTN_CAPTION_REMOVE" = "Supprimer";
+
+"INFO_GENERATING_MP3" = "La génération de votre séance mp3 est en cours.";
+"INFO_GENERATING_MP3_COMPLETE" = "La séance mp3 est prête.";
+"INFO_GENERATING_MP3_FAILED"="Votre séance  n'a pas pu être générée";
+"INFO_GENERATING_MP3_NO_WORKOUTS" ="Vous n’avez pas de séance en attente.";
+"WARNING_ENTER_TICKET_NUMBER" = "Entrez le numéro du ticket : ";
+"WARNING_WORKOUT_RUNNING" = "La séance  sélectionnée est en cours. Vous ne pouvez pas la supprimer.";
+"QUESTION_REMOVE_WORKOUT" = "Êtes-vous sûr de vouloir supprimer cette séance d'entraînement de la file d'attente?";
+"WARNING_WORKOUT_RUNNING_NEXT_WROKOUT" = "Vous avez déjà une génération de séance en cours";
+"WARNING_CHECKING_DB_SONGS" = "Vous n'avez pas assez de musiques  pour générer les séances mp3";
+"INFO_CANCEL_MP3" = "La génération de la séance a été annulée";
+"INFO_CANCELLING_MP3" = "La génération est en cours d’annulation";
+"QUESTION_CANCEL_WORKOUT" = "Voulez vous vraiment annuler la génération de la séance ?";
+"INFO-FOR_BG_ANALYSING" = "L'analyse de vos chansons est en cours. Vous ne pouvez pas générer la séance maintenant";
+"INFO-FOR_MUSIC_SELECT" = "Vous n'avez pas assez de musique pour générer des séances mp3. Sélectionnez de nouvelles chansons sur votre ordinateur";
+"INFO-FOR_PROCESS_VOCALS" = "Création des voix";
+"INFO-FOR_PROCESS_SPECIFIC_SONGS" = "Création de la musique";
+"INFO-FOR_MIX" = "Mixage des voix avec la musique";
+
+"REMOVE_FOLDER"="Voulez vous vraiment désélectionner ce répertoire?";
+"WARNING_ANALYZING_INPROGRESS"="L’analyse de votre musique est en cours, vous ne pouvez pas retirer ce répertoire maintenant";
+
+
+// labels in the Login
+"AUTO-START"="Démarrer automatiquement";
+"RELAUNCH-DETECTION"="Relancer la détection";
+"AUTO-DETECT"="Détection automatique";
+
+"AUTO_LOGIN_BUTTON"="Se connecter automatiquement";
+"REMEMBER_ME_BUTTON"="Se souvenir de mon mot de passe";
+
+//LABELS FOR MUSIC
+"MUSICAL_SEARCH_TITLE"="Sélectionnez les dossiers contenant vos fichiers de musique:";
+"MY_DOCUMENTS"="Mes documents";
+"MY_ITUNES"="Mon iTunes";
+"SAVE"="Enregistrer";
+"SELECTED_FOLDERS"="Dossiers sélectionnés";
+"MUSIC_AND_BPM"="Détection de votre musique";
+
+
+//LABELS FOR WORKOUT
+"WORKOUT_TITLE"="Séances mp3";
+"WORKOUT_DESCRIPTION"="Actuellement, vous n’avez pas de séance en cours de génération. Vérifiez si la séance est en attente ou générez la séance depuis le site Jiwok";
+"WORKOUT_SAVE_LOCATION"="Vos séances mp3 sont enregistrées ici:";
+
+//SUPPORT
+"GET_TICKETS"="Pour voir votre ticket c’est ici";
+"TYPE_COMMENTS"="Après avoir contacté notre service technique, entrez ici le numéro de ticket qui vous a été communiqué";
+"SUCCESSFULLY_COMMENTED"="Nous avons bien reçu vos informations. Merci.";
+
+
+//INFO POP-UPS
+"LOGIN_POPUP"="Connexion à votre compte Jiwok";
+"LOGOUT_POPUP"="Déconnexion en cours.";
+"ANALYZING_SONGS_POPUP"="Jiwok détecte et analyse votre musique. Cela peut prendre un peu de temps, soyez patient avant d’utiliser votre coach Jiwok.";
+"FINISHED_ANALYSIS_POPUP"=" L’analyse de votre musique est terminée, vous pouvez maintenant utiliser votre coach sur le site jiwok.";
+"GENERATION_INPROGRESS_POPUP"="Votre séance mp3 est en cours de génération";
+"GENERATION_COMPLETED_POPUP"="Votre séance mp3 est maintenant prête";
+
+
+//AutoUpdate
+"INFO_DOWNLOAD_AUTOUPDATE"="Mise à jour du logiciel Jiwok en cours. Merci de patienter quelques minutes.";
+
+//Top Menu
+"CLOSE_APP"="Fermer";
+

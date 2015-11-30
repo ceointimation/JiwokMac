@@ -1,0 +1,97 @@
+//
+//  JiwokBPMDetector.m
+//  Jiwok
+//
+//  Created by Reubro on 23/10/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "JiwokBPMDetector.h"
+#import "LoggerClass.h"
+
+
+@implementation JiwokBPMDetector
+
+-(NSString*)GetBpm:(NSString*)fileName{
+    DUBUG_LOG(@"Now you are in GetBpm method in JiwokBPMDetector class");
+	DUBUG_LOG(@"GetBpm ");
+	
+	NSString * toolPath;	
+	//NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
+	//toolPath = [bundlePath  stringByAppendingPathComponent:@"soundstretch"];
+	toolPath=[[NSBundle mainBundle] pathForResource:@"soundstretch" ofType:@""];
+
+	
+	if ( ![[NSFileManager defaultManager] fileExistsAtPath: toolPath] )
+	{
+		[[LoggerClass getInstance] logData:@"GetBpm --> File not found %@",toolPath];
+		return nil;
+	}
+	
+	NSString *filename = fileName;		
+	
+	NSMutableArray *mArray = [[NSMutableArray alloc] init];	
+	[mArray addObject:filename];
+	[mArray addObject:@"-bpm"];	
+    NSLog(@"mArray==%@",mArray);
+	task = [[NSTask alloc] init]; 	
+	[task setLaunchPath: toolPath];
+	[task setArguments: mArray];
+	
+	NSPipe *pipe;
+    pipe = [NSPipe pipe];
+    [task setStandardOutput: pipe];	
+	[task setStandardError: pipe];	
+	
+    NSFileHandle *file;
+    file = [pipe fileHandleForReading];
+	
+    [task launch];
+    [task waitUntilExit];
+	
+    NSData *data;
+    data = [file readDataToEndOfFile];
+	
+    NSMutableString *string;
+    string = [[NSMutableString alloc] initWithData: data encoding: NSUTF8StringEncoding];
+	
+	[mArray release];
+	[task release];
+	
+	NSArray *listItems = [string componentsSeparatedByString:@"\n"];		
+     NSLog(@"listItems==%@",listItems);
+	[string release];
+
+	NSString *bpm;
+	
+	if([listItems count]>9)
+	{			
+		NSArray *TRY=[[listItems objectAtIndex:9] componentsSeparatedByString:@" "];	
+		
+		if([TRY count]>2)
+			bpm=[TRY objectAtIndex:3];	
+	}
+	
+	NSString *rectifiedBpm;
+	
+	if([bpm floatValue]<34)
+		rectifiedBpm=[NSString stringWithFormat:@"%f",([bpm floatValue]*4)];
+	else if(([bpm floatValue]<40)&&([bpm floatValue]>34))
+		rectifiedBpm=[NSString stringWithFormat:@"%f",([bpm floatValue]*3.13)];
+	else if(([bpm floatValue]<55)&&([bpm floatValue]>40))
+		rectifiedBpm=[NSString stringWithFormat:@"%f",([bpm floatValue]*1.9999)];	
+	else if([bpm floatValue]>180)
+		rectifiedBpm=[NSString stringWithFormat:@"%f",([bpm floatValue]/1.9999)];
+	else 
+		rectifiedBpm=[NSString stringWithFormat:@"%f",([bpm floatValue])];
+
+	
+	
+	DUBUG_LOG(@"BPM IS %@  bpm is %@",rectifiedBpm,bpm);
+	DUBUG_LOG(@"Now you are completed GetBpm method in JiwokBPMDetector class");
+	return(rectifiedBpm);
+     
+}
+ 
+
+@end

@@ -1,0 +1,203 @@
+//
+//  JiwokWorkoutPopupWndController.m
+//  Jiwok
+//
+//  Created by reubro R on 19/08/10.
+//  Copyright 2010 kk. All rights reserved.
+//
+
+#import "JiwokWorkoutPopupWndController.h"
+#import "Common.h"
+#import "LoggerClass.h"
+#import "JiwokAPIHelper.h"
+#import "JiwokAppDelegate.h"
+
+@implementation JiwokWorkoutPopupWndController
+@synthesize dataArray,delegate;
+
+- (id)initWithWindowNibName:(NSString *)windowNibName 
+{
+	self = [super initWithWindowNibName:windowNibName];
+    if (self) 
+	{
+			dataArray = [NSMutableArray arrayWithCapacity:0];
+	}
+	return self;
+}
+-(void)reloadQueueData
+{
+	[progressBar setHidden:NO];
+	[progressBar startAnimation:self];
+	
+	/// call API and get list
+	JiwokAPIHelper *apiHelper = [[JiwokAPIHelper alloc]init];
+	JiwokAppDelegate * appdelegate = (JiwokAppDelegate*) [[NSApplication sharedApplication] delegate];
+	NSMutableArray *tempDataArray = [apiHelper InvokeGetAllWorkoutsAPI:appdelegate.loggedusername:@"2"];
+	[apiHelper release];
+	
+	dataArray = [[NSMutableArray alloc]initWithArray:tempDataArray copyItems:YES];
+	
+	DUBUG_LOG(@"reloadQueueData apiHelper gives %@ ",dataArray);
+	
+	
+
+	
+	[myTableView reloadData];
+	
+	[progressBar setHidden:YES];
+	[progressBar stopAnimation:self];
+	
+}
+- (void)awakeFromNib
+{
+	
+	
+	//check  for generate button seected or not
+	genearteSelected =NO;
+	
+	removeSelected =NO;
+	
+	/// call API and get list
+	JiwokAPIHelper *apiHelper = [[JiwokAPIHelper alloc]init];
+	JiwokAppDelegate * appdelegate = (JiwokAppDelegate*) [[NSApplication sharedApplication] delegate];
+	NSMutableArray *tempDataArray = [apiHelper InvokeGetAllWorkoutsAPI:appdelegate.loggedusername:@"2"];
+	[apiHelper release];
+	
+	dataArray = [[NSMutableArray alloc]initWithArray:tempDataArray copyItems:YES];
+		
+	DUBUG_LOG(@"apiHelper gives %@ ",dataArray);
+	
+	if(![dataArray count])
+		[noWorkOutMsg setHidden:NO];
+	else 
+		[noWorkOutMsg setHidden:YES];
+
+	
+	NSTableColumn *generateColumn = 
+	[myTableView tableColumnWithIdentifier:TABLE_COL_GENERATE]; 
+	
+	NSTableColumn *removeColumn = 
+	[myTableView tableColumnWithIdentifier:TABLE_COL_REMOVE]; 
+	
+	
+	[noWorkOutMsg setStringValue: JiwokLocalizedString(@"INFO_GENERATING_MP3_NO_WORKOUTS")];
+	
+	
+	NSButtonCell *generateBox = [NSButtonCell new]; 
+ 	[generateBox setButtonType:NSPushInCell];
+	[generateBox setBordered:NO];
+	[generateBox setTarget:self];
+	[generateBox setTitle:JiwokLocalizedString(@"BTN_CAPTION_GENERATE")];
+	[generateBox setAction:@selector(genereateButtonAction:)];
+    [generateColumn setDataCell:generateBox]; 
+	
+	
+	NSButtonCell *removeBox = [NSButtonCell new]; 
+ 	[removeBox setButtonType:NSPushInCell];
+	[removeBox setBordered:NO];
+	[removeBox setTarget:self];
+	[removeBox setTitle:JiwokLocalizedString(@"BTN_CAPTION_REMOVE")];
+	[removeBox setAction:@selector(removeButtonAction:)];
+    [removeColumn setDataCell:removeBox]; 
+	
+	currentSelection = 0;	
+	
+}
+
+#pragma mark  NSTableView data source methods
+
+
+- (int)numberOfRowsInTableView: (NSTableView*)aTableView
+{
+	return [dataArray count];
+}
+- (void)tableViewSelectionDidChange:(NSNotification *)notification
+{
+	
+	//NSLog(@"Tabe row selection Tabe row selection");
+	
+	NSTableView	*tblView = [notification object];
+	currentSelection = [tblView selectedRow];
+	
+	if(genearteSelected)
+		{
+			//Action for generate button
+			DUBUG_LOG(@"genereateButtonAction currentSelection %d ",currentSelection);
+			
+			NSMutableDictionary *dict = (NSMutableDictionary *)[dataArray objectAtIndex: currentSelection];
+			//NSLog(@"Queue id == %@",[dict objectForKey:@"queueId"]);
+			JiwokAppDelegate * appdelegate = (JiwokAppDelegate*) [[NSApplication sharedApplication] delegate];
+			appdelegate.workoutQueueID = [dict objectForKey:@"queueId"];
+			[delegate didSelectGenerate];
+			
+			[progressBar setHidden:YES];
+			[progressBar stopAnimation:self];
+			[self close];
+			
+		}
+	
+	if(removeSelected)
+		{
+			//Action for remove  button
+			DUBUG_LOG(@"removeButtonAction currentSelection %d ",currentSelection);
+			
+			NSMutableDictionary *dict = (NSMutableDictionary *)[dataArray objectAtIndex: currentSelection];
+			//NSLog(@"Queue id == %@",[dict objectForKey:@"queueId"]);
+			JiwokAppDelegate * appdelegate = (JiwokAppDelegate*) [[NSApplication sharedApplication] delegate];
+			appdelegate.workoutQueueID = [dict objectForKey:@"queueId"];
+			[delegate didSelectRemove];
+		}
+	
+	genearteSelected =NO;
+	removeSelected =YES;
+	//	
+	//	//NSLog(@"selection %@", currentSelection); 
+}
+- (id)tableView: (NSTableView*)tableView objectValueForTableColumn: (NSTableColumn*)tableColumn row:(int)rowIndex
+{
+	id result = nil;
+	int cont = [dataArray count];
+	NSMutableDictionary *dict = nil;
+	if (cont > 0)
+	{
+		dict = (NSMutableDictionary *)[dataArray objectAtIndex: rowIndex];
+		
+		if (tableColumn && [[tableColumn identifier] isEqualToString:TABLE_COL_TITLE]) 
+		{
+			result = [dict objectForKey:@"title"];
+		} 
+
+	}
+	
+	return result;
+	
+}
+- (void)genereateButtonAction:(id)sender
+{
+	
+	[progressBar setHidden:NO];
+	[progressBar startAnimation:self];
+	genearteSelected =YES;
+	/*DUBUG_LOG(@"genereateButtonAction currentSelection %d ",currentSelection);
+	
+	NSMutableDictionary *dict = (NSMutableDictionary *)[dataArray objectAtIndex: currentSelection];
+	//NSLog(@"Queue id == %@",[dict objectForKey:@"queueId"]);
+	JiwokAppDelegate * appdelegate = (JiwokAppDelegate*) [[NSApplication sharedApplication] delegate];
+	appdelegate.workoutQueueID = [dict objectForKey:@"queueId"];
+	[delegate didSelectGenerate];
+	[self close];*/
+}
+
+- (void)removeButtonAction:(id)sender
+{
+	
+	removeSelected =YES;
+	/*DUBUG_LOG(@"removeButtonAction currentSelection %d ",currentSelection);
+	
+	NSMutableDictionary *dict = (NSMutableDictionary *)[dataArray objectAtIndex: currentSelection];
+	//NSLog(@"Queue id == %@",[dict objectForKey:@"queueId"]);
+	JiwokAppDelegate * appdelegate = (JiwokAppDelegate*) [[NSApplication sharedApplication] delegate];
+	appdelegate.workoutQueueID = [dict objectForKey:@"queueId"];
+	[delegate didSelectRemove];*/
+}
+@end
