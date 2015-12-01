@@ -76,8 +76,7 @@
 	[NSThread detachNewThreadSelector:@selector(downloadFiles) toTarget:self withObject:nil];
 	
 	//[self downloadFiles];
-	
-	
+
 	[levelBar setDoubleValue:0];
     DUBUG_LOG(@"Now you are completed windowDidLoad method in JiwokDownloderWindowController class");
 }
@@ -106,6 +105,8 @@
 
 -(void)downloadFiles
 {
+
+    
    DUBUG_LOG(@"Now you are in downloadFiles method in JiwokDownloderWindowController class");
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	

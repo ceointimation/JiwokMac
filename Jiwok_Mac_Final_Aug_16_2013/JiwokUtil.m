@@ -97,7 +97,7 @@
 	NSRange range ;
 	range.length			= 0;
 	range.location			= 0;
-    strURL = @"https://www.google.co.in";//santhosh
+    //strURL = @"https://www.google.co.in";//santhosh
 	NSURL *url = [NSURL URLWithString:strURL];
 	//	char *urlCString = [xmlRULString UTF8String];
 	NSURLRequest *urlRequest = [NSURLRequest requestWithURL: url

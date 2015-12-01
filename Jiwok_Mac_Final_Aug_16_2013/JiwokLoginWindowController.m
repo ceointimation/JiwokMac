@@ -169,10 +169,7 @@
 -(IBAction)QuitApplication:(id)sender
 {
     DUBUG_LOG(@"Now you are in QuitApplication method in JiwokLoginWindowController class");
-	if (NSAlertFirstButtonReturn == [JiwokUtil showAlert:JiwokLocalizedString(@"QUESTION_EXIT_APP"):JIWOK_ALERT_OK_CANCEL])// OK selected
-	{
-		[NSApp terminate:self]; 
-	}
+    [NSApp terminate:self];
     DUBUG_LOG(@"Now you are completed QuitApplication method in JiwokLoginWindowController class");
 	
 }
@@ -200,7 +197,7 @@
 }
 - (void)awakeFromNib
 {
-	
+    [Username becomeFirstResponder];
 //	NSLog(@"set image");
 	DUBUG_LOG(@"Now you are in awakeFromNib method in JiwokLoginWindowController class");
 	NSString *imageNameLogin = [[NSString alloc] initWithFormat:@"logIn_Normal_%@.JPG",[JiwokUtil GetShortCurrentLocale]];
@@ -216,6 +213,8 @@
 	[lblUsername setStringValue:JiwokLocalizedString(@"LBL_USERNAME")];
 	[lblPassword setStringValue: JiwokLocalizedString(@"LBL_PASSWORD")];
 	
+    [self.window setBackgroundColor:[NSColor colorWithPatternImage:[NSImage imageNamed:@"Login_Bg.png"]]];
+    
 //	NSImage* image = [NSImage imageNamed:@"Login_Bg.png"];
 //	NSColor* patColour = [NSColor colorWithPatternImage:image];
 //	[self.window setBackgroundColor:patColour];

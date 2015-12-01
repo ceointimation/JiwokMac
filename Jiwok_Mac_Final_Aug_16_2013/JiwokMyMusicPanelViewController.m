@@ -1532,9 +1532,9 @@ DUBUG_LOG(@"Now you are completed processSongFile method in JiwokMyMusicPanelVie
 	//[[NSApp dockTile] display];	
 	//[[NSApp dockTile] setBadgeLabel:@"42222222222222222222222222"];
 	
-	
-	
-	
+	[analysisProgress becomeFirstResponder];
+    [analysisProgress setDoubleValue:0.51];
+    [txtJiwokURL becomeFirstResponder];
 	
 	///XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX Original code
 	NSLog(@"Now you are in awakeFromNib alone method in JiwokMyMusicPanelViewController class");
@@ -1552,7 +1552,8 @@ DUBUG_LOG(@"Now you are completed processSongFile method in JiwokMyMusicPanelVie
 //	//New code
 //	isSearchWidowOpen=NO;
 
-	
+    [analysisProgress becomeFirstResponder];
+    
 	NSString *imageNameCancel = [[NSString alloc] initWithFormat:@"cancel_Normal_%@.JPG",[JiwokUtil GetShortCurrentLocale]];
 	[btnCancel setImage:[NSImage imageNamed:imageNameCancel]];
 	[imageNameCancel release];
